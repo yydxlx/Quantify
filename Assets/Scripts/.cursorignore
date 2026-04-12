@@ -1,0 +1,23 @@
+bash
+# 日志文件
+*.log
+*.tmp
+*.bak
+
+# 依赖目录
+node_modules/
+dist/
+build/
+*.pyc
+__pycache__/
+
+# 配置文件
+.env
+*.local
+
+# 编译输出
+*.class
+*.exe
+*.dll# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+# Unity
+**/*.meta

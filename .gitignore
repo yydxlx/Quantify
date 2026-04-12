@@ -1,0 +1,16 @@
+Library
+Logs
+obj
+Packages
+Temp
+OutPut
+AllData
+/*.csproj
+/*.sln
+.vs
+/*.zip
+AssetBundles
+/Assets/StreamingAssets/AssetBundles
+/Assets/StreamingAssets/LuaAB
+/UserSettings/EditorUserSettings.asset
+/UserSettings/Layoutsdefault-2021.dwlt
