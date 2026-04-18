@@ -16,67 +16,46 @@ public class TushareMgr : MgrBase
     {
     }
 
-    // 获取股票基础信息
+    // ==================== 股票基础信息 ====================
     public async Task<List<StockData>> GetStocksBasicInfo()
     {
-        var tcs = new TaskCompletionSource<List<StockData>>();
-        
-        // 在主线程中执行UnityWebRequest
-        Loom.Ins.QueueOnMainThread(() =>
+        var request = new TushareRequest
         {
-            try
+            api_name = "stock_basic",
+            token = TOKEN,
+            parameters = new Dictionary<string, string>
             {
-                var request = new TushareRequest
-                {
-                    api_name = "stock_basic",
-                    token = TOKEN,
-                    parameters = new Dictionary<string, string>
-                    {
-                        { "exchange", "" },
-                        { "list_status", "L" }
-                    },
-                    fields = "ts_code,name,market,industry,list_date"
-                };
+                { "exchange", "" },
+                { "list_status", "L" }
+            },
+            fields = "ts_code,name,market,industry,list_date"
+        };
 
-                string jsonData = JsonConvert.SerializeObject(request);
+        string jsonData = JsonConvert.SerializeObject(request);
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
 
-                using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
-                {
-                    byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-                    webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-                    webRequest.downloadHandler = new DownloadHandlerBuffer();
-                    webRequest.SetRequestHeader("Content-Type", "application/json");
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
 
-                    var localTcs = new TaskCompletionSource<string>();
-                    var asyncOp = webRequest.SendWebRequest();
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
 
-                    asyncOp.completed += _ =>
-                    {
-                        if (webRequest.result == UnityWebRequest.Result.Success)
-                        {
-                            localTcs.SetResult(webRequest.downloadHandler.text);
-                        }
-                        else
-                        {
-                            localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
-                        }
-                    };
+        asyncOp.completed += _ =>
+        {
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-                    string jsonResponse = localTcs.Task.Result;
-                    var result = ParseStockBasicInfo(jsonResponse);
-                    tcs.SetResult(result);
-                }
-            }
-            catch (Exception ex)
-            {
-                tcs.SetException(ex);
-            }
-        });
-        
-        return await tcs.Task;
+            webRequest.Dispose();
+        };
+
+        string jsonResponse = await localTcs.Task;
+        return ParseStockBasicInfo(jsonResponse);
     }
 
-    // 解析股票基础信息
     public List<StockData> ParseStockBasicInfo(string jsonResponse)
     {
         var result = new List<StockData>();
@@ -89,7 +68,6 @@ public class TushareMgr : MgrBase
             int nameIndex = data.fields.IndexOf("name");
             int marketIndex = data.fields.IndexOf("market");
             int industryIndex = data.fields.IndexOf("industry");
-            int listDateIndex = data.fields.IndexOf("list_date");
 
             foreach (var item in data.items)
             {
@@ -108,69 +86,47 @@ public class TushareMgr : MgrBase
         return result;
     }
 
-    // 获取股东人数信息
+    // ==================== 股东人数 ====================
     public async Task<Dictionary<string, StockData>> GetStocksHolderNumber()
     {
-        var tcs = new TaskCompletionSource<Dictionary<string, StockData>>();
-        
-        // 在主线程中执行UnityWebRequest
-        Loom.Ins.QueueOnMainThread(() =>
+        string latestQuarter = GetLatestQuarter();
+
+        var request = new TushareRequest
         {
-            try
+            api_name = "stk_holdernumber",
+            token = TOKEN,
+            parameters = new Dictionary<string, string>
             {
-                // 获取最近一个季度的数据
-                string latestQuarter = GetLatestQuarter();
+                { "period", latestQuarter }
+            },
+            fields = "ts_code,ann_date,end_date,holder_num"
+        };
 
-                var request = new TushareRequest
-                {
-                    api_name = "stk_holdernumber",
-                    token = TOKEN,
-                    parameters = new Dictionary<string, string>
-                    {
-                        { "period", latestQuarter }
-                    },
-                    fields = "ts_code,ann_date,end_date,holder_num"
-                };
+        string jsonData = JsonConvert.SerializeObject(request);
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
 
-                string jsonData = JsonConvert.SerializeObject(request);
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
 
-                using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
-                {
-                    byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-                    webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-                    webRequest.downloadHandler = new DownloadHandlerBuffer();
-                    webRequest.SetRequestHeader("Content-Type", "application/json");
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
 
-                    var localTcs = new TaskCompletionSource<string>();
-                    var asyncOp = webRequest.SendWebRequest();
+        asyncOp.completed += _ =>
+        {
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-                    asyncOp.completed += _ =>
-                    {
-                        if (webRequest.result == UnityWebRequest.Result.Success)
-                        {
-                            localTcs.SetResult(webRequest.downloadHandler.text);
-                        }
-                        else
-                        {
-                            localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
-                        }
-                    };
+            webRequest.Dispose();
+        };
 
-                    string jsonResponse = localTcs.Task.Result;
-                    var result = ParseStockHolderNumber(jsonResponse);
-                    tcs.SetResult(result);
-                }
-            }
-            catch (Exception ex)
-            {
-                tcs.SetException(ex);
-            }
-        });
-        
-        return await tcs.Task;
+        string jsonResponse = await localTcs.Task;
+        return ParseStockHolderNumber(jsonResponse);
     }
 
-    // 解析股东人数信息
     public Dictionary<string, StockData> ParseStockHolderNumber(string jsonResponse)
     {
         var result = new Dictionary<string, StockData>();
@@ -199,19 +155,14 @@ public class TushareMgr : MgrBase
         return result;
     }
 
-    // 获取最近一个季度
     public string GetLatestQuarter()
     {
         DateTime now = DateTime.Now;
-        int year = now.Year;
-        int month = now.Month;
-
-        // 确定季度
-        int quarter = (month - 1) / 3 + 1;
-        return $"{year}0{quarter}"; // 格式：202403
+        int quarter = (now.Month + 2) / 3;
+        return $"{now.Year}Q{quarter}";
     }
 
-    // 获取某一天所有股票 daily 数据
+    // ==================== 每日行情 daily ====================
     public async Task<List<StockDailyData>> GetDailyStocksByDate(string tradeDate)
     {
         var request = new TushareRequest
@@ -225,32 +176,32 @@ public class TushareMgr : MgrBase
             fields = "ts_code,trade_date,open,high,low,close,pct_chg,vol,amount"
         };
 
-        Debug.Log(tradeDate);
         string jsonData = JsonConvert.SerializeObject(request);
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
 
-        // 2. 创建网络请求
-        using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
+
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
+
+        asyncOp.completed += _ =>
         {
-            byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
-            webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            webRequest.downloadHandler = new DownloadHandlerBuffer();
-            webRequest.SetRequestHeader("Content-Type", "application/json");
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-            // 3. 【关键修复】兼容所有 Unity 版本的异步等待
-            UnityWebRequestAsyncOperation asyncOp = webRequest.SendWebRequest();
-            // 正确异步等待（不会卡主线程，无编译错误）
-            while (!asyncOp.isDone)
-            {
-                await Task.Yield();
-            }
-            // 5. 解析并返回
-            string jsonResponse = webRequest.downloadHandler.text;
-            var result = ParseDailyStocks(jsonResponse, tradeDate);
-            return result;
-        }
+            webRequest.Dispose();
+        };
+        //Debug.Log("111111111111");
+        string jsonResponse = await localTcs.Task;
+        //Debug.Log("22222222222222");
+        return ParseDailyStocks(jsonResponse, tradeDate);
     }
 
-    // 解析 daily 数据
     public List<StockDailyData> ParseDailyStocks(string jsonResponse, string tradeDate)
     {
         var result = new List<StockDailyData>();
@@ -272,7 +223,6 @@ public class TushareMgr : MgrBase
             foreach (var item in data.items)
             {
                 string itemTradeDate = item[tradeDateIndex]?.ToString();
-                // 只添加与传入日期相同的数据
                 if (itemTradeDate == tradeDate)
                 {
                     var stock = new StockDailyData
@@ -294,66 +244,45 @@ public class TushareMgr : MgrBase
         return result;
     }
 
-    // 获取某一天所有股票 daily_basic 数据
+    // ==================== 每日指标 daily_basic ====================
     public async Task<Dictionary<string, StockDailyData>> GetDailyBasicByDate(string tradeDate)
     {
-        var tcs = new TaskCompletionSource<Dictionary<string, StockDailyData>>();
-        
-        // 在主线程中执行UnityWebRequest
-        Loom.Ins.QueueOnMainThread(() =>
+        var request = new TushareRequest
         {
-            try
+            api_name = "daily_basic",
+            token = TOKEN,
+            parameters = new Dictionary<string, string>
             {
-                var request = new TushareRequest
-                {
-                    api_name = "daily_basic",
-                    token = TOKEN,
-                    parameters = new Dictionary<string, string>
-                    {
-                        { "trade_date", tradeDate }
-                    },
-                    fields = "ts_code,trade_date,pe,pe_ttm,total_mv"
-                };
+                { "trade_date", tradeDate }
+            },
+            fields = "ts_code,trade_date,pe,pe_ttm,total_mv"
+        };
 
-                string jsonData = JsonConvert.SerializeObject(request);
+        string jsonData = JsonConvert.SerializeObject(request);
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
 
-                using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
-                {
-                    byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-                    webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-                    webRequest.downloadHandler = new DownloadHandlerBuffer();
-                    webRequest.SetRequestHeader("Content-Type", "application/json");
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
 
-                    var localTcs = new TaskCompletionSource<string>();
-                    var asyncOp = webRequest.SendWebRequest();
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
 
-                    asyncOp.completed += _ =>
-                    {
-                        if (webRequest.result == UnityWebRequest.Result.Success)
-                        {
-                            localTcs.SetResult(webRequest.downloadHandler.text);
-                        }
-                        else
-                        {
-                            localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
-                        }
-                    };
+        asyncOp.completed += _ =>
+        {
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-                    string jsonResponse = localTcs.Task.Result;
-                    var result = ParseDailyBasic(jsonResponse, tradeDate);
-                    tcs.SetResult(result);
-                }
-            }
-            catch (Exception ex)
-            {
-                tcs.SetException(ex);
-            }
-        });
-        
-        return await tcs.Task;
+            webRequest.Dispose();
+        };
+
+        string jsonResponse = await localTcs.Task;
+        return ParseDailyBasic(jsonResponse, tradeDate);
     }
 
-    // 解析 daily_basic 数据
     public Dictionary<string, StockDailyData> ParseDailyBasic(string jsonResponse, string tradeDate)
     {
         var result = new Dictionary<string, StockDailyData>();
@@ -367,10 +296,10 @@ public class TushareMgr : MgrBase
             int peIndex = data.fields.IndexOf("pe");
             int peTtmIndex = data.fields.IndexOf("pe_ttm");
             int totalMvIndex = data.fields.IndexOf("total_mv");
+
             foreach (List<object> item in data.items)
             {
                 string itemTradeDate = item[tradeDateIndex]?.ToString();
-                // 只添加与传入日期相同的数据
                 if (itemTradeDate == tradeDate)
                 {
                     StockDailyData stock = new StockDailyData
@@ -388,12 +317,9 @@ public class TushareMgr : MgrBase
         return result;
     }
 
-    /// <summary>
-    /// 从 Tushare 获取筹码分布
-    /// </summary>
+    // ==================== 筹码分布 cyq_chips ====================
     public async Task<List<(double Price, double Percent)>> GetCyqChips(string tsCode, string tradeDate)
     {
-        var tcs = new TaskCompletionSource<List<(double Price, double Percent)>>();
         var request = new TushareRequest
         {
             api_name = "cyq_chips",
@@ -407,52 +333,44 @@ public class TushareMgr : MgrBase
         };
 
         string jsonData = JsonConvert.SerializeObject(request);
-        using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
+
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
+
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
+
+        asyncOp.completed += _ =>
         {
-            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-            webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            webRequest.downloadHandler = new DownloadHandlerBuffer();
-            webRequest.SetRequestHeader("Content-Type", "application/json");
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-            var localTcs = new TaskCompletionSource<string>();
-            var asyncOp = webRequest.SendWebRequest();
+            webRequest.Dispose();
+        };
 
-            asyncOp.completed += _ =>
+        string jsonResponse = await localTcs.Task;
+        var response = JsonConvert.DeserializeObject<TushareResponse>(jsonResponse);
+        var list = new List<(double, double)>();
+
+        if (response.code == 0 && response.data?.items != null)
+        {
+            foreach (var item in response.data.items)
             {
-                if (webRequest.result == UnityWebRequest.Result.Success)
-                {
-                    localTcs.SetResult(webRequest.downloadHandler.text);
-                }
-                else
-                {
-                    localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
-                }
-            };
-
-            string jsonResponse = localTcs.Task.Result;
-            var response = JsonConvert.DeserializeObject<TushareResponse>(jsonResponse);
-
-            var list = new List<(double Price, double Percent)>();
-            if (response.code == 0 && response.data.items != null)
-            {
-                foreach (var item in response.data.items)
-                {
-                    if (item.Count < 2) continue;
-                    double p = Convert.ToDouble(item[0]);
-                    double per = Convert.ToDouble(item[1]);
-                    list.Add((p, per));
-                }
+                if (item.Count < 2) continue;
+                list.Add((Convert.ToDouble(item[0]), Convert.ToDouble(item[1])));
             }
-            tcs.SetResult(list);
         }
-
-        return await tcs.Task;
+        return list;
     }
 
-    // 获取某一天所有股票 weekly 数据
+    // ==================== 周线 weekly ====================
     public async Task<List<StockWeeklyData>> GetWeeklyStocksByDate(string tradeDate)
     {
-        var tcs = new TaskCompletionSource<List<StockWeeklyData>>();
         var request = new TushareRequest
         {
             api_name = "weekly",
@@ -465,37 +383,31 @@ public class TushareMgr : MgrBase
         };
 
         string jsonData = JsonConvert.SerializeObject(request);
-        using (UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST"))
+        UnityWebRequest webRequest = new UnityWebRequest(API_URL, "POST");
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
+
+        webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        webRequest.downloadHandler = new DownloadHandlerBuffer();
+        webRequest.SetRequestHeader("Content-Type", "application/json");
+
+        var localTcs = new TaskCompletionSource<string>();
+        var asyncOp = webRequest.SendWebRequest();
+
+        asyncOp.completed += _ =>
         {
-            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-            webRequest.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            webRequest.downloadHandler = new DownloadHandlerBuffer();
-            webRequest.SetRequestHeader("Content-Type", "application/json");
+            if (webRequest.result == UnityWebRequest.Result.Success)
+                localTcs.SetResult(webRequest.downloadHandler.text);
+            else
+                localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
 
-            var localTcs = new TaskCompletionSource<string>();
-            var asyncOp = webRequest.SendWebRequest();
+            webRequest.Dispose();
+        };
 
-            asyncOp.completed += _ =>
-            {
-                if (webRequest.result == UnityWebRequest.Result.Success)
-                {
-                    localTcs.SetResult(webRequest.downloadHandler.text);
-                }
-                else
-                {
-                    localTcs.SetException(new Exception($"网络请求失败: {webRequest.error}"));
-                }
-            };
-
-            string jsonResponse = localTcs.Task.Result;
-            var result = ParseWeeklyStocks(jsonResponse);
-            tcs.SetResult(result);
-        }       
-        return await tcs.Task;
+        string jsonResponse = await localTcs.Task;
+        return ParseWeeklyStocks(jsonResponse, tradeDate);
     }
 
-    // 解析 weekly 数据
-    public List<StockWeeklyData> ParseWeeklyStocks(string jsonResponse)
+    public List<StockWeeklyData> ParseWeeklyStocks(string jsonResponse, string tradeDate)
     {
         var result = new List<StockWeeklyData>();
         TushareResponse response = JsonConvert.DeserializeObject<TushareResponse>(jsonResponse);
@@ -513,30 +425,17 @@ public class TushareMgr : MgrBase
             int volIndex = data.fields.IndexOf("vol");
             int amountIndex = data.fields.IndexOf("amount");
 
-            // MACD参数
-            const int ShortPeriod = 12;
-            const int LongPeriod = 26;
-            const int SignalPeriod = 9;
-            // KDJ参数
-            const int KdjPeriod = 9;
-            double lastK = 50, lastD = 50;
-
-            List<double> closeList = new List<double>();
-            List<double> highList = new List<double>();
-            List<double> lowList = new List<double>();
-            double lastEmaShort = 0;
-            double lastEmaLong = 0;
-            double lastDea = 0;
-            double shortMultiplier = 2.0 / (ShortPeriod + 1);
-            double longMultiplier = 2.0 / (LongPeriod + 1);
-            double deaMultiplier = 2.0 / (SignalPeriod + 1);
+            var stockDict = new Dictionary<string, List<StockWeeklyData>>();
 
             foreach (var item in data.items)
             {
+                string itemDate = item[tradeDateIndex]?.ToString();
+                if (itemDate != tradeDate) continue;
+
                 var stock = new StockWeeklyData
                 {
                     TsCode = item[tsCodeIndex]?.ToString(),
-                    TradeDate = item[tradeDateIndex]?.ToString(),
+                    TradeDate = itemDate,
                     Open = Convert.ToDouble(item[openIndex]),
                     High = Convert.ToDouble(item[highIndex]),
                     Low = Convert.ToDouble(item[lowIndex]),
@@ -546,76 +445,70 @@ public class TushareMgr : MgrBase
                     Amount = Convert.ToDouble(item[amountIndex])
                 };
 
-                // MACD计算
-                double close = stock.Close;
-                closeList.Add(close);
+                if (!stockDict.ContainsKey(stock.TsCode))
+                    stockDict[stock.TsCode] = new List<StockWeeklyData>();
 
-                if (closeList.Count == 1)
-                {
-                    lastEmaShort = close;
-                    lastEmaLong = close;
-                }
-                else
-                {
-                    lastEmaShort = (close - lastEmaShort) * shortMultiplier + lastEmaShort;
-                    lastEmaLong = (close - lastEmaLong) * longMultiplier + lastEmaLong;
-                }
+                stockDict[stock.TsCode].Add(stock);
+            }
 
-                double dif = lastEmaShort - lastEmaLong;
-                if (closeList.Count == 1)
-                {
-                    lastDea = dif;
-                }
-                else
-                {
-                    lastDea = (dif - lastDea) * deaMultiplier + lastDea;
-                }
-                double macd = dif - lastDea;
-
-                stock.macdData = new MacdData
-                {
-                    DIF = dif,
-                    DEA = lastDea,
-                    MACD = macd
-                };
-
-                // KDJ计算
-                highList.Add(stock.High);
-                lowList.Add(stock.Low);
-
-                int kdjStart = Math.Max(0, highList.Count - KdjPeriod);
-                double periodHigh = double.MinValue;
-                double periodLow = double.MaxValue;
-                for (int i = kdjStart; i < highList.Count; i++)
-                {
-                    if (highList[i] > periodHigh) periodHigh = highList[i];
-                    if (lowList[i] < periodLow) periodLow = lowList[i];
-                }
-
-                double rsv = (periodHigh == periodLow) ? 50 : ((stock.Close - periodLow) / (periodHigh - periodLow)) * 100;
-                double k = (2.0 / 3.0) * lastK + (1.0 / 3.0) * rsv;
-                double d = (2.0 / 3.0) * lastD + (1.0 / 3.0) * k;
-                double j = 3 * k - 2 * d;
-
-                stock.kdjData = new KdjData
-                {
-                    K = k,
-                    D = d,
-                    J = j
-                };
-
-                lastK = k;
-                lastD = d;
-
-                result.Add(stock);
+            foreach (var kv in stockDict)
+            {
+                CalcSingleStockMacdKdj(kv.Value);
+                result.AddRange(kv.Value);
             }
         }
         return result;
     }
 
+    // 单只股票正确计算 MACD + KDJ
+    private void CalcSingleStockMacdKdj(List<StockWeeklyData> candles)
+    {
+        if (candles.Count == 0) return;
+
+        const int SHORT = 12, LONG = 26, SIGNAL = 9;
+        const int KDJ_PERIOD = 9;
+
+        double emaS = 0, emaL = 0, dea = 0;
+        double k = 50, d = 50;
+
+        foreach (var c in candles)
+        {
+            // MACD
+            if (emaS == 0) { emaS = c.Close; emaL = c.Close; }
+            else
+            {
+                emaS = c.Close * (2.0 / (SHORT + 1)) + emaS * (1 - 2.0 / (SHORT + 1));
+                emaL = c.Close * (2.0 / (LONG + 1)) + emaL * (1 - 2.0 / (LONG + 1));
+            }
+
+            double dif = emaS - emaL;
+            dea = dea == 0 ? dif : dif * (2.0 / (SIGNAL + 1)) + dea * (1 - 2.0 / (SIGNAL + 1));
+            double macd = (dif - dea) * 2;
+
+            c.macdData = new MacdData { DIF = dif, DEA = dea, MACD = macd };
+
+            // KDJ
+            int idx = candles.IndexOf(c);
+            int start = Math.Max(0, idx - KDJ_PERIOD + 1);
+            double h = double.MinValue, l = double.MaxValue;
+
+            for (int i = start; i <= idx; i++)
+            {
+                h = Math.Max(h, candles[i].High);
+                l = Math.Min(l, candles[i].Low);
+            }
+
+            double rsv = h == l ? 50 : (c.Close - l) / (h - l) * 100;
+            k = k * 2 / 3 + rsv * 1 / 3;
+            d = d * 2 / 3 + k * 1 / 3;
+            double j = 3 * k - 2 * d;
+
+            c.kdjData = new KdjData { K = k, D = d, J = j };
+        }
+    }
+
     public override void Release()
     {
-
     }
 }
 

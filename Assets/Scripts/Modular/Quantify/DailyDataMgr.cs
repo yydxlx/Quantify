@@ -67,26 +67,85 @@ public class DailyDataMgr : MgrBase
     }
 
     // 递归获取所有股票指定天数的每日数据
-    public async void GetAllStocksLastNDaysRecursive(int days = 30)
+    public async Task GetAllStocksLastNDaysRecursive(int days = 30)
     {
-        EventManager.Ins.Emit("UpdateStatus", $"递归获取所有股票最近{days}日数据...");
-        EventManager.Ins.Emit("OnFetchStart");
-        DateTime endDate = DateTime.Now;
-        List<StockDailyData> allStockData = new List<StockDailyData>();
-        if (DateTime.Now.Hour < 18)
+        try
         {
-            endDate = endDate.AddDays(-1);
+            EventManager.Ins.Emit("UpdateStatus", $"获取所有股票最近{days}日数据...");
+            EventManager.Ins.Emit("OnFetchStart");
+
+            DateTime endDate = DateTime.Now;
+            if (DateTime.Now.Hour < 18)
+                endDate = endDate.AddDays(-1);
+
+            List<StockDailyData> allStockData = new List<StockDailyData>();
+
+            // 🔥 不递归！改用循环 + 异步等待，绝对不卡主线程
+            for (int i = 0; i < days; i++)
+            {
+                DateTime currentDay = endDate.AddDays(-i);
+                string tradeDate = currentDay.ToString("yyyyMMdd");
+
+                // 每天请求两个接口，但不会阻塞 Unity
+                var dailyTask = Mgrs.Ins.tushareMgr.GetDailyStocksByDate(tradeDate);
+                var basicTask = Mgrs.Ins.tushareMgr.GetDailyBasicByDate(tradeDate);
+
+                // 等待当天两个接口完成
+                List<StockDailyData> dailyList = await dailyTask;
+                Dictionary<string, StockDailyData> basicDict = await basicTask;
+
+                // 合并数据
+                foreach (var daily in dailyList)
+                {
+                    if (basicDict.TryGetValue(daily.TsCode, out var basic))
+                    {
+                        daily.Pe = basic.Pe;
+                        daily.Pe_ttm = basic.Pe_ttm;
+                        daily.Total_mv = basic.Total_mv;
+                    }
+                    allStockData.Add(daily);
+                }
+
+                // 每完成一天，让 Unity 刷新一次界面（关键！）
+                await Task.Yield();
+            }
+
+            // 分组保存
+            var grouped = allStockData
+                .GroupBy(d => d.TsCode)
+                .ToDictionary(g => g.Key, g => g.OrderByDescending(x => x.TradeDate).ToList());
+
+            foreach (var stockData in grouped)
+            {
+                SaveDailyStockData(stockData.Key, stockData.Value);
+            }
+
+            EventManager.Ins.Emit("UpdateStatus", "获取完成");
+            EventManager.Ins.Emit("OnFetchFin");
         }
-        await GetStocksByDayRecursive(endDate, days, allStockData);
-        // 全部获取完成后，按股票代码分组并保存，每日数据按日期倒序排列
-        Dictionary<string, List<StockDailyData>> grouped = allStockData.GroupBy(d => d.TsCode)
-                                  .ToDictionary(g => g.Key, g => g.OrderByDescending(x => x.TradeDate).ToList());
-        foreach (KeyValuePair<string, List<StockDailyData>> stockData in grouped)
+        catch (Exception ex)
         {
-            SaveDailyStockData(stockData.Key, stockData.Value);
+            EventManager.Ins.Emit("UpdateStatus", $"获取失败：{ex.Message}");
+            Debug.LogError(ex);
         }
-        EventManager.Ins.Emit("UpdateStatus", $"获取完成");
-        EventManager.Ins.Emit("OnFetchFin");
+        //EventManager.Ins.Emit("UpdateStatus", $"递归获取所有股票最近{days}日数据...");
+        //EventManager.Ins.Emit("OnFetchStart");
+        //DateTime endDate = DateTime.Now;
+        //List<StockDailyData> allStockData = new List<StockDailyData>();
+        //if (DateTime.Now.Hour < 18)
+        //{
+        //    endDate = endDate.AddDays(-1);
+        //}
+        //await GetStocksByDayRecursive(endDate, days, allStockData);
+        //// 全部获取完成后，按股票代码分组并保存，每日数据按日期倒序排列
+        //Dictionary<string, List<StockDailyData>> grouped = allStockData.GroupBy(d => d.TsCode)
+        //                          .ToDictionary(g => g.Key, g => g.OrderByDescending(x => x.TradeDate).ToList());
+        //foreach (KeyValuePair<string, List<StockDailyData>> stockData in grouped)
+        //{
+        //    SaveDailyStockData(stockData.Key, stockData.Value);
+        //}
+        //EventManager.Ins.Emit("UpdateStatus", $"获取完成");
+        //EventManager.Ins.Emit("OnFetchFin");
     }
 
     // 递归获取每日数据
@@ -110,7 +169,7 @@ public class DailyDataMgr : MgrBase
             allStockData.Add(daily);
         }
         // 递归获取前一天
-        // await GetStocksByDayRecursive(date.AddDays(-1), remainingDays - 1, allStockData);
+         await GetStocksByDayRecursive(date.AddDays(-1), remainingDays - 1, allStockData);
     }
 
     // 获取000001股票的最新数据日期

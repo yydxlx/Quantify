@@ -31,9 +31,8 @@ public class BasicMgr : MgrBase
     {
         EventManager.Ins.Emit("UpdateStatus", "获取所有股票基础数据...");
         EventManager.Ins.Emit("OnFetchStart");
-
-        try
-        {
+        //try
+        //{
             List<StockData> stockBasicList = await Mgrs.Ins.tushareMgr.GetStocksBasicInfo();
             Dictionary<string, StockData> holderNumberDict = await Mgrs.Ins.tushareMgr.GetStocksHolderNumber();
             MergeStockBasicData(stockBasicList, holderNumberDict);
@@ -42,13 +41,13 @@ public class BasicMgr : MgrBase
 
             EventManager.Ins.Emit("UpdateStatus", $"基础数据获取完成！共 {stockBasicList.Count} 只股票");
             EventManager.Ins.Emit("OnFetchFin");
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"获取股票基础数据失败: {ex.Message}");
-            EventManager.Ins.Emit("UpdateStatus", $"获取失败: {ex.Message}");
-            EventManager.Ins.Emit("OnFetchFin");
-        }
+        //}
+        //catch (Exception ex)
+        //{
+        //    Debug.LogError($"获取股票基础数据失败: {ex.Message}");
+        //    EventManager.Ins.Emit("UpdateStatus", $"获取失败: {ex.Message}");
+        //    EventManager.Ins.Emit("OnFetchFin");
+        //}
     }
 
     // 保存基础信息到AllBasicData（不含每日数据）
