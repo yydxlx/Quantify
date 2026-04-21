@@ -322,7 +322,7 @@ public class DailyDataMgr : MgrBase
                     var data = LoadSingleDailyStockDataFromFile(tsCode);
                     if (data.Count == 0) return;
 
-                    data.Sort((a, b) => string.Compare(a.TradeDate, b.TradeDate));
+                    data.Sort((a, b) => string.Compare(b.TradeDate, a.TradeDate)); // 降序排序，保持从新到旧的顺序
                     CalcAverages(data);
 
                     var quarterly = data.GroupBy(d =>
