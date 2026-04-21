@@ -2,10 +2,8 @@ using ClientBase;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Collections.Concurrent;
 using System.IO;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -16,7 +14,6 @@ public class DailyDataMgr : MgrBase
 
     public override void Init()
     {
-        // 计算Assets同级目录的AllData路径
         string allDataPath = Path.Combine(Path.GetDirectoryName(Application.dataPath), "AllData");
         dailyFullPath = Path.Combine(allDataPath, DailyDataDirectory);
         if (!Directory.Exists(dailyFullPath))
@@ -25,7 +22,6 @@ public class DailyDataMgr : MgrBase
 
     private string GetDailyFolderPath(string tsCode)
     {
-        // 提取股票代码的数字部分，如000001.SZ -> 000001
         string stockId = tsCode.Split('.')[0];
         string stockFolderPath = Path.Combine(dailyFullPath, stockId);
         if (!Directory.Exists(stockFolderPath))
@@ -38,410 +34,365 @@ public class DailyDataMgr : MgrBase
         return Path.Combine(stockFolderPath, $"{year}-{quarter}.json");
     }
 
-    // 递归获取所有股票的每日数据
     public void UpdateAllDailyStocksRecursive()
-    {
-        // 查找所有股票文件夹
-        var stockFolders = Directory.GetDirectories(dailyFullPath);
-        // 检查是否有股票文件夹
-        if (stockFolders.Length == 0)
-        {
-            Debug.LogError("该路径下没有找到股票文件夹");
-            return;
-        }
-        // 获取第一个股票文件夹
-        string firstStockFolder = stockFolders.First();
-        // 从文件夹名称获取股票代码
-        string stockId = Path.GetFileName(firstStockFolder);
-        // 构造完整的股票代码（假设是SZ交易所）
-        string tsCode = $"{stockId}.SZ";
-        // 加载该股票的所有数据
-        List<StockDailyData> stockDailyDatas = LoadSingleDailyStockDataFromFile(tsCode);
-        string latestDateStr = stockDailyDatas[0].TradeDate;
-        Debug.Log(latestDateStr);
-        DateTime latestDate = DateTime.ParseExact(latestDateStr, "yyyyMMdd", null, System.Globalization.DateTimeStyles.None);
-        DateTime today = DateTime.Now;
-        TimeSpan difference = today - latestDate;
-        Debug.Log((int)difference.TotalDays);
-        GetAllStocksLastNDaysRecursive((int)difference.TotalDays);
-    }
-
-    // 递归获取所有股票指定天数的每日数据
-    public async Task GetAllStocksLastNDaysRecursive(int days = 30)
     {
         try
         {
-            EventManager.Ins.Emit("UpdateStatus", $"获取所有股票最近{days}日数据...");
+            var stockFolders = Directory.GetDirectories(dailyFullPath);
+            if (stockFolders.Length == 0)
+            {
+                Debug.LogError("该路径下没有找到股票文件夹");
+                return;
+            }
+
+            string firstStockFolder = stockFolders.First();
+            string stockId = Path.GetFileName(firstStockFolder);
+            string tsCode = $"{stockId}.SZ";
+
+            List<StockDailyData> stockDailyDatas = LoadSingleDailyStockDataFromFile(tsCode);
+            if (stockDailyDatas == null || stockDailyDatas.Count == 0)
+            {
+                Debug.LogError("无历史数据，直接获取最近30天");
+                _ = GetAllStocksLastNDaysAsync(30);
+                return;
+            }
+
+            string latestDateStr = stockDailyDatas[0].TradeDate;
+            DateTime latestDate = DateTime.ParseExact(latestDateStr, "yyyyMMdd", null);
+            DateTime today = DateTime.Now;
+            if (today.Hour < 18) today = today.AddDays(-1);
+
+            int days = (int)(today.Date - latestDate.Date).TotalDays;
+            if (days <= 0)
+            {
+                EventManager.Ins.Emit("UpdateStatus", "数据已是最新！");
+                EventManager.Ins.Emit("OnFetchFin");
+                return;
+            }
+
+            _ = GetAllStocksLastNDaysAsync(days);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+        }
+    }
+
+    /// <summary>
+    /// 并发获取 N 日数据（超快、不卡）
+    /// </summary>
+    public async Task GetAllStocksLastNDaysAsync(int days)
+    {
+        try
+        {
+            EventManager.Ins.Emit("UpdateStatus", $"获取 {days} 日数据...");
             EventManager.Ins.Emit("OnFetchStart");
 
             DateTime endDate = DateTime.Now;
-            if (DateTime.Now.Hour < 18)
-                endDate = endDate.AddDays(-1);
+            if (endDate.Hour < 18) endDate = endDate.AddDays(-1);
 
-            List<StockDailyData> allStockData = new List<StockDailyData>();
-
-            // 🔥 不递归！改用循环 + 异步等待，绝对不卡主线程
+            List<DateTime> dateList = new List<DateTime>();
             for (int i = 0; i < days; i++)
             {
-                DateTime currentDay = endDate.AddDays(-i);
-                string tradeDate = currentDay.ToString("yyyyMMdd");
+                DateTime d = endDate.AddDays(-i);
+                if (d.DayOfWeek != DayOfWeek.Saturday && d.DayOfWeek != DayOfWeek.Sunday)
+                    dateList.Add(d);
+            }
 
-                // 每天请求两个接口，但不会阻塞 Unity
-                var dailyTask = Mgrs.Ins.tushareMgr.GetDailyStocksByDate(tradeDate);
-                var basicTask = Mgrs.Ins.tushareMgr.GetDailyBasicByDate(tradeDate);
+            var allStockData = new List<StockDailyData>();
 
-                // 等待当天两个接口完成
-                List<StockDailyData> dailyList = await dailyTask;
-                Dictionary<string, StockDailyData> basicDict = await basicTask;
-
-                // 合并数据
-                foreach (var daily in dailyList)
-                {
-                    if (basicDict.TryGetValue(daily.TsCode, out var basic))
-                    {
-                        daily.Pe = basic.Pe;
-                        daily.Pe_ttm = basic.Pe_ttm;
-                        daily.Total_mv = basic.Total_mv;
-                    }
-                    allStockData.Add(daily);
-                }
-
-                // 每完成一天，让 Unity 刷新一次界面（关键！）
-                await Task.Yield();
+            // 单线程逐个处理每个日期
+            for (int i = 0; i < dateList.Count; i++)
+            {
+                DateTime day = dateList[i];
+                List<StockDailyData> data = await FetchDayData(day);
+                allStockData.AddRange(data);
+                
+                // 更新状态
+                int processedDays = i + 1;
+                EventManager.Ins.Emit("UpdateStatus", $"已获取 {processedDays}/{dateList.Count} 天");
+                
+                // 让出线程，避免阻塞
+                //await Task.Yield();
             }
 
             // 分组保存
-            var grouped = allStockData
+            Dictionary<string, List<StockDailyData>> grouped = allStockData
                 .GroupBy(d => d.TsCode)
                 .ToDictionary(g => g.Key, g => g.OrderByDescending(x => x.TradeDate).ToList());
 
-            foreach (var stockData in grouped)
+            // 并发保存文件
+            List<Task> saveTasks = new List<Task>();
+            foreach (var kvp in grouped)
             {
-                SaveDailyStockData(stockData.Key, stockData.Value);
+                string tsCode = kvp.Key;
+                List<StockDailyData> stockData = kvp.Value;
+                saveTasks.Add(Task.Run(() => SaveDailyStockData(tsCode, stockData)));
             }
+            await Task.WhenAll(saveTasks);
 
-            EventManager.Ins.Emit("UpdateStatus", "获取完成");
+            EventManager.Ins.Emit("UpdateStatus", $"✅ 获取完成！共 {allStockData.Count} 条");
             EventManager.Ins.Emit("OnFetchFin");
         }
         catch (Exception ex)
         {
-            EventManager.Ins.Emit("UpdateStatus", $"获取失败：{ex.Message}");
+            EventManager.Ins.Emit("UpdateStatus", $"❌ 失败：{ex.Message}");
             Debug.LogError(ex);
         }
-        //EventManager.Ins.Emit("UpdateStatus", $"递归获取所有股票最近{days}日数据...");
-        //EventManager.Ins.Emit("OnFetchStart");
-        //DateTime endDate = DateTime.Now;
-        //List<StockDailyData> allStockData = new List<StockDailyData>();
-        //if (DateTime.Now.Hour < 18)
-        //{
-        //    endDate = endDate.AddDays(-1);
-        //}
-        //await GetStocksByDayRecursive(endDate, days, allStockData);
-        //// 全部获取完成后，按股票代码分组并保存，每日数据按日期倒序排列
-        //Dictionary<string, List<StockDailyData>> grouped = allStockData.GroupBy(d => d.TsCode)
-        //                          .ToDictionary(g => g.Key, g => g.OrderByDescending(x => x.TradeDate).ToList());
-        //foreach (KeyValuePair<string, List<StockDailyData>> stockData in grouped)
-        //{
-        //    SaveDailyStockData(stockData.Key, stockData.Value);
-        //}
-        //EventManager.Ins.Emit("UpdateStatus", $"获取完成");
-        //EventManager.Ins.Emit("OnFetchFin");
     }
 
-    // 递归获取每日数据
-    private async Task GetStocksByDayRecursive(DateTime date, int remainingDays, List<StockDailyData> allStockData)
+    /// <summary>
+    /// 单日并发请求
+    /// </summary>
+    private async Task<List<StockDailyData>> FetchDayData(DateTime day)
     {
-        if (remainingDays <= 0) return;
-        string tradeDate = date.ToString("yyyyMMdd");
-        // 获取 daily 数据
-        List<StockDailyData> dailyList = await Mgrs.Ins.tushareMgr.GetDailyStocksByDate(tradeDate);
-        // 获取 daily_basic 数据
-        Dictionary<string, StockDailyData> basicDict = await Mgrs.Ins.tushareMgr.GetDailyBasicByDate(tradeDate);
-        // 合并 daily 和 daily_basic 数据
-        foreach (var daily in dailyList)
+        try
         {
-            if (basicDict.TryGetValue(daily.TsCode, out var basic))
+            string tradeDate = day.ToString("yyyyMMdd");
+            // 串行执行，一个完成再开始另一个
+            var dailyList = await Mgrs.Ins.tushareMgr.GetDailyStocksByDate(tradeDate);
+            Debug.Log("GetDailyStocksByDate " + tradeDate);
+            var basicDict = await Mgrs.Ins.tushareMgr.GetDailyBasicByDate(tradeDate);
+            Debug.Log("GetDailyBasicByDate " + tradeDate);
+            foreach (var d in dailyList)
             {
-                daily.Pe = basic.Pe;
-                daily.Pe_ttm = basic.Pe_ttm;
-                daily.Total_mv = basic.Total_mv;
+                if (basicDict.TryGetValue(d.TsCode, out var b))
+                {
+                    d.Pe = b.Pe;
+                    d.Pe_ttm = b.Pe_ttm;
+                    d.Total_mv = b.Total_mv;
+                }
             }
-            allStockData.Add(daily);
+            return dailyList;
         }
-        // 递归获取前一天
-         await GetStocksByDayRecursive(date.AddDays(-1), remainingDays - 1, allStockData);
+        catch
+        {
+            return new List<StockDailyData>();
+        }
     }
 
-    // 获取000001股票的最新数据日期
     public string GetLatestStockDate()
     {
-        string stockCode = "000001"; // 使用000001股票作为参考
-        string stockFolderPath = GetDailyFolderPath(stockCode);       
-        // 获取所有季度文件，按文件名降序排序
-        var quarterlyFiles = Directory.GetFiles(stockFolderPath, "*.json")
-            .OrderByDescending(f => Path.GetFileName(f))
-            .ToList();
-        if (quarterlyFiles.Count == 0)
+        try
+        {
+            string stockCode = "000001";
+            string folder = GetDailyFolderPath(stockCode);
+            var files = Directory.GetFiles(folder, "*.json").OrderByDescending(f => f).ToList();
+            if (files.Count == 0) return "";
+            string json = File.ReadAllText(files[0]);
+            var data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
+            return data.Max(d => d.TradeDate);
+        }
+        catch
         {
             return "";
         }
-        string latestFile = quarterlyFiles[0];
-        string json = File.ReadAllText(latestFile, System.Text.Encoding.UTF8);
-        List<StockDailyData> data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
-        return data.Max(d => d.TradeDate);
     }
 
-    // 读取最新的每日数据文件
     public (List<StockDailyData>, string) LoadNewestDailyStockDataFromFile(string tsCode)
     {
-        string stockFolderPath = GetDailyFolderPath(tsCode);        
-        // 获取所有季度文件，按文件名降序排序
-        var quarterlyFiles = Directory.GetFiles(stockFolderPath, "*.json")
-            .OrderByDescending(f => Path.GetFileName(f))
-            .ToList();
-        // 读取最新的季度文件
-        string latestFile = quarterlyFiles[0];
-        string json = File.ReadAllText(latestFile, System.Text.Encoding.UTF8);
-        List<StockDailyData> data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
-        return (data, latestFile);
+        try
+        {
+            string folder = GetDailyFolderPath(tsCode);
+            var files = Directory.GetFiles(folder, "*.json").OrderByDescending(f => f).ToList();
+            if (files.Count == 0) return (null, null);
+            string json = File.ReadAllText(files[0]);
+            var data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
+            return (data, files[0]);
+        }
+        catch
+        {
+            return (null, null);
+        }
     }
 
-    // 读取每日数据（AllDailyData）
     public List<StockDailyData> LoadSingleDailyStockDataFromFile(string tsCode)
     {
-        // 获取股票文件夹路径
-        string stockFolderPath = GetDailyFolderPath(tsCode);
-        
-        if (!Directory.Exists(stockFolderPath))
-            return new List<StockDailyData>();
-        
-        // 获取所有季度文件，按文件名排序（年-季度）
-        List<string> quarterlyFiles = Directory.GetFiles(stockFolderPath, "*.json")
-            .OrderByDescending(f => Path.GetFileName(f)) // 按文件名降序排序，最新的季度在前
-            .ToList();
-        List<StockDailyData> allData = new List<StockDailyData>();
-        // 按顺序读取每个季度文件
-        for (int i = 0; i < quarterlyFiles.Count; i++)
+        try
         {
-            string file = quarterlyFiles[i];
-            string json = File.ReadAllText(file, System.Text.Encoding.UTF8);
-            List<StockDailyData> quarterlyData = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
-            allData.AddRange(quarterlyData);
+            string folder = GetDailyFolderPath(tsCode);
+            if (!Directory.Exists(folder)) return new List<StockDailyData>();
+            var files = Directory.GetFiles(folder, "*.json").OrderByDescending(f => f).ToList();
+            var all = new List<StockDailyData>();
+            foreach (var f in files)
+            {
+                string json = File.ReadAllText(f);
+                var d = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
+                all.AddRange(d);
+            }
+            return all;
         }
-        return allData;
+        catch
+        {
+            return new List<StockDailyData>();
+        }
     }
 
-    // 根据日期获取年和季度
     private (string Year, int Quarter) GetYearQuarter(string tradeDate)
     {
-        // 假设tradeDate格式为yyyyMMdd
         int year = int.Parse(tradeDate.Substring(0, 4));
         int month = int.Parse(tradeDate.Substring(4, 2));
         int quarter = (month - 1) / 3 + 1;
         return (year.ToString(), quarter);
     }
 
-    // 保存daily的json数据
     public void SaveDailyStockData(string tsCode, List<StockDailyData> dailyData)
     {
-        // 获取股票文件夹路径
-        string stockFolderPath = GetDailyFolderPath(tsCode);
-        // 按季度分组数据
-        var quarterlyData = new Dictionary<string, List<StockDailyData>>();
-        foreach (StockDailyData data in dailyData)
+        string folder = GetDailyFolderPath(tsCode);
+        if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
+        var quarterly = new Dictionary<string, List<StockDailyData>>();
+
+        foreach (var d in dailyData)
         {
-            var (year, quarter) = GetYearQuarter(data.TradeDate);
-            string key = $"{year}-{quarter}";
-            if (!quarterlyData.ContainsKey(key))
-                quarterlyData[key] = new List<StockDailyData>();
-            quarterlyData[key].Add(data);
+            var (y, q) = GetYearQuarter(d.TradeDate);
+            string k = $"{y}-{q}";
+            if (!quarterly.ContainsKey(k)) quarterly[k] = new List<StockDailyData>();
+            quarterly[k].Add(d);
         }
-        
-        // 处理每个季度的数据
-        foreach (var kvp in quarterlyData)
+
+        foreach (var kv in quarterly)
         {
-            string[] parts = kvp.Key.Split('-');
-            string year = parts[0];
-            int quarter = int.Parse(parts[1]);
-            // 获取季度文件路径
-            string quarterlyFilePath = GetQuarterlyFilePath(stockFolderPath, year, quarter);
-            // 加载现有数据
-            List<StockDailyData> existingData = LoadSingleDailyStockDataFromFile(tsCode);
-            // 合并数据（增量插入）
-            List<StockDailyData> mergedData = MergeBaseDataOptimized(existingData, kvp.Value);
-            // 保存数据
-            string json = JsonConvert.SerializeObject(mergedData);
-            File.WriteAllText(quarterlyFilePath, json, System.Text.Encoding.UTF8);
+            var parts = kv.Key.Split('-');
+            string path = GetQuarterlyFilePath(folder, parts[0], int.Parse(parts[1]));
+            List<StockDailyData> existing = LoadQuarterlyDailyStockDataFromFile(path);
+            var merged = MergeBaseDataOptimized(existing, kv.Value);
+            string json = JsonConvert.SerializeObject(merged, Formatting.Indented);
+            File.WriteAllText(path, json);
         }
     }
 
-    private List<T> MergeBaseDataOptimized<T>(List<T> existingData, List<T> newData) where T : StockBaseData
+    private List<StockDailyData> LoadQuarterlyDailyStockDataFromFile(string filePath)
     {
-        if (existingData.Count == 0)
-            return newData;
-        
-        // 确保existingData按日期倒序排序，最新的日期在最上面
-        //existingData.Sort((a, b) => string.Compare(b.TradeDate, a.TradeDate));
-        
-        var mergedData = new List<T>();
-        int i = 0, j = 0;
-        // 由于两个列表都是倒序排列，所以从前往后遍历（最新的日期在前）
-        while (i < existingData.Count && j < newData.Count)
+        try
         {
-            int comparison = string.Compare(existingData[i].TradeDate, newData[j].TradeDate);// 比较日期字符串（假设格式一致，如"yyyy-MM-dd"）
-            if (comparison > 0)
+            if (!File.Exists(filePath)) return new List<StockDailyData>();
+            string json = File.ReadAllText(filePath);
+            return JsonConvert.DeserializeObject<List<StockDailyData>>(json) ?? new List<StockDailyData>();
+        }
+        catch
+        {
+            return new List<StockDailyData>();
+        }
+    }
+
+    private List<T> MergeBaseDataOptimized<T>(List<T> existing, List<T> newData) where T : StockBaseData
+    {
+        if (existing.Count == 0) return newData;
+        var merged = new List<T>();
+        int i = 0, j = 0;
+
+        while (i < existing.Count && j < newData.Count)
+        {
+            int cmp = string.Compare(existing[i].TradeDate, newData[j].TradeDate);
+            if (cmp > 0) merged.Add(existing[i++]);
+            else if (cmp < 0)
             {
-                mergedData.Add(existingData[i]);// existingData的日期较新，先加入结果
-                i++;
-            }
-            else if (comparison < 0)
-            {
-                MacdCalculator.CalculateAndSetNewMacd(mergedData, newData[j]);
-                // newData的日期较新，先加入结果
-                mergedData.Add(newData[j]);
-                //赋值新数据的macd值
-                j++;
+                MacdCalculator.CalculateAndSetNewMacd(merged, newData[j]);
+                merged.Add(newData[j++]);
             }
             else
             {
-                MacdCalculator.CalculateAndSetNewMacd(mergedData, newData[j]);
-                // 日期相同，使用newData的数据，并跳过existingData中的对应数据
-                mergedData.Add(newData[j]);
-                //赋值新数据的macd值
+                MacdCalculator.CalculateAndSetNewMacd(merged, newData[j]);
+                merged.Add(newData[j++]);
                 i++;
-                j++;
             }
         }
-        // 处理剩余的元素
-        while (i < existingData.Count)
-        {
-            mergedData.Add(existingData[i]);
-            i++;
-        }
-        while (j < newData.Count)
-        {
-            mergedData.Add(newData[j]);
-            j++;
-        }
-        return mergedData;
+
+        while (i < existing.Count) merged.Add(existing[i++]);
+        while (j < newData.Count) merged.Add(newData[j++]);
+        return merged;
     }
 
-    // 计算并更新平均值数据
     [ContextMenu("Calculate and Update Average Data")]
     public void CalculateAndUpdateAverageData()
     {
-        // Get all daily data files
-        string[] dailyFiles = Directory.GetFiles(dailyFullPath, "*.json", SearchOption.TopDirectoryOnly);
-        
-        if (dailyFiles.Length == 0)
-        {
-            Debug.LogError("No daily data files found in " + dailyFullPath);
-            return;
-        }
-        
-        Debug.Log("Starting to calculate and update average data for " + dailyFiles.Length + " stock files...");
-        
-        foreach (string filePath in dailyFiles)
-        {
-            // Load daily data
-            List<StockDailyData> dailyDataList = LoadSingleDailyStockDataFromFile(filePath);
-            
-            if (dailyDataList.Count == 0)
-            {
-                Debug.LogWarning("Empty data in file: " + filePath);
-                continue;
-            }
-            
-            // Sort data by date (oldest first) to calculate averages correctly
-            dailyDataList.Sort((a, b) => string.Compare(a.TradeDate, b.TradeDate));
-            
-            // Calculate average values for each day using sliding window algorithm
-            double sumPrice5 = 0, sumVol5 = 0;
-            double sumPrice10 = 0, sumVol10 = 0;
-            double sumPrice20 = 0, sumVol20 = 0;
-            
-            for (int i = 0; i < dailyDataList.Count; i++)
-            {
-                StockDailyData currentData = dailyDataList[i];
-                
-                // Add current day's data to sums
-                sumPrice5 += currentData.Close;
-                sumVol5 += currentData.Vol;
-                
-                sumPrice10 += currentData.Close;
-                sumVol10 += currentData.Vol;
-                
-                sumPrice20 += currentData.Close;
-                sumVol20 += currentData.Vol;
-                
-                // Calculate 5-day averages
-                if (i >= 4) // Need at least 5 days of data
-                {
-                    currentData.FiveDayAvgPrice = sumPrice5 / 5;
-                    currentData.FiveDayAvgVol = sumVol5 / 5;
-                    
-                    // Subtract the value from 5 days ago for next iteration
-                    if (i >= 4)
-                    {
-                        sumPrice5 -= dailyDataList[i - 4].Close;
-                        sumVol5 -= dailyDataList[i - 4].Vol;
-                    }
-                }
-                
-                // Calculate 10-day averages
-                if (i >= 9) // Need at least 10 days of data
-                {
-                    currentData.TenDayAvgPrice = sumPrice10 / 10;
-                    currentData.TenDayAvgVol = sumVol10 / 10;
-                    
-                    // Subtract the value from 10 days ago for next iteration
-                    if (i >= 9)
-                    {
-                        sumPrice10 -= dailyDataList[i - 9].Close;
-                        sumVol10 -= dailyDataList[i - 9].Vol;
-                    }
-                }
-                
-                // Calculate 20-day averages
-                if (i >= 19) // Need at least 20 days of data
-                {
-                    currentData.TwentyDayAvgPrice = sumPrice20 / 20;
-                    currentData.TwentyDayAvgVol = sumVol20 / 20;
-                    
-                    // Subtract the value from 20 days ago for next iteration
-                    if (i >= 19)
-                    {
-                        sumPrice20 -= dailyDataList[i - 19].Close;
-                        sumVol20 -= dailyDataList[i - 19].Vol;
-                    }
-                }
-            }
-            
-            // Save the updated data back to the file
-            string json = JsonConvert.SerializeObject(dailyDataList);
-            File.WriteAllText(filePath, json, System.Text.Encoding.UTF8);
-            
-            Debug.Log("Updated average data for: " + Path.GetFileName(filePath));
-        }
-        
-        Debug.Log("Average data calculation and update completed!");
+        _ = CalculateAveragesAsync();
     }
 
-    // 获取所有股票当日的筹码峰数据 并且同时开启多线程处理
+    private async Task CalculateAveragesAsync()
+    {
+        try
+        {
+            var folders = Directory.GetDirectories(dailyFullPath);
+            var tasks = folders.Select(f => Task.Run(() =>
+            {
+                try
+                {
+                    string tsCode = $"{Path.GetFileName(f)}.SZ";
+                    var data = LoadSingleDailyStockDataFromFile(tsCode);
+                    if (data.Count == 0) return;
+
+                    data.Sort((a, b) => string.Compare(a.TradeDate, b.TradeDate));
+                    CalcAverages(data);
+
+                    var quarterly = data.GroupBy(d =>
+                    {
+                        var (y, q) = GetYearQuarter(d.TradeDate);
+                        return $"{y}-{q}";
+                    });
+
+                    foreach (var g in quarterly)
+                    {
+                        var parts = g.Key.Split('-');
+                        string path = GetQuarterlyFilePath(f, parts[0], int.Parse(parts[1]));
+                        string json = JsonConvert.SerializeObject(g.ToList(), Formatting.Indented);
+                        File.WriteAllText(path, json);
+                    }
+                }
+                catch { }
+            })).ToList();
+
+            await Task.WhenAll(tasks);
+            Debug.Log("✅ 均线计算全部完成！");
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+        }
+    }
+
+    private void CalcAverages(List<StockDailyData> data)
+    {
+        double sum5p = 0, sum5v = 0;
+        double sum10p = 0, sum10v = 0;
+        double sum20p = 0, sum20v = 0;
+
+        for (int i = 0; i < data.Count; i++)
+        {
+            var c = data[i];
+            sum5p += c.Close; sum5v += c.Vol;
+            sum10p += c.Close; sum10v += c.Vol;
+            sum20p += c.Close; sum20v += c.Vol;
+
+            if (i >= 4)
+            {
+                c.FiveDayAvgPrice = sum5p / 5;
+                c.FiveDayAvgVol = sum5v / 5;
+                sum5p -= data[i - 4].Close;
+                sum5v -= data[i - 4].Vol;
+            }
+            if (i >= 9)
+            {
+                c.TenDayAvgPrice = sum10p / 10;
+                c.TenDayAvgVol = sum10v / 10;
+                sum10p -= data[i - 9].Close;
+                sum10v -= data[i - 9].Vol;
+            }
+            if (i >= 19)
+            {
+                c.TwentyDayAvgPrice = sum20p / 20;
+                c.TwentyDayAvgVol = sum20v / 20;
+                sum20p -= data[i - 19].Close;
+                sum20v -= data[i - 19].Vol;
+            }
+        }
+    }
+
     public void GetAllStocksChipPeakData()
     {
-        // 调用ChipMgr中的方法
         Mgrs.Ins.chipMgr.GetAllStocksChipPeakData();
     }
 
-    public override void Release()
-    {
-
-    }
-
-    // 获取每日数据目录路径
-    public string GetDailyDataDirectory()
-    {
-        return dailyFullPath;
-    }
+    public override void Release() { }
+    public string GetDailyDataDirectory() => dailyFullPath;
 }

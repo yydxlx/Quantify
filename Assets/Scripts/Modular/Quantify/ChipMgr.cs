@@ -11,311 +11,248 @@ using UnityEngine;
 
 public class ChipMgr : MgrBase
 {
-    /// <summary>
-    /// 筹码峰数据处理项
-    /// </summary>
-    private class ChipDataProcessingItem
+    private class ChipProcessItem
     {
         public StockData Stock { get; set; }
-        public string CurrentDate { get; set; }
+        public string Date { get; set; }
         public List<(double Price, double Percent)> Chips { get; set; }
-        public (List<StockDailyData>, string) NewestDataAndFile { get; set; }
+        public (List<StockDailyData>, string) DataAndFile { get; set; }
     }
 
-    // 用于跟踪筹码峰数据获取的状态
-    private bool isGettingChipData = false;
-    private int currentStockIndex = 0;
-    private List<StockData> allStocksForChipData;
-    private string currentDateForChipData;
-    private ConcurrentQueue<ChipDataProcessingItem> chipProcessingQueue;
-    private int totalStocksForChipData;
-    private int processedStocksForChipData = 0;
-    private object chipDataLockObject = new object();
+    // 并发限流（根据你的积分调整：免费8，中级12，高级20）
+    private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(8);
+    private const int MAX_RETRY = 3;
+    private const int DELAY_MS = 1500;
 
-    public override void Init()
-    {
-    }
+    private bool _isRunning;
+    private ConcurrentQueue<ChipProcessItem> _queue;
+    private int _total;
+    private int _done;
+    private readonly object _lock = new();
+
+    public override void Init() { }
 
     /// <summary>
-    /// 获取所有股票当日的筹码峰数据
+    /// 🔥 新版：只拉主板 + 市值>20亿 + 排除双创+北交所
     /// </summary>
-    public void GetAllStocksChipPeakData()
+    public async void GetAllStocksChipPeakData()
     {
-        // 设置Unity项目为固定60帧
-        Application.targetFrameRate = 60;
-        
-        EventManager.Ins.Emit("UpdateStatus", "获取所有股票当日筹码峰数据...");
-        EventManager.Ins.Emit("OnFetchStart");
+        if (_isRunning) return;
+        _isRunning = true;
 
-        // 获取000001股票的最新数据日期
-        string currentDate = Mgrs.Ins.dailyDataMgr.GetLatestStockDate();
-            
-        // 获取所有已保存的股票代码
-        List<StockData> allStocks = Mgrs.Ins.basicMgr.LoadAllBasicStockCodes();
-            
-        int total = allStocks.Count;
-        processedStocksForChipData = 0;
-        currentStockIndex = 0;
-        isGettingChipData = true;
-        currentDateForChipData = currentDate;
-        allStocksForChipData = allStocks;
-        totalStocksForChipData = total;
-        
-        // 创建队列来存储需要处理的数据
-        chipProcessingQueue = new ConcurrentQueue<ChipDataProcessingItem>();
-        
-        // 启动处理线程
-        HandleChipData(total);
-    }
-
-    /// <summary>
-    /// 每帧发送一个请求
-    /// </summary>
-    public override void FixedUpdate()
-    {
-        // 条件：不获取中 / 索引越界 / 正在请求中 → 直接返回
-        if (!isGettingChipData || currentStockIndex >= allStocksForChipData.Count)
-        {
-            return;
-        }
-
-        var stock = allStocksForChipData[currentStockIndex];
-        var newestDataAndFile = Mgrs.Ins.dailyDataMgr.LoadNewestDailyStockDataFromFile(stock.TsCode);
-
-        if (newestDataAndFile.Item1 == null || newestDataAndFile.Item2 == null)
-        {
-            lock (chipDataLockObject)
-                processedStocksForChipData++;
-            currentStockIndex++;
-            return;
-        }
-
-        StockDailyData todayData = newestDataAndFile.Item1.FirstOrDefault(d => d.TradeDate == currentDateForChipData);
-        if (todayData == null)
-        {
-            lock (chipDataLockObject)
-                processedStocksForChipData++;
-            currentStockIndex++;
-            return;
-        }
-
-        // ==================== 核心修复 ====================
-        // 异步发起请求，不等待！请求完成后自动回调
-        _ = RequestChipAndEnqueue(stock, newestDataAndFile);
-    }
-    private async Task RequestChipAndEnqueue(StockData stock, (List<StockDailyData>, string) newestDataAndFile)
-    {
         try
         {
-            // 异步等待，不卡主线程
-            var chips = await Mgrs.Ins.tushareMgr.GetCyqChips(stock.TsCode, currentDateForChipData);
+            EventManager.Ins.Emit("UpdateStatus", "开始筛选主板股票（市值>20亿）...");
+            EventManager.Ins.Emit("OnFetchStart");
 
-            // 网络返回结果后 → 这里才入队（你要的回调时机）
-            if (chips != null && chips.Count > 0)
+            // 1. 获取最新日期
+            string todayDate = Mgrs.Ins.dailyDataMgr.GetLatestStockDate();
+            if (string.IsNullOrEmpty(todayDate))
             {
-                chipProcessingQueue.Enqueue(new ChipDataProcessingItem
-                {
-                    Stock = stock,
-                    CurrentDate = currentDateForChipData,
-                    Chips = chips,
-                    NewestDataAndFile = newestDataAndFile
-                });
+                EventManager.Ins.Emit("UpdateStatus", "请先获取日线数据！");
+                EventManager.Ins.Emit("OnFetchFin");
+                _isRunning = false;
+                return;
             }
-            else
+
+            // 2. 全量股票 + 🔥 超级过滤
+            List<StockData> allStocks = Mgrs.Ins.basicMgr.LoadAllBasicStockCodes();
+            var targetStocks = new List<StockData>();
+
+            foreach (var stock in allStocks)
             {
-                lock (chipDataLockObject) processedStocksForChipData++;
+                // ==================== 你的核心过滤规则 ====================
+                // 1. 排除创业板 300/301
+                if (stock.TsCode.StartsWith("300") || stock.TsCode.StartsWith("301")) continue;
+                // 2. 排除科创板 688/689
+                if (stock.TsCode.StartsWith("688") || stock.TsCode.StartsWith("689")) continue;
+                // 3. 排除北交所 80/43/42
+                if (stock.TsCode.StartsWith("8") || stock.TsCode.StartsWith("43") || stock.TsCode.StartsWith("42")) continue;
+                // ==========================================================
+
+                // 加载日线
+                var (dayData, _) = Mgrs.Ins.dailyDataMgr.LoadNewestDailyStockDataFromFile(stock.TsCode);
+                var latest = dayData?.FirstOrDefault(d => d.TradeDate == todayDate);
+                if (latest == null) continue;
+
+                // 4. 市值 > 20 亿
+                if (latest.Total_mv <= 20) continue;
+
+                targetStocks.Add(stock);
             }
+
+            _total = targetStocks.Count;
+            _done = 0;
+            _queue = new ConcurrentQueue<ChipProcessItem>();
+
+            EventManager.Ins.Emit("UpdateStatus", $"符合条件股票：{_total} 只，开始获取筹码...");
+
+            // 3. 并发获取筹码
+            var tasks = targetStocks.Select(s => FetchSingleChipAsync(s, todayDate));
+            await Task.WhenAll(tasks);
+
+            // 4. 后台批量写入
+            StartSaveTask();
+
+            // 5. 等待全部完成
+            await WaitFinish();
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Debug.LogError($"处理股票 {stock.TsCode} 筹码数据失败: {e}");
-            lock (chipDataLockObject) processedStocksForChipData++;
+            Debug.LogError($"筹码异常：{ex}");
+            EventManager.Ins.Emit("UpdateStatus", $"失败：{ex.Message}");
         }
         finally
         {
-            // 无论成功失败，索引+1，解除请求标记
-            currentStockIndex++;
-            // 全部处理完成
-            if (currentStockIndex >= allStocksForChipData.Count)
-            {
-                isGettingChipData = false;
-            }
+            _isRunning = false;
+            EventManager.Ins.Emit("OnFetchFin");
         }
     }
-    /// <summary>
-    /// 处理筹码数据
-    /// </summary>
-    public void HandleChipData(int total)
+
+    // 限流 + 重试
+    private async Task FetchSingleChipAsync(StockData stock, string date)
     {
-        Task.Run(() =>
+        int retry = 0;
+        while (retry < MAX_RETRY)
         {
-            while (isGettingChipData || !chipProcessingQueue.IsEmpty)
+            try
             {
-                if (chipProcessingQueue.TryDequeue(out var item))
+                await _semaphore.WaitAsync();
+
+                // 本地已有筹码 → 跳过
+                var (data, file) = Mgrs.Ins.dailyDataMgr.LoadNewestDailyStockDataFromFile(stock.TsCode);
+                var today = data?.FirstOrDefault(d => d.TradeDate == date);
+                if (today != null && today.Concentration90 > 0)
+                {
+                    Interlocked.Increment(ref _done);
+                    UpdateProgress();
+                    return;
+                }
+
+                // 请求接口
+                var chips = await Mgrs.Ins.tushareMgr.GetCyqChips(stock.TsCode, date);
+                if (chips != null && chips.Count > 0)
+                {
+                    _queue.Enqueue(new ChipProcessItem
+                    {
+                        Stock = stock,
+                        Date = date,
+                        Chips = chips,
+                        DataAndFile = (data, file)
+                    });
+                }
+
+                Interlocked.Increment(ref _done);
+                UpdateProgress();
+                return;
+            }
+            catch
+            {
+                retry++;
+                await Task.Delay(DELAY_MS * retry);
+            }
+            finally
+            {
+                _semaphore.Release();
+            }
+        }
+
+        Interlocked.Increment(ref _done);
+        UpdateProgress();
+    }
+
+    // 后台写文件（不卡主线程）
+    private void StartSaveTask()
+    {
+        Task.Run(async () =>
+        {
+            while (_done < _total || !_queue.IsEmpty)
+            {
+                if (_queue.TryDequeue(out var item))
                 {
                     try
                     {
-                        var (newestData, latestFile) = item.NewestDataAndFile;
-                        
-                        // 查找当日的数据记录
-                        StockDailyData todayData = newestData.FirstOrDefault(d => d.TradeDate == item.CurrentDate);
-                        if (todayData == null)
-                        {
-                            lock (chipDataLockObject)
-                            {
-                                processedStocksForChipData++;
-                            }
-                            continue;
-                        }
-                        
-                        // 计算筹码集中度和主峰
-                        var result = CalculateChipConcentration(item.Chips);
-                        
-                        // 更新筹码相关字段
-                        todayData.Concentration70 = Math.Round(result.Concentration70, 2);
-                        todayData.Concentration90 = Math.Round(result.Concentration90, 2);
-                        todayData.ConcentrationPrice = Math.Round(result.ConcentrationPrice, 2);
-                        
-                        // 直接写回原路径
-                        string json = JsonConvert.SerializeObject(newestData);
-                        File.WriteAllText(latestFile, json, System.Text.Encoding.UTF8);
+                        var (data, path) = item.DataAndFile;
+                        var today = data?.FirstOrDefault(d => d.TradeDate == item.Date);
+                        if (today == null || item.Chips == null) continue;
+
+                        // 计算集中度
+                        var (c70, c90, peak) = CalculateChip(item.Chips);
+                        today.Concentration70 = Math.Round(c70, 2);
+                        today.Concentration90 = Math.Round(c90, 2);
+                        today.ConcentrationPrice = Math.Round(peak, 2);
+
+                        string json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                        await File.WriteAllTextAsync(path, json, System.Text.Encoding.UTF8);
                     }
-                    catch (Exception ex)
-                    {
-                        // 在主线程中记录错误
-                        string errorMsg = $"Error processing chip data for stock {item.Stock.TsCode}: {ex.Message}";
-                        Loom.Ins.QueueOnMainThread(() =>
-                        {
-                            Debug.LogError(errorMsg);
-                        });
-                    }
-                    finally
-                    {
-                        lock (chipDataLockObject)
-                        {
-                            processedStocksForChipData++;
-                            if (processedStocksForChipData % 100 == 0)
-                            {
-                                // 在主线程中更新UI
-                                int currentProcessed = processedStocksForChipData;
-                                Loom.Ins.QueueOnMainThread(() =>
-                                {
-                                    EventManager.Ins.Emit("UpdateStatus", $"获取筹码峰数据中... {currentProcessed}/{total}");
-                                });
-                            }
-                            
-                            // 检查是否完成所有处理
-                            if (processedStocksForChipData >= total)
-                            {
-                                Loom.Ins.QueueOnMainThread(() =>
-                                {
-                                    EventManager.Ins.Emit("UpdateStatus", "所有股票筹码峰数据获取完成！");
-                                    EventManager.Ins.Emit("OnFetchFin");
-                                });
-                            }
-                        }
-                    }
+                    catch { }
                 }
-                else
-                {
-                    Thread.Sleep(10); // 避免忙等
-                }
+                else await Task.Delay(50);
             }
         });
     }
 
-    /// <summary>
-    /// 同花顺同款算法：计算 70% / 90% 筹码集中度 & 主峰价格
-    /// </summary>
-    /// <param name="chips">筹码分布数据 (价格, 百分比)</param>
-    /// <returns>筹码集中度和主峰价格</returns>
-    public (double Concentration70, double Concentration90, double ConcentrationPrice) CalculateChipConcentration(List<(double Price, double Percent)> chips)
+    // 等待完成
+    private async Task WaitFinish()
     {
-        if (chips == null || chips.Count == 0)
-        {
-            return (0, 0, 0);
-        }
+        while (_done < _total || !_queue.IsEmpty)
+            await Task.Delay(200);
 
-        // 按价格排序（从低到高）
-        var sortedChips = chips.OrderBy(c => c.Price).ToList();
-
-        // 计算累计百分比
-        double totalPercent = 0;
-        var cumulativeChips = new List<(double Price, double CumulativePercent)>();
-        foreach (var chip in sortedChips)
-        {
-            totalPercent += chip.Percent;
-            cumulativeChips.Add((chip.Price, totalPercent));
-        }
-
-        // 计算 70% 筹码集中度
-        double concentration70 = CalculateConcentration(cumulativeChips, 70);
-
-        // 计算 90% 筹码集中度
-        double concentration90 = CalculateConcentration(cumulativeChips, 90);
-
-        // 计算主峰价格（找到百分比最高的价格）
-        double concentrationPrice = chips.OrderByDescending(c => c.Percent).First().Price;
-
-        return (concentration70, concentration90, concentrationPrice);
+        EventManager.Ins.Emit("UpdateStatus", $"✅ 筹码全部完成！共 {_total} 只主板股票");
     }
 
-    /// <summary>
-    /// 计算指定百分比的筹码集中度
-    /// </summary>
-    /// <param name="cumulativeChips">累计百分比筹码数据</param>
-    /// <param name="percent">目标百分比</param>
-    /// <returns>筹码集中度</returns>
-    private double CalculateConcentration(List<(double Price, double CumulativePercent)> cumulativeChips, double percent)
+    // 进度条
+    private void UpdateProgress()
     {
-        double targetPercent = percent / 100;
-
-        // 找到累计百分比达到 50% - targetPercent/2 的价格
-        double lowerBound = FindPriceAtPercent(cumulativeChips, 0.5 - targetPercent / 2);
-
-        // 找到累计百分比达到 50% + targetPercent/2 的价格
-        double upperBound = FindPriceAtPercent(cumulativeChips, 0.5 + targetPercent / 2);
-
-        // 计算集中度
-        if (upperBound > lowerBound)
+        int curr = _done;
+        Loom.Ins.QueueOnMainThread(() =>
         {
-            return (upperBound - lowerBound) / ((upperBound + lowerBound) / 2) * 100;
-        }
-
-        return 0;
+            EventManager.Ins.Emit("UpdateStatus",
+                $"筹码获取中：{curr}/{_total} ({curr * 100f / _total:F0}%)");
+        });
     }
 
-    /// <summary>
-    /// 找到指定累计百分比对应的价格
-    /// </summary>
-    /// <param name="cumulativeChips">累计百分比筹码数据</param>
-    /// <param name="targetPercent">目标累计百分比</param>
-    /// <returns>对应的价格</returns>
-    private double FindPriceAtPercent(List<(double Price, double CumulativePercent)> cumulativeChips, double targetPercent)
+    // ==================== 筹码计算 ====================
+    public (double c70, double c90, double peakPrice) CalculateChip(List<(double p, double per)> chips)
     {
-        for (int i = 0; i < cumulativeChips.Count; i++)
+        if (chips == null || chips.Count == 0) return (0, 0, 0);
+        var sorted = chips.OrderBy(x => x.p).ToList();
+        var cum = new List<(double p, double sum)>();
+        double total = 0;
+        foreach (var c in sorted)
         {
-            if (cumulativeChips[i].CumulativePercent >= targetPercent)
+            total += c.per;
+            cum.Add((c.p, total));
+        }
+        double c70 = Calc(cum, 70);
+        double c90 = Calc(cum, 90);
+        double peak = chips.OrderByDescending(x => x.per).First().p;
+        return (c70, c90, peak);
+    }
+
+    private double Calc(List<(double p, double sum)> cum, double pct)
+    {
+        double t = pct / 100d;
+        double low = Find(cum, 0.5 - t / 2);
+        double high = Find(cum, 0.5 + t / 2);
+        return high > low ? (high - low) / ((high + low) / 2) * 100 : 0;
+    }
+
+    private double Find(List<(double p, double sum)> cum, double target)
+    {
+        for (int i = 0; i < cum.Count; i++)
+        {
+            if (cum[i].sum >= target)
             {
-                // 线性插值
-                if (i == 0)
-                {
-                    return cumulativeChips[i].Price;
-                }
-                else
-                {
-                    var prev = cumulativeChips[i - 1];
-                    var curr = cumulativeChips[i];
-                    double ratio = (targetPercent - prev.CumulativePercent) / (curr.CumulativePercent - prev.CumulativePercent);
-                    return prev.Price + (curr.Price - prev.Price) * ratio;
-                }
+                if (i == 0) return cum[i].p;
+                var a = cum[i - 1];
+                var b = cum[i];
+                double r = (target - a.sum) / (b.sum - a.sum);
+                return a.p + (b.p - a.p) * r;
             }
         }
-
-        return cumulativeChips.Last().Price;
+        return cum.Last().p;
     }
-    public override void Release()
-    {
 
-    }
+    public override void Release() { }
 }
