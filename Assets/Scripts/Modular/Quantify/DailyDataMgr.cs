@@ -322,8 +322,12 @@ public class DailyDataMgr : MgrBase
                     var data = LoadSingleDailyStockDataFromFile(tsCode);
                     if (data.Count == 0) return;
 
-                    data.Sort((a, b) => string.Compare(b.TradeDate, a.TradeDate)); // 降序排序，保持从新到旧的顺序
+                    // 先按日期升序排序（从旧到新），确保计算平均值时每个数据点都有足够的历史数据
+                    data.Sort((a, b) => string.Compare(a.TradeDate, b.TradeDate));
                     CalcAverages(data);
+
+                    // 再按日期降序排序（从新到旧），保持原来的顺序
+                    data.Sort((a, b) => string.Compare(b.TradeDate, a.TradeDate));
 
                     var quarterly = data.GroupBy(d =>
                     {
@@ -335,7 +339,10 @@ public class DailyDataMgr : MgrBase
                     {
                         var parts = g.Key.Split('-');
                         string path = GetQuarterlyFilePath(f, parts[0], int.Parse(parts[1]));
-                        string json = JsonConvert.SerializeObject(g.ToList(), Formatting.Indented);
+                        // 对每个季度的数据再次按日期降序排序，确保写入文件时保持从新到旧的顺序
+                        var sortedData = g.ToList();
+                        sortedData.Sort((a, b) => string.Compare(b.TradeDate, a.TradeDate));
+                        string json = JsonConvert.SerializeObject(sortedData, Formatting.Indented);
                         File.WriteAllText(path, json);
                     }
                 }
