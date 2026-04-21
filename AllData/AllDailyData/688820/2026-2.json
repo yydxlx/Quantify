@@ -1,0 +1,27 @@
+[
+  {
+    "Total_mv": 14278163.4535,
+    "Pe": 155.1128,
+    "Pe_ttm": 155.1128,
+    "TsCode": "688820.SH",
+    "TradeDate": "20260421",
+    "Open": 99.72,
+    "High": 100.99,
+    "Low": 75.0,
+    "Close": 76.65,
+    "Vol": 1299284.15,
+    "Amount": 10371848.465,
+    "PctChg": 289.4817,
+    "macdData": null,
+    "kdjData": null,
+    "FiveDayAvgPrice": 0.0,
+    "TenDayAvgPrice": 0.0,
+    "TwentyDayAvgPrice": 0.0,
+    "FiveDayAvgVol": 0.0,
+    "TenDayAvgVol": 0.0,
+    "TwentyDayAvgVol": 0.0,
+    "Concentration70": 0.0,
+    "Concentration90": 0.0,
+    "ConcentrationPrice": 0.0
+  }
+]

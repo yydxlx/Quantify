@@ -1,0 +1,27 @@
+[
+  {
+    "Total_mv": 5081911.8615,
+    "Pe": 57.493,
+    "Pe_ttm": 57.493,
+    "TsCode": "001257.SZ",
+    "TradeDate": "20260331",
+    "Open": 23.46,
+    "High": 30.0,
+    "Low": 20.8,
+    "Close": 27.68,
+    "Vol": 1076705.68,
+    "Amount": 2575557.214,
+    "PctChg": 253.9642,
+    "macdData": null,
+    "kdjData": null,
+    "FiveDayAvgPrice": 0.0,
+    "TenDayAvgPrice": 0.0,
+    "TwentyDayAvgPrice": 0.0,
+    "FiveDayAvgVol": 0.0,
+    "TenDayAvgVol": 0.0,
+    "TwentyDayAvgVol": 0.0,
+    "Concentration70": 0.0,
+    "Concentration90": 0.0,
+    "ConcentrationPrice": 0.0
+  }
+]
