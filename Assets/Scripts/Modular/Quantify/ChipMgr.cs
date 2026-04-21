@@ -40,8 +40,8 @@ public class ChipMgr : MgrBase
         if (_isRunning) return;
         _isRunning = true;
 
-        try
-        {
+        //try
+        //{
             EventManager.Ins.Emit("UpdateStatus", "开始筛选主板股票（市值>20亿）...");
             EventManager.Ins.Emit("OnFetchStart");
 
@@ -75,8 +75,8 @@ public class ChipMgr : MgrBase
                 var latest = dayData?.FirstOrDefault(d => d.TradeDate == todayDate);
                 if (latest == null) continue;
 
-                // 4. 市值 > 20 亿
-                if (latest.Total_mv <= 20) continue;
+                // 4. 市值 > 200 亿，单位万
+                if (latest.Total_mv <= 20000000) continue;
 
                 targetStocks.Add(stock);
             }
@@ -90,23 +90,45 @@ public class ChipMgr : MgrBase
             // 3. 并发获取筹码
             var tasks = targetStocks.Select(s => FetchSingleChipAsync(s, todayDate));
             await Task.WhenAll(tasks);
-
+            Debug.Log(_queue.Count); 
+            // 遍历队列，打印股票代码和筹码数据
+            var tempQueue = new ConcurrentQueue<ChipProcessItem>();
+        while (_queue.TryDequeue(out var item))
+        {
+                
+            //if (item.Stock.TsCode == "000001.SH" || item.Stock.TsCode == "000001")
+            //{
+                Debug.Log(item.Stock.TsCode);
+                foreach (var c in item.Chips)
+                {
+                    Debug.Log($"筹码：{c.Price}，{c.Percent}");
+                }
+            //}
+                
+            tempQueue.Enqueue(item);
+        }
+        // 将项目放回原始队列
+        while (tempQueue.TryDequeue(out var item))
+            {
+                _queue.Enqueue(item);
+            }
+            
             // 4. 后台批量写入
             StartSaveTask();
 
             // 5. 等待全部完成
             await WaitFinish();
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"筹码异常：{ex}");
-            EventManager.Ins.Emit("UpdateStatus", $"失败：{ex.Message}");
-        }
-        finally
-        {
+        //}
+        //catch (Exception ex)
+        //{
+        //    Debug.LogError($"筹码异常：{ex}");
+        //    EventManager.Ins.Emit("UpdateStatus", $"失败：{ex.Message}");
+        //}
+        //finally
+        //{
             _isRunning = false;
             EventManager.Ins.Emit("OnFetchFin");
-        }
+        //}
     }
 
     // 限流 + 重试
@@ -124,6 +146,10 @@ public class ChipMgr : MgrBase
                 var today = data?.FirstOrDefault(d => d.TradeDate == date);
                 if (today != null && today.Concentration90 > 0)
                 {
+                    Loom.Ins.QueueOnMainThread(() =>
+                    {
+                        Debug.Log($"跳过 {stock.TsCode}：已有筹码数据");
+                    });
                     Interlocked.Increment(ref _done);
                     UpdateProgress();
                     return;
@@ -140,14 +166,29 @@ public class ChipMgr : MgrBase
                         Chips = chips,
                         DataAndFile = (data, file)
                     });
+                    Loom.Ins.QueueOnMainThread(() =>
+                    {
+                        Debug.Log($"添加 {stock.TsCode} 到队列，筹码数量：{chips.Count}");
+                    });
+                }
+                else
+                {
+                    Loom.Ins.QueueOnMainThread(() =>
+                    {
+                        Debug.Log($"跳过 {stock.TsCode}：筹码数据为空，数量：{chips?.Count}");
+                    });
                 }
 
                 Interlocked.Increment(ref _done);
                 UpdateProgress();
                 return;
             }
-            catch
+            catch (Exception ex)
             {
+                Loom.Ins.QueueOnMainThread(() =>
+                {
+                    Debug.LogError($"{stock.TsCode} 获取筹码失败：{ex.Message}");
+                });
                 retry++;
                 await Task.Delay(DELAY_MS * retry);
             }
@@ -174,18 +215,46 @@ public class ChipMgr : MgrBase
                     {
                         var (data, path) = item.DataAndFile;
                         var today = data?.FirstOrDefault(d => d.TradeDate == item.Date);
-                        if (today == null || item.Chips == null) continue;
+                        if (today == null || item.Chips == null)
+                        {
+                            Loom.Ins.QueueOnMainThread(() =>
+                            {
+                                Debug.Log($"跳过：today={today}, Chips={item.Chips?.Count}, Date={item.Date}");
+                            });
+                            continue;
+                        }
 
                         // 计算集中度
                         var (c70, c90, peak) = CalculateChip(item.Chips);
+                        Loom.Ins.QueueOnMainThread(() =>
+                        {
+                            Debug.Log($"计算结果：{item.Stock.TsCode}，c70={c70}，c90={c90}，peak={peak}");
+                        });
+                        
+                        // 更新数据
                         today.Concentration70 = Math.Round(c70, 2);
                         today.Concentration90 = Math.Round(c90, 2);
                         today.ConcentrationPrice = Math.Round(peak, 2);
+                        Loom.Ins.QueueOnMainThread(() =>
+                        {
+                            Debug.Log($"更新后：Concentration70={today.Concentration70}，Concentration90={today.Concentration90}，ConcentrationPrice={today.ConcentrationPrice}");
+                        });
 
+                        // 写入文件
                         string json = JsonConvert.SerializeObject(data, Formatting.Indented);
                         await File.WriteAllTextAsync(path, json, System.Text.Encoding.UTF8);
+                        Loom.Ins.QueueOnMainThread(() =>
+                        {
+                            Debug.Log($"写入文件：{path}");
+                        });
                     }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        Loom.Ins.QueueOnMainThread(() =>
+                        {
+                            Debug.LogError($"保存失败：{ex.Message}");
+                        });
+                    }
                 }
                 else await Task.Delay(50);
             }
@@ -216,42 +285,74 @@ public class ChipMgr : MgrBase
     public (double c70, double c90, double peakPrice) CalculateChip(List<(double p, double per)> chips)
     {
         if (chips == null || chips.Count == 0) return (0, 0, 0);
+
+        // 1. 按价格从小到大排序
         var sorted = chips.OrderBy(x => x.p).ToList();
-        var cum = new List<(double p, double sum)>();
-        double total = 0;
-        foreach (var c in sorted)
+
+        // 2. 计算累积分布（不归一化，直接用原始百分比）
+        List<(double p, double sum)> cum = new List<(double p, double sum)>();
+        double current = 0;
+        foreach (var item in sorted)
         {
-            total += c.per;
-            cum.Add((c.p, total));
+            current += item.per;
+            cum.Add((item.p, current));
         }
-        double c70 = Calc(cum, 70);
-        double c90 = Calc(cum, 90);
+
+        // 3. 计算标准集中度
+        double c70 = CalcMinRangeConcentration(sorted, cum, 70);
+        double c90 = CalcMinRangeConcentration(sorted, cum, 90);
+
+        // 4. 筹码峰
         double peak = chips.OrderByDescending(x => x.per).First().p;
+
         return (c70, c90, peak);
     }
 
-    private double Calc(List<(double p, double sum)> cum, double pct)
+    /// <summary>
+    /// 计算包含 targetPct% 筹码的最小区间集中度（同花顺/通达信算法）
+    /// </summary>
+    private double CalcMinRangeConcentration(List<(double p, double per)> sorted, List<(double p, double sum)> cum, double targetPct)
     {
-        double t = pct / 100d;
-        double low = Find(cum, 0.5 - t / 2);
-        double high = Find(cum, 0.5 + t / 2);
-        return high > low ? (high - low) / ((high + low) / 2) * 100 : 0;
+        double minWidth = double.MaxValue;
+        double bestLow = 0;
+        double bestHigh = 0;
+
+        // 滑动窗口找最小区间
+        for (int i = 0; i < cum.Count; i++)
+        {
+            // 当前窗口起点的累积值
+            double startSum = i == 0 ? 0 : cum[i - 1].sum;
+            double target = startSum + targetPct;
+
+            // 找刚好超过 target 的位置
+            int j = FindIndex(cum, target);
+            if (j >= cum.Count) break;
+
+            // 区间宽度
+            double width = cum[j].p - cum[i].p;
+            if (width < minWidth)
+            {
+                minWidth = width;
+                bestLow = cum[i].p;
+                bestHigh = cum[j].p;
+            }
+        }
+
+        if (bestHigh <= bestLow) return 0;
+        return (bestHigh - bestLow) / (bestHigh + bestLow) * 100;
     }
 
-    private double Find(List<(double p, double sum)> cum, double target)
+    /// <summary>
+    /// 找到第一个累积和 >= target 的索引
+    /// </summary>
+    private int FindIndex(List<(double p, double sum)> cum, double target)
     {
         for (int i = 0; i < cum.Count; i++)
         {
             if (cum[i].sum >= target)
-            {
-                if (i == 0) return cum[i].p;
-                var a = cum[i - 1];
-                var b = cum[i];
-                double r = (target - a.sum) / (b.sum - a.sum);
-                return a.p + (b.p - a.p) * r;
-            }
+                return i;
         }
-        return cum.Last().p;
+        return cum.Count - 1;
     }
 
     public override void Release() { }

@@ -259,6 +259,23 @@ public class DailyDataMgr : MgrBase
             string json = JsonConvert.SerializeObject(merged, Formatting.Indented);
             File.WriteAllText(path, json);
         }
+        if (dailyData.Count > 0)
+        {
+            // 获取最新的每日数据（按日期降序排序，取第一个）
+            StockDailyData latestData = dailyData.OrderByDescending(d => d.TradeDate).First();
+            // 获取基础数据目录路径
+            string basicFullPath = Mgrs.Ins.basicMgr.GetType().GetField("basicFullPath", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).GetValue(Mgrs.Ins.basicMgr).ToString();
+            string basicFilePath = Path.Combine(basicFullPath, $"{tsCode}.json");
+            string json = File.ReadAllText(basicFilePath, System.Text.Encoding.UTF8);
+            StockData basicData = JsonConvert.DeserializeObject<StockData>(json);
+            // 更新市值和市盈率
+            basicData.Total_mv = latestData.Total_mv;
+            basicData.Pe = latestData.Pe;
+            basicData.Pe_ttm = latestData.Pe_ttm;
+            // 保存更新后的基础数据
+            string updatedJson = JsonConvert.SerializeObject(basicData, Formatting.Indented);
+            File.WriteAllText(basicFilePath, updatedJson, System.Text.Encoding.UTF8);
+        }
     }
 
     private List<StockDailyData> LoadQuarterlyDailyStockDataFromFile(string filePath)

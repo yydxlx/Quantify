@@ -150,8 +150,8 @@ public class TushareMgr : MgrBase
     public async Task<List<StockDailyData>> GetDailyStocksByDate(string tradeDate)
     {
         //await Throttle();
-        try
-        {
+        //try
+        //{
             var req = new TushareRequest
             {
                 api_name = "daily",
@@ -165,12 +165,7 @@ public class TushareMgr : MgrBase
             uwr.SendWebRequest().completed += _ => OnRequestCompleted(uwr, tcs);
             string json = await tcs.Task;
             return ParseDailyStocks(json, tradeDate);
-        }
-        catch (Exception e)
-        {
-            Debug.LogError(e);
-            return null;
-        }
+        //}
         //finally
         //{
         //    ReleaseRequest();
@@ -216,8 +211,8 @@ public class TushareMgr : MgrBase
     public async Task<Dictionary<string, StockDailyData>> GetDailyBasicByDate(string tradeDate)
     {
         //await Throttle();
-        try
-        {
+        //try
+        //{
             var req = new TushareRequest
             {
                 api_name = "daily_basic",
@@ -231,17 +226,12 @@ public class TushareMgr : MgrBase
             uwr.SendWebRequest().completed += _ => OnRequestCompleted(uwr, tcs);
             string json = await tcs.Task;
             return ParseDailyBasic(json, tradeDate);
-        }
-        catch (Exception e)
-        {
-            Debug.LogError(e);
-            return null;
-        }
-    //finally
-    //{
-    //    ReleaseRequest();
-    //}
-}
+        //}
+        //finally
+        //{
+        //    ReleaseRequest();
+        //}
+    }
 
     public Dictionary<string, StockDailyData> ParseDailyBasic(string json, string tradeDate)
     {
