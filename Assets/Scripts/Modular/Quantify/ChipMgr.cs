@@ -20,9 +20,10 @@ public class ChipMgr : MgrBase
     }
 
     // 并发限流（根据你的积分调整：免费8，中级12，高级20）
-    private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(8);
+    private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(2); // 降低并发数
     private const int MAX_RETRY = 3;
-    private const int DELAY_MS = 1500;
+    private const int DELAY_MS = 2000; // 增加重试延迟
+    private const int REQUEST_DELAY = 500; // 每次请求后延迟
 
     private bool _isRunning;
     private ConcurrentQueue<ChipProcessItem> _queue;
@@ -76,7 +77,7 @@ public class ChipMgr : MgrBase
                 if (latest == null) continue;
 
                 // 4. 市值 > 200 亿，单位万
-                if (latest.Total_mv <= 20000000) continue;
+                if (latest.Total_mv <= 200000) continue;
 
                 targetStocks.Add(stock);
             }
@@ -93,25 +94,6 @@ public class ChipMgr : MgrBase
             Debug.Log(_queue.Count); 
             // 遍历队列，打印股票代码和筹码数据
             var tempQueue = new ConcurrentQueue<ChipProcessItem>();
-        while (_queue.TryDequeue(out var item))
-        {
-                
-            //if (item.Stock.TsCode == "000001.SH" || item.Stock.TsCode == "000001")
-            //{
-                Debug.Log(item.Stock.TsCode);
-                foreach (var c in item.Chips)
-                {
-                    Debug.Log($"筹码：{c.Price}，{c.Percent}");
-                }
-            //}
-                
-            tempQueue.Enqueue(item);
-        }
-        // 将项目放回原始队列
-        while (tempQueue.TryDequeue(out var item))
-            {
-                _queue.Enqueue(item);
-            }
             
             // 4. 后台批量写入
             StartSaveTask();
@@ -157,6 +139,10 @@ public class ChipMgr : MgrBase
 
                 // 请求接口
                 var chips = await Mgrs.Ins.tushareMgr.GetCyqChips(stock.TsCode, date);
+                
+                // 添加请求延迟，避免API限制
+                await Task.Delay(REQUEST_DELAY);
+                
                 if (chips != null && chips.Count > 0)
                 {
                     _queue.Enqueue(new ChipProcessItem
@@ -165,10 +151,6 @@ public class ChipMgr : MgrBase
                         Date = date,
                         Chips = chips,
                         DataAndFile = (data, file)
-                    });
-                    Loom.Ins.QueueOnMainThread(() =>
-                    {
-                        Debug.Log($"添加 {stock.TsCode} 到队列，筹码数量：{chips.Count}");
                     });
                 }
                 else
@@ -223,8 +205,17 @@ public class ChipMgr : MgrBase
                             });
                             continue;
                         }
-
-                        // 计算集中度
+                        
+                        // 只打印 601857.SH 的筹码数据
+                        if (item.Stock.TsCode == "601857.SH")
+                        {
+                            string chipsStr = string.Join(", ", item.Chips.Select(c => $"{c.Price}:{c.Percent}"));
+                            Loom.Ins.QueueOnMainThread(() =>
+                            {
+                                Debug.Log($"{item.Stock.TsCode} 筹码：{chipsStr}");
+                            });
+                        }
+                        
                         var (c70, c90, peak) = CalculateChip(item.Chips);
                         Loom.Ins.QueueOnMainThread(() =>
                         {
@@ -281,7 +272,7 @@ public class ChipMgr : MgrBase
         });
     }
 
-    // ==================== 筹码计算 ====================
+    // ==================== 筹码计算（修复版） ====================
     public (double c70, double c90, double peakPrice) CalculateChip(List<(double p, double per)> chips)
     {
         if (chips == null || chips.Count == 0) return (0, 0, 0);
@@ -298,9 +289,37 @@ public class ChipMgr : MgrBase
             cum.Add((item.p, current));
         }
 
-        // 3. 计算标准集中度
-        double c70 = CalcMinRangeConcentration(sorted, cum, 70);
-        double c90 = CalcMinRangeConcentration(sorted, cum, 90);
+        double totalSum = cum.Last().sum;
+        Loom.Ins.QueueOnMainThread(() =>
+        {
+            Debug.Log($"总筹码占比: {totalSum:F2}%");
+        });
+
+        // 3. 检查总筹码是否足够
+        double c70 = 0;
+        double c90 = 0;
+        if (totalSum >= 70)
+        {
+            c70 = CalcMinRangeConcentration(sorted, cum, 70);
+            if (totalSum >= 90)
+            {
+                c90 = CalcMinRangeConcentration(sorted, cum, 90);
+            }
+            else
+            {
+                Loom.Ins.QueueOnMainThread(() =>
+                {
+                    Debug.LogWarning($"总筹码 {totalSum:F2}% 不足90%，无法计算C90！");
+                });
+            }
+        }
+        else
+        {
+            Loom.Ins.QueueOnMainThread(() =>
+            {
+                Debug.LogError($"总筹码 {totalSum:F2}% 不足70%，无法计算C70和C90！");
+            });
+        }
 
         // 4. 筹码峰
         double peak = chips.OrderByDescending(x => x.per).First().p;
@@ -309,7 +328,7 @@ public class ChipMgr : MgrBase
     }
 
     /// <summary>
-    /// 计算包含 targetPct% 筹码的最小区间集中度（同花顺/通达信算法）
+    /// 计算包含 targetPct% 筹码的最小区间集中度（修复版）
     /// </summary>
     private double CalcMinRangeConcentration(List<(double p, double per)> sorted, List<(double p, double sum)> cum, double targetPct)
     {
@@ -320,13 +339,12 @@ public class ChipMgr : MgrBase
         // 滑动窗口找最小区间
         for (int i = 0; i < cum.Count; i++)
         {
-            // 当前窗口起点的累积值
             double startSum = i == 0 ? 0 : cum[i - 1].sum;
             double target = startSum + targetPct;
 
-            // 找刚好超过 target 的位置
+            // 找刚好超过 target 的位置（修复版）
             int j = FindIndex(cum, target);
-            if (j >= cum.Count) break;
+            if (j == -1) continue; // 如果没找到，跳过当前窗口
 
             // 区间宽度
             double width = cum[j].p - cum[i].p;
@@ -338,12 +356,25 @@ public class ChipMgr : MgrBase
             }
         }
 
-        if (bestHigh <= bestLow) return 0;
-        return (bestHigh - bestLow) / (bestHigh + bestLow) * 100;
+        if (bestHigh <= bestLow)
+        {
+            Loom.Ins.QueueOnMainThread(() =>
+            {
+                Debug.LogError($"无法找到有效的{targetPct}%筹码区间！");
+            });
+            return 0;
+        }
+
+        double concentration = (bestHigh - bestLow) / (bestHigh + bestLow) * 100;
+        Loom.Ins.QueueOnMainThread(() =>
+        {
+            Debug.Log($"{targetPct}%集中度: {concentration:F2}%, 区间: {bestLow:F2} ~ {bestHigh:F2}");
+        });
+        return concentration;
     }
 
     /// <summary>
-    /// 找到第一个累积和 >= target 的索引
+    /// 找到第一个累积和 >= target 的索引（修复版）
     /// </summary>
     private int FindIndex(List<(double p, double sum)> cum, double target)
     {
@@ -352,7 +383,8 @@ public class ChipMgr : MgrBase
             if (cum[i].sum >= target)
                 return i;
         }
-        return cum.Count - 1;
+        // 如果target超过总和，返回-1表示未找到
+        return -1;
     }
 
     public override void Release() { }
