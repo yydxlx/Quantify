@@ -1,1 +1,17 @@
-﻿{"TsCode":"600580.SH","Name":"卧龙电驱","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260321","EndDate":"20260228","HolderNum":407387.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600580.SH",
+  "Name": "卧龙电驱",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 5917301.1317,
+  "Pe": 52.5443,
+  "Pe_ttm": 52.5443,
+  "AnnDate": "20260321",
+  "EndDate": "20260228",
+  "HolderNum": 407387.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

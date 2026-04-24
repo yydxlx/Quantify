@@ -1,1 +1,17 @@
-﻿{"TsCode":"000534.SZ","Name":"万泽股份","Market":"主板","Industry":"生物制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000534.SZ",
+  "Name": "万泽股份",
+  "Market": "主板",
+  "Industry": "生物制药",
+  "Total_mv": 2242523.0189,
+  "Pe": 113.823,
+  "Pe_ttm": 113.823,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

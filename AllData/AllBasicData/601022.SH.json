@@ -1,1 +1,17 @@
-﻿{"TsCode":"601022.SH","Name":"宁波远洋","Market":"主板","Industry":"水运","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":37872.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601022.SH",
+  "Name": "宁波远洋",
+  "Market": "主板",
+  "Industry": "水运",
+  "Total_mv": 1146362.8006,
+  "Pe": 17.5261,
+  "Pe_ttm": 17.5261,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 37872.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

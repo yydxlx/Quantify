@@ -1,1 +1,17 @@
-﻿{"TsCode":"002129.SZ","Name":"TCL中环","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":289000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002129.SZ",
+  "Name": "TCL中环",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 3493252.0279,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 289000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

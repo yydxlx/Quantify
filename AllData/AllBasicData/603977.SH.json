@@ -1,1 +1,17 @@
-﻿{"TsCode":"603977.SH","Name":"国泰集团","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":25694.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603977.SH",
+  "Name": "国泰集团",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 921922.8728,
+  "Pe": 36.5517,
+  "Pe_ttm": 36.5517,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 25694.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

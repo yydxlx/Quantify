@@ -1,1 +1,17 @@
-﻿{"TsCode":"002159.SZ","Name":"三特索道","Market":"主板","Industry":"旅游服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":11554.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002159.SZ",
+  "Name": "三特索道",
+  "Market": "主板",
+  "Industry": "旅游服务",
+  "Total_mv": 312759.5373,
+  "Pe": 21.8185,
+  "Pe_ttm": 21.8185,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 11554.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

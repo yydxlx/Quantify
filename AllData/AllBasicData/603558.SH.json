@@ -1,1 +1,17 @@
-﻿{"TsCode":"603558.SH","Name":"健盛集团","Market":"主板","Industry":"纺织","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260228","HolderNum":11935.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603558.SH",
+  "Name": "健盛集团",
+  "Market": "主板",
+  "Industry": "纺织",
+  "Total_mv": 468386.213,
+  "Pe": 11.5673,
+  "Pe_ttm": 10.7394,
+  "AnnDate": "20260313",
+  "EndDate": "20260228",
+  "HolderNum": 11935.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

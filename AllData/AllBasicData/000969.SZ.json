@@ -1,1 +1,17 @@
-﻿{"TsCode":"000969.SZ","Name":"安泰科技","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":171332.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000969.SZ",
+  "Name": "安泰科技",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 2227101.1216,
+  "Pe": 61.0372,
+  "Pe_ttm": 61.0372,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 171332.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

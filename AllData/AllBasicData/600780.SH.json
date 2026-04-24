@@ -1,1 +1,17 @@
-﻿{"TsCode":"600780.SH","Name":"通宝能源","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600780.SH",
+  "Name": "通宝能源",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 834653.8367,
+  "Pe": 16.2805,
+  "Pe_ttm": 13.5731,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

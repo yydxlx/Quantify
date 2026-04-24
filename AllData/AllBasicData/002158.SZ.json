@@ -1,1 +1,17 @@
-﻿{"TsCode":"002158.SZ","Name":"汉钟精机","Market":"主板","Industry":"工程机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002158.SZ",
+  "Name": "汉钟精机",
+  "Market": "主板",
+  "Industry": "工程机械",
+  "Total_mv": 1374775.7614,
+  "Pe": 15.9377,
+  "Pe_ttm": 29.2654,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603917.SH","Name":"合力科技","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603917.SH",
+  "Name": "合力科技",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 261119.04,
+  "Pe": 90.9185,
+  "Pe_ttm": 90.9185,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

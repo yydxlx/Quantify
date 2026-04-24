@@ -1,1 +1,17 @@
-﻿{"TsCode":"603175.SH","Name":"超颖电子","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":26063.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603175.SH",
+  "Name": "超颖电子",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 4286383.5804,
+  "Pe": 185.2773,
+  "Pe_ttm": 185.2773,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 26063.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

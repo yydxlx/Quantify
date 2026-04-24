@@ -1,1 +1,17 @@
-﻿{"TsCode":"600150.SH","Name":"中国船舶","Market":"主板","Industry":"船舶","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600150.SH",
+  "Name": "中国船舶",
+  "Market": "主板",
+  "Industry": "船舶",
+  "Total_mv": 29048898.1717,
+  "Pe": 80.3758,
+  "Pe_ttm": 40.3722,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

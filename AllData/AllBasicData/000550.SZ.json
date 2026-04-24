@@ -1,1 +1,17 @@
-﻿{"TsCode":"000550.SZ","Name":"江铃汽车","Market":"主板","Industry":"汽车整车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":40373.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000550.SZ",
+  "Name": "江铃汽车",
+  "Market": "主板",
+  "Industry": "汽车整车",
+  "Total_mv": 1658234.094,
+  "Pe": 13.9645,
+  "Pe_ttm": 13.9645,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 40373.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

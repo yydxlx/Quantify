@@ -1,1 +1,17 @@
-﻿{"TsCode":"301042.SZ","Name":"安联锐视","Market":"创业板","Industry":"IT设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":5166.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301042.SZ",
+  "Name": "安联锐视",
+  "Market": "创业板",
+  "Industry": "IT设备",
+  "Total_mv": 685382.7619,
+  "Pe": 96.0819,
+  "Pe_ttm": 610.0359,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 5166.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

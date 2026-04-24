@@ -1,1 +1,17 @@
-﻿{"TsCode":"600025.SH","Name":"华能水电","Market":"主板","Industry":"水力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600025.SH",
+  "Name": "华能水电",
+  "Market": "主板",
+  "Industry": "水力发电",
+  "Total_mv": 18202579.0891,
+  "Pe": 21.9387,
+  "Pe_ttm": 21.1394,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"601518.SH","Name":"吉林高速","Market":"主板","Industry":"路桥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":38751.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601518.SH",
+  "Name": "吉林高速",
+  "Market": "主板",
+  "Industry": "路桥",
+  "Total_mv": 538807.6532,
+  "Pe": 10.9774,
+  "Pe_ttm": 10.9774,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 38751.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

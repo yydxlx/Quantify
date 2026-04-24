@@ -191,19 +191,12 @@ public class DailyDataMgr : MgrBase
 
     public (List<StockDailyData>, string) LoadNewestDailyStockDataFromFile(string tsCode)
     {
-        try
-        {
-            string folder = GetDailyFolderPath(tsCode);
-            var files = Directory.GetFiles(folder, "*.json").OrderByDescending(f => f).ToList();
-            if (files.Count == 0) return (null, null);
-            string json = File.ReadAllText(files[0]);
-            var data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
-            return (data, files[0]);
-        }
-        catch
-        {
-            return (null, null);
-        }
+        string folder = GetDailyFolderPath(tsCode);
+        var files = Directory.GetFiles(folder, "*.json").OrderByDescending(f => f).ToList();
+        if (files.Count == 0) return (null, null);
+        string json = File.ReadAllText(files[0]);
+        var data = JsonConvert.DeserializeObject<List<StockDailyData>>(json);
+        return (data, files[0]);
     }
 
     public List<StockDailyData> LoadSingleDailyStockDataFromFile(string tsCode)

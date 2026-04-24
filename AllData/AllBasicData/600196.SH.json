@@ -1,1 +1,17 @@
-﻿{"TsCode":"600196.SH","Name":"复星医药","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600196.SH",
+  "Name": "复星医药",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 6828287.784,
+  "Pe": 20.2586,
+  "Pe_ttm": 20.2586,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

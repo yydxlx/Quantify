@@ -1,1 +1,17 @@
-﻿{"TsCode":"600770.SH","Name":"综艺股份","Market":"主板","Industry":"综合类","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":62026.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600770.SH",
+  "Name": "综艺股份",
+  "Market": "主板",
+  "Industry": "综合类",
+  "Total_mv": 824200.0,
+  "Pe": 75.5338,
+  "Pe_ttm": 75.5338,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 62026.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"301509.SZ","Name":"金凯生科","Market":"创业板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260320","HolderNum":13956.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301509.SZ",
+  "Name": "金凯生科",
+  "Market": "创业板",
+  "Industry": "化学制药",
+  "Total_mv": 503948.8631,
+  "Pe": 130.5252,
+  "Pe_ttm": 49.047,
+  "AnnDate": "20260330",
+  "EndDate": "20260320",
+  "HolderNum": 13956.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

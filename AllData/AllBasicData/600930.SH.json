@@ -1,1 +1,17 @@
-﻿{"TsCode":"600930.SH","Name":"华电新能","Market":"主板","Industry":"新型电力","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":417137.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600930.SH",
+  "Name": "华电新能",
+  "Market": "主板",
+  "Industry": "新型电力",
+  "Total_mv": 26655428.5712,
+  "Pe": 36.701,
+  "Pe_ttm": 41.6321,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 417137.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

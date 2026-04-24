@@ -1,1 +1,17 @@
-﻿{"TsCode":"600061.SH","Name":"国投资本","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":81853.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600061.SH",
+  "Name": "国投资本",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 4232818.4977,
+  "Pe": 12.9077,
+  "Pe_ttm": 12.9077,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 81853.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

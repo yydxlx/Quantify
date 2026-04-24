@@ -1,1 +1,17 @@
-﻿{"TsCode":"301258.SZ","Name":"富士莱","Market":"创业板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":9302.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301258.SZ",
+  "Name": "富士莱",
+  "Market": "创业板",
+  "Industry": "化学制药",
+  "Total_mv": 261259.5,
+  "Pe": 40.6348,
+  "Pe_ttm": 69.5025,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 9302.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"601065.SH","Name":"江盐集团","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":35383.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601065.SH",
+  "Name": "江盐集团",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 537360.802,
+  "Pe": 21.4272,
+  "Pe_ttm": 21.4272,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 35383.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

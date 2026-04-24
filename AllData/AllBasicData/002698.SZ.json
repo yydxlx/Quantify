@@ -1,1 +1,17 @@
-﻿{"TsCode":"002698.SZ","Name":"博实股份","Market":"主板","Industry":"化工机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":47308.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002698.SZ",
+  "Name": "博实股份",
+  "Market": "主板",
+  "Industry": "化工机械",
+  "Total_mv": 1411134.9735,
+  "Pe": 26.9185,
+  "Pe_ttm": 28.5872,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 47308.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

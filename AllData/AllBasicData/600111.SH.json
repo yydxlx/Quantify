@@ -1,1 +1,17 @@
-﻿{"TsCode":"600111.SH","Name":"北方稀土","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":508306.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600111.SH",
+  "Name": "北方稀土",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 17048650.5109,
+  "Pe": 75.729,
+  "Pe_ttm": 75.729,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 508306.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

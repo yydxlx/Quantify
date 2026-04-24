@@ -1,1 +1,17 @@
-﻿{"TsCode":"000518.SZ","Name":"*ST四环","Market":"主板","Industry":"生物制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":56337.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000518.SZ",
+  "Name": "*ST四环",
+  "Market": "主板",
+  "Industry": "生物制药",
+  "Total_mv": 296512.1919,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 56337.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

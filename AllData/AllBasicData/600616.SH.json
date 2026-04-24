@@ -1,1 +1,17 @@
-﻿{"TsCode":"600616.SH","Name":"金枫酒业","Market":"主板","Industry":"红黄酒","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":50732.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600616.SH",
+  "Name": "金枫酒业",
+  "Market": "主板",
+  "Industry": "红黄酒",
+  "Total_mv": 331157.4503,
+  "Pe": 1623.0408,
+  "Pe_ttm": 1623.0408,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 50732.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

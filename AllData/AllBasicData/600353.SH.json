@@ -1,1 +1,17 @@
-﻿{"TsCode":"600353.SH","Name":"旭光电子","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":50536.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600353.SH",
+  "Name": "旭光电子",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 1419259.3687,
+  "Pe": 87.8417,
+  "Pe_ttm": 87.8417,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 50536.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

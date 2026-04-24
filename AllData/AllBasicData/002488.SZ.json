@@ -1,1 +1,17 @@
-﻿{"TsCode":"002488.SZ","Name":"金固股份","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260310","HolderNum":38054.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002488.SZ",
+  "Name": "金固股份",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 1148736.681,
+  "Pe": 495.5274,
+  "Pe_ttm": 350.0228,
+  "AnnDate": "20260327",
+  "EndDate": "20260310",
+  "HolderNum": 38054.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

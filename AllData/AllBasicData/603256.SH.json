@@ -1,1 +1,17 @@
-﻿{"TsCode":"603256.SH","Name":"宏和科技","Market":"主板","Industry":"玻璃","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":60893.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603256.SH",
+  "Name": "宏和科技",
+  "Market": "主板",
+  "Industry": "玻璃",
+  "Total_mv": 9578665.8661,
+  "Pe": 474.3949,
+  "Pe_ttm": 307.7276,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 60893.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

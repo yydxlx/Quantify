@@ -1,1 +1,17 @@
-﻿{"TsCode":"002522.SZ","Name":"浙江众成","Market":"主板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260310","HolderNum":42000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002522.SZ",
+  "Name": "浙江众成",
+  "Market": "主板",
+  "Industry": "塑料",
+  "Total_mv": 550713.8673,
+  "Pe": 94.5245,
+  "Pe_ttm": 94.5245,
+  "AnnDate": "20260330",
+  "EndDate": "20260310",
+  "HolderNum": 42000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

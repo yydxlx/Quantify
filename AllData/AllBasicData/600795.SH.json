@@ -1,1 +1,17 @@
-﻿{"TsCode":"600795.SH","Name":"国电电力","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":443579.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600795.SH",
+  "Name": "国电电力",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 8828631.4456,
+  "Pe": 12.328,
+  "Pe_ttm": 12.328,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 443579.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

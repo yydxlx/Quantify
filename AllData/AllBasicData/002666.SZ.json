@@ -1,1 +1,17 @@
-﻿{"TsCode":"002666.SZ","Name":"德联集团","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260320","HolderNum":29724.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002666.SZ",
+  "Name": "德联集团",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 415275.6316,
+  "Pe": 60.3811,
+  "Pe_ttm": 58.9812,
+  "AnnDate": "20260324",
+  "EndDate": "20260320",
+  "HolderNum": 29724.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

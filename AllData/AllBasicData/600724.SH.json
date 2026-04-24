@@ -1,1 +1,17 @@
-﻿{"TsCode":"600724.SH","Name":"宁波富达","Market":"主板","Industry":"综合类","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":22343.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600724.SH",
+  "Name": "宁波富达",
+  "Market": "主板",
+  "Industry": "综合类",
+  "Total_mv": 1052135.4997,
+  "Pe": 57.3815,
+  "Pe_ttm": 57.3815,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 22343.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

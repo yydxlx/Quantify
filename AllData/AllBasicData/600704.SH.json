@@ -1,1 +1,17 @@
-﻿{"TsCode":"600704.SH","Name":"物产中大","Market":"主板","Industry":"仓储物流","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600704.SH",
+  "Name": "物产中大",
+  "Market": "主板",
+  "Industry": "仓储物流",
+  "Total_mv": 2683842.3629,
+  "Pe": 8.7166,
+  "Pe_ttm": 7.0651,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600729.SH","Name":"重庆百货","Market":"主板","Industry":"百货","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":28290.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600729.SH",
+  "Name": "重庆百货",
+  "Market": "主板",
+  "Industry": "百货",
+  "Total_mv": 959306.8017,
+  "Pe": 9.176,
+  "Pe_ttm": 9.176,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 28290.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

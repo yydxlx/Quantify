@@ -1,1 +1,17 @@
-﻿{"TsCode":"600618.SH","Name":"氯碱化工","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600618.SH",
+  "Name": "氯碱化工",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 1506789.1687,
+  "Pe": 17.4672,
+  "Pe_ttm": 17.4672,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

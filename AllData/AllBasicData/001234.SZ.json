@@ -1,1 +1,17 @@
-﻿{"TsCode":"001234.SZ","Name":"泰慕士","Market":"主板","Industry":"服饰","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":10370.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001234.SZ",
+  "Name": "泰慕士",
+  "Market": "主板",
+  "Industry": "服饰",
+  "Total_mv": 355813.3524,
+  "Pe": 75.5354,
+  "Pe_ttm": 75.5354,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 10370.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

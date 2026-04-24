@@ -1,1 +1,17 @@
-﻿{"TsCode":"688186.SH","Name":"广大特材","Market":"科创板","Industry":"特种钢","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":18825.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688186.SH",
+  "Name": "广大特材",
+  "Market": "科创板",
+  "Industry": "特种钢",
+  "Total_mv": 597161.8389,
+  "Pe": 29.0039,
+  "Pe_ttm": 43.6182,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 18825.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"920725.BJ","Name":"惠丰钻石","Market":"北交所","Industry":"矿物制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920725.BJ",
+  "Name": "惠丰钻石",
+  "Market": "北交所",
+  "Industry": "矿物制品",
+  "Total_mv": 285234.375,
+  "Pe": 724.068,
+  "Pe_ttm": 0.0,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

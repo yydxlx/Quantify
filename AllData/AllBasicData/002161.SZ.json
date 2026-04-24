@@ -1,1 +1,17 @@
-﻿{"TsCode":"002161.SZ","Name":"远望谷","Market":"主板","Industry":"通信设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":55128.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002161.SZ",
+  "Name": "远望谷",
+  "Market": "主板",
+  "Industry": "通信设备",
+  "Total_mv": 540762.6594,
+  "Pe": 194.1853,
+  "Pe_ttm": 49.512,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 55128.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

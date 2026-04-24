@@ -1,1 +1,17 @@
-﻿{"TsCode":"002151.SZ","Name":"北斗星通","Market":"主板","Industry":"通信设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260228","HolderNum":137958.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002151.SZ",
+  "Name": "北斗星通",
+  "Market": "主板",
+  "Industry": "通信设备",
+  "Total_mv": 2135268.6208,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260326",
+  "EndDate": "20260228",
+  "HolderNum": 137958.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

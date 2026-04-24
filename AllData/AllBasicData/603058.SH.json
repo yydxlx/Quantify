@@ -1,1 +1,17 @@
-﻿{"TsCode":"603058.SH","Name":"永吉股份","Market":"主板","Industry":"广告包装","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":16267.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603058.SH",
+  "Name": "永吉股份",
+  "Market": "主板",
+  "Industry": "广告包装",
+  "Total_mv": 498869.1888,
+  "Pe": 60.6747,
+  "Pe_ttm": 60.6747,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 16267.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

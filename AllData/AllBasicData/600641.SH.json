@@ -1,1 +1,17 @@
-﻿{"TsCode":"600641.SH","Name":"先导基电","Market":"主板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":68546.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600641.SH",
+  "Name": "先导基电",
+  "Market": "主板",
+  "Industry": "半导体",
+  "Total_mv": 2556537.984,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 68546.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

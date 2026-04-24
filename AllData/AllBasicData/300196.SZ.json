@@ -1,1 +1,17 @@
-﻿{"TsCode":"300196.SZ","Name":"长海股份","Market":"创业板","Industry":"玻璃","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":26237.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300196.SZ",
+  "Name": "长海股份",
+  "Market": "创业板",
+  "Industry": "玻璃",
+  "Total_mv": 811714.5756,
+  "Pe": 24.8657,
+  "Pe_ttm": 24.8657,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 26237.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

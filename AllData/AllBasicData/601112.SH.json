@@ -1,1 +1,17 @@
-﻿{"TsCode":"601112.SH","Name":"振石股份","Market":"主板","Industry":"玻璃","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":97306.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601112.SH",
+  "Name": "振石股份",
+  "Market": "主板",
+  "Industry": "玻璃",
+  "Total_mv": 3513799.695,
+  "Pe": 47.8752,
+  "Pe_ttm": 47.8752,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 97306.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

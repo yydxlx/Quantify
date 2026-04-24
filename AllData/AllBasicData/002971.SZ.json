@@ -1,1 +1,17 @@
-﻿{"TsCode":"002971.SZ","Name":"和远气体","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":14085.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002971.SZ",
+  "Name": "和远气体",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 717425.94,
+  "Pe": 118.9156,
+  "Pe_ttm": 118.9156,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 14085.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

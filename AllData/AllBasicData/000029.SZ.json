@@ -1,1 +1,17 @@
-﻿{"TsCode":"000029.SZ","Name":"深深房Ａ","Market":"主板","Industry":"区域地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":38997.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000029.SZ",
+  "Name": "深深房Ａ",
+  "Market": "主板",
+  "Industry": "区域地产",
+  "Total_mv": 2056704.78,
+  "Pe": 205.761,
+  "Pe_ttm": 205.761,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 38997.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603711.SH","Name":"香飘飘","Market":"主板","Industry":"软饮料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603711.SH",
+  "Name": "香飘飘",
+  "Market": "主板",
+  "Industry": "软饮料",
+  "Total_mv": 511138.1358,
+  "Pe": 20.1878,
+  "Pe_ttm": 34.9492,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

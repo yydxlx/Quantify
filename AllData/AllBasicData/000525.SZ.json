@@ -1,1 +1,17 @@
-﻿{"TsCode":"000525.SZ","Name":"红太阳","Market":"主板","Industry":"农药化肥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260325","EndDate":"20260320","HolderNum":46229.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000525.SZ",
+  "Name": "红太阳",
+  "Market": "主板",
+  "Industry": "农药化肥",
+  "Total_mv": 733678.2586,
+  "Pe": 18.9064,
+  "Pe_ttm": 81.6927,
+  "AnnDate": "20260325",
+  "EndDate": "20260320",
+  "HolderNum": 46229.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603637.SH","Name":"镇海股份","Market":"主板","Industry":"建筑工程","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260310","HolderNum":11548.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603637.SH",
+  "Name": "镇海股份",
+  "Market": "主板",
+  "Industry": "建筑工程",
+  "Total_mv": 393831.6971,
+  "Pe": 59.5635,
+  "Pe_ttm": 59.5635,
+  "AnnDate": "20260323",
+  "EndDate": "20260310",
+  "HolderNum": 11548.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

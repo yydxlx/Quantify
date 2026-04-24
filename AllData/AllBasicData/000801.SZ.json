@@ -1,1 +1,17 @@
-﻿{"TsCode":"000801.SZ","Name":"四川九洲","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":69548.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000801.SZ",
+  "Name": "四川九洲",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 1427936.2864,
+  "Pe": 79.7058,
+  "Pe_ttm": 79.7058,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 69548.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

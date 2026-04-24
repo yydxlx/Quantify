@@ -1,1 +1,17 @@
-﻿{"TsCode":"601633.SH","Name":"长城汽车","Market":"主板","Industry":"汽车整车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":171854.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601633.SH",
+  "Name": "长城汽车",
+  "Market": "主板",
+  "Industry": "汽车整车",
+  "Total_mv": 17500848.7819,
+  "Pe": 17.7398,
+  "Pe_ttm": 17.7398,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 171854.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

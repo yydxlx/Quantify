@@ -1,1 +1,17 @@
-﻿{"TsCode":"300314.SZ","Name":"戴维医疗","Market":"创业板","Industry":"医疗保健","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":18200.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300314.SZ",
+  "Name": "戴维医疗",
+  "Market": "创业板",
+  "Industry": "医疗保健",
+  "Total_mv": 328320.0,
+  "Pe": 37.7148,
+  "Pe_ttm": 44.146,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 18200.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

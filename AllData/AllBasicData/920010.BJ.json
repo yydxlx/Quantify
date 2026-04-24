@@ -1,1 +1,17 @@
-﻿{"TsCode":"920010.BJ","Name":"凯添燃气","Market":"北交所","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920010.BJ",
+  "Name": "凯添燃气",
+  "Market": "北交所",
+  "Industry": "供气供热",
+  "Total_mv": 292656.0,
+  "Pe": 64.7757,
+  "Pe_ttm": 91.0833,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

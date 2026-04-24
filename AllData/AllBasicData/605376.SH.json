@@ -1,1 +1,17 @@
-﻿{"TsCode":"605376.SH","Name":"博迁新材","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":18332.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605376.SH",
+  "Name": "博迁新材",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 3013632.0,
+  "Pe": 137.491,
+  "Pe_ttm": 137.491,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 18332.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

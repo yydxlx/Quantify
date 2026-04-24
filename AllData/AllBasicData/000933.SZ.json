@@ -1,1 +1,17 @@
-﻿{"TsCode":"000933.SZ","Name":"神火股份","Market":"主板","Industry":"铝","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260228","HolderNum":67724.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000933.SZ",
+  "Name": "神火股份",
+  "Market": "主板",
+  "Industry": "铝",
+  "Total_mv": 7372236.4199,
+  "Pe": 18.4059,
+  "Pe_ttm": 13.1958,
+  "AnnDate": "20260324",
+  "EndDate": "20260228",
+  "HolderNum": 67724.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

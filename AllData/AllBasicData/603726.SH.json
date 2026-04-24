@@ -1,1 +1,17 @@
-﻿{"TsCode":"603726.SH","Name":"朗迪集团","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603726.SH",
+  "Name": "朗迪集团",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 431639.04,
+  "Pe": 25.0701,
+  "Pe_ttm": 20.0701,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

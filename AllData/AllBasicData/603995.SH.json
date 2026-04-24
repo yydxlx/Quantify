@@ -1,1 +1,17 @@
-﻿{"TsCode":"603995.SH","Name":"甬金股份","Market":"主板","Industry":"特种钢","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":18364.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603995.SH",
+  "Name": "甬金股份",
+  "Market": "主板",
+  "Industry": "特种钢",
+  "Total_mv": 665059.222,
+  "Pe": 12.1208,
+  "Pe_ttm": 12.1208,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 18364.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

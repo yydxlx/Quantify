@@ -1,1 +1,17 @@
-﻿{"TsCode":"600750.SH","Name":"华润江中","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":30360.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600750.SH",
+  "Name": "华润江中",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 1735859.8923,
+  "Pe": 19.1451,
+  "Pe_ttm": 19.1451,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 30360.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

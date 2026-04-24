@@ -1,1 +1,17 @@
-﻿{"TsCode":"600765.SH","Name":"中航重机","Market":"主板","Industry":"航空","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260228","HolderNum":89015.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600765.SH",
+  "Name": "中航重机",
+  "Market": "主板",
+  "Industry": "航空",
+  "Total_mv": 2558510.3641,
+  "Pe": 42.024,
+  "Pe_ttm": 42.024,
+  "AnnDate": "20260313",
+  "EndDate": "20260228",
+  "HolderNum": 89015.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

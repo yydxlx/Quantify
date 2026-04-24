@@ -1,1 +1,17 @@
-﻿{"TsCode":"920100.BJ","Name":"三协电机","Market":"北交所","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920100.BJ",
+  "Name": "三协电机",
+  "Market": "北交所",
+  "Industry": "电气设备",
+  "Total_mv": 362772.7095,
+  "Pe": 64.3956,
+  "Pe_ttm": 60.2774,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

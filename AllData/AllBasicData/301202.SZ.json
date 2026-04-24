@@ -1,1 +1,17 @@
-﻿{"TsCode":"301202.SZ","Name":"朗威股份","Market":"创业板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":12705.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301202.SZ",
+  "Name": "朗威股份",
+  "Market": "创业板",
+  "Industry": "机械基件",
+  "Total_mv": 564968.8,
+  "Pe": 61.9377,
+  "Pe_ttm": 61.673,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 12705.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

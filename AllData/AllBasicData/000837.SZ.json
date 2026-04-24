@@ -1,1 +1,17 @@
-﻿{"TsCode":"000837.SZ","Name":"秦川机床","Market":"主板","Industry":"机床制造","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":87970.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000837.SZ",
+  "Name": "秦川机床",
+  "Market": "主板",
+  "Industry": "机床制造",
+  "Total_mv": 1101928.0664,
+  "Pe": 208.3284,
+  "Pe_ttm": 208.3284,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 87970.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

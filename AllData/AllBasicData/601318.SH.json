@@ -1,1 +1,17 @@
-﻿{"TsCode":"601318.SH","Name":"中国平安","Market":"主板","Industry":"保险","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":623864.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601318.SH",
+  "Name": "中国平安",
+  "Market": "主板",
+  "Industry": "保险",
+  "Total_mv": 104807031.8671,
+  "Pe": 7.7763,
+  "Pe_ttm": 7.7763,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 623864.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

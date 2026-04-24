@@ -1,1 +1,17 @@
-﻿{"TsCode":"301005.SZ","Name":"超捷股份","Market":"创业板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":54035.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301005.SZ",
+  "Name": "超捷股份",
+  "Market": "创业板",
+  "Industry": "汽车配件",
+  "Total_mv": 2348225.0824,
+  "Pe": 1443.4833,
+  "Pe_ttm": 1443.4833,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 54035.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

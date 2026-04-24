@@ -1,1 +1,17 @@
-﻿{"TsCode":"000061.SZ","Name":"农产品","Market":"主板","Industry":"农业综合","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260320","HolderNum":39132.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000061.SZ",
+  "Name": "农产品",
+  "Market": "主板",
+  "Industry": "农业综合",
+  "Total_mv": 1492690.8209,
+  "Pe": 38.8545,
+  "Pe_ttm": 40.873,
+  "AnnDate": "20260323",
+  "EndDate": "20260320",
+  "HolderNum": 39132.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

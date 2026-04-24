@@ -1,1 +1,17 @@
-﻿{"TsCode":"300107.SZ","Name":"建新股份","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":33531.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300107.SZ",
+  "Name": "建新股份",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 421523.9187,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 33531.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

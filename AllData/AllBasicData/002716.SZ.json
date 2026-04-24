@@ -1,1 +1,17 @@
-﻿{"TsCode":"002716.SZ","Name":"湖南白银","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":496218.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002716.SZ",
+  "Name": "湖南白银",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 3328421.5136,
+  "Pe": 97.8414,
+  "Pe_ttm": 97.8414,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 496218.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

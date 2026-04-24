@@ -1,1 +1,17 @@
-﻿{"TsCode":"600839.SH","Name":"四川长虹","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600839.SH",
+  "Name": "四川长虹",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 4283874.638,
+  "Pe": 60.8918,
+  "Pe_ttm": 31.3427,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

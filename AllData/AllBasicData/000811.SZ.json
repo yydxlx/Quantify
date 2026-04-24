@@ -1,1 +1,17 @@
-﻿{"TsCode":"000811.SZ","Name":"冰轮环境","Market":"主板","Industry":"工程机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":42167.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000811.SZ",
+  "Name": "冰轮环境",
+  "Market": "主板",
+  "Industry": "工程机械",
+  "Total_mv": 2226128.1204,
+  "Pe": 39.4434,
+  "Pe_ttm": 39.4434,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 42167.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

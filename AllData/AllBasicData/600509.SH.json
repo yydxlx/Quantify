@@ -1,1 +1,17 @@
-﻿{"TsCode":"600509.SH","Name":"天富能源","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260310","HolderNum":76000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600509.SH",
+  "Name": "天富能源",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 1144873.04,
+  "Pe": 49.7586,
+  "Pe_ttm": 50.9592,
+  "AnnDate": "20260327",
+  "EndDate": "20260310",
+  "HolderNum": 76000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

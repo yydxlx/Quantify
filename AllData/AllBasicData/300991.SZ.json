@@ -1,1 +1,17 @@
-﻿{"TsCode":"300991.SZ","Name":"创益通","Market":"创业板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":8174.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300991.SZ",
+  "Name": "创益通",
+  "Market": "创业板",
+  "Industry": "元器件",
+  "Total_mv": 705456.0,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 8174.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

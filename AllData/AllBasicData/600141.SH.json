@@ -1,1 +1,17 @@
-﻿{"TsCode":"600141.SH","Name":"兴发集团","Market":"主板","Industry":"农药化肥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260404","EndDate":"20260331","HolderNum":73285.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600141.SH",
+  "Name": "兴发集团",
+  "Market": "主板",
+  "Industry": "农药化肥",
+  "Total_mv": 3932092.8121,
+  "Pe": 26.3536,
+  "Pe_ttm": 26.3536,
+  "AnnDate": "20260404",
+  "EndDate": "20260331",
+  "HolderNum": 73285.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

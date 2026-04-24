@@ -1,1 +1,17 @@
-﻿{"TsCode":"605090.SH","Name":"九丰能源","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605090.SH",
+  "Name": "九丰能源",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 3241010.4111,
+  "Pe": 19.2495,
+  "Pe_ttm": 23.3145,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002859.SZ","Name":"洁美科技","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260402","EndDate":"20260320","HolderNum":13093.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002859.SZ",
+  "Name": "洁美科技",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 1965530.5283,
+  "Pe": 89.4151,
+  "Pe_ttm": 89.4151,
+  "AnnDate": "20260402",
+  "EndDate": "20260320",
+  "HolderNum": 13093.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

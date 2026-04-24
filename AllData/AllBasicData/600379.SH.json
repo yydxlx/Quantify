@@ -1,1 +1,17 @@
-﻿{"TsCode":"600379.SH","Name":"宝光股份","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":18919.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600379.SH",
+  "Name": "宝光股份",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 403506.3112,
+  "Pe": 78.6577,
+  "Pe_ttm": 96.5902,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 18919.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

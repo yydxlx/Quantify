@@ -1,1 +1,17 @@
-﻿{"TsCode":"603979.SH","Name":"金诚信","Market":"主板","Industry":"铜","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":29232.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603979.SH",
+  "Name": "金诚信",
+  "Market": "主板",
+  "Industry": "铜",
+  "Total_mv": 3923632.2313,
+  "Pe": 24.7731,
+  "Pe_ttm": 17.4871,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 29232.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

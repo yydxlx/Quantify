@@ -1,1 +1,17 @@
-﻿{"TsCode":"601963.SH","Name":"重庆银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601963.SH",
+  "Name": "重庆银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 4002827.8344,
+  "Pe": 7.0794,
+  "Pe_ttm": 7.0794,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

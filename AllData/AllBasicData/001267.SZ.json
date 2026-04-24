@@ -1,1 +1,17 @@
-﻿{"TsCode":"001267.SZ","Name":"汇绿生态","Market":"主板","Industry":"通信设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":54820.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001267.SZ",
+  "Name": "汇绿生态",
+  "Market": "主板",
+  "Industry": "通信设备",
+  "Total_mv": 3998058.5404,
+  "Pe": 453.8994,
+  "Pe_ttm": 453.8994,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 54820.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

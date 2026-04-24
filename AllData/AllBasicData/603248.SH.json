@@ -1,1 +1,17 @@
-﻿{"TsCode":"603248.SH","Name":"锡华科技","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603248.SH",
+  "Name": "锡华科技",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 1153680.0,
+  "Pe": 57.3033,
+  "Pe_ttm": 58.9419,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"301359.SZ","Name":"东南电子","Market":"创业板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":7596.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301359.SZ",
+  "Name": "东南电子",
+  "Market": "创业板",
+  "Industry": "元器件",
+  "Total_mv": 259459.984,
+  "Pe": 64.1548,
+  "Pe_ttm": 64.1548,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 7596.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

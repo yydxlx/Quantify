@@ -1,1 +1,17 @@
-﻿{"TsCode":"300623.SZ","Name":"捷捷微电","Market":"创业板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":80451.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300623.SZ",
+  "Name": "捷捷微电",
+  "Market": "创业板",
+  "Industry": "半导体",
+  "Total_mv": 2314014.2547,
+  "Pe": 48.5435,
+  "Pe_ttm": 49.7466,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 80451.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

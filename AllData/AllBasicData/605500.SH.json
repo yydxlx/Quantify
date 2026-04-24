@@ -1,1 +1,17 @@
-﻿{"TsCode":"605500.SH","Name":"森林包装","Market":"主板","Industry":"造纸","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260320","HolderNum":16794.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605500.SH",
+  "Name": "森林包装",
+  "Market": "主板",
+  "Industry": "造纸",
+  "Total_mv": 377104.0,
+  "Pe": 19.4986,
+  "Pe_ttm": 42.754,
+  "AnnDate": "20260323",
+  "EndDate": "20260320",
+  "HolderNum": 16794.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

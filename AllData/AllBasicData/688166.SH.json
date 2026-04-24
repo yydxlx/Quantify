@@ -1,1 +1,17 @@
-﻿{"TsCode":"688166.SH","Name":"博瑞医药","Market":"科创板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":20114.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688166.SH",
+  "Name": "博瑞医药",
+  "Market": "科创板",
+  "Industry": "化学制药",
+  "Total_mv": 2588553.0496,
+  "Pe": 474.836,
+  "Pe_ttm": 474.836,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 20114.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

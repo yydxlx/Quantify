@@ -1,1 +1,17 @@
-﻿{"TsCode":"002797.SZ","Name":"第一创业","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":228507.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002797.SZ",
+  "Name": "第一创业",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 3273669.6,
+  "Pe": 36.228,
+  "Pe_ttm": 31.6847,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 228507.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

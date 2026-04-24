@@ -1,1 +1,17 @@
-﻿{"TsCode":"600316.SH","Name":"洪都航空","Market":"主板","Industry":"航空","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":42196.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600316.SH",
+  "Name": "洪都航空",
+  "Market": "主板",
+  "Industry": "航空",
+  "Total_mv": 2960965.82,
+  "Pe": 744.7127,
+  "Pe_ttm": 744.7127,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 42196.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

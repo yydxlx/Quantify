@@ -1,1 +1,17 @@
-﻿{"TsCode":"601099.SH","Name":"太平洋","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601099.SH",
+  "Name": "太平洋",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 2556118.6388,
+  "Pe": 116.1599,
+  "Pe_ttm": 77.5954,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

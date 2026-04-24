@@ -1,1 +1,17 @@
-﻿{"TsCode":"300154.SZ","Name":"瑞凌股份","Market":"创业板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260331","HolderNum":16545.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300154.SZ",
+  "Name": "瑞凌股份",
+  "Market": "创业板",
+  "Industry": "机械基件",
+  "Total_mv": 363240.6024,
+  "Pe": 34.7986,
+  "Pe_ttm": 34.7986,
+  "AnnDate": "20260414",
+  "EndDate": "20260331",
+  "HolderNum": 16545.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603225.SH","Name":"新凤鸣","Market":"主板","Industry":"化纤","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":25608.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603225.SH",
+  "Name": "新凤鸣",
+  "Market": "主板",
+  "Industry": "化纤",
+  "Total_mv": 2863481.8825,
+  "Pe": 28.1184,
+  "Pe_ttm": 28.1184,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 25608.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

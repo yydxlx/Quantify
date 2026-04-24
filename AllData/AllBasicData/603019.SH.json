@@ -1,1 +1,17 @@
-﻿{"TsCode":"603019.SH","Name":"中科曙光","Market":"主板","Industry":"IT设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":411138.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603019.SH",
+  "Name": "中科曙光",
+  "Market": "主板",
+  "Industry": "IT设备",
+  "Total_mv": 13413845.5077,
+  "Pe": 61.6362,
+  "Pe_ttm": 60.5526,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 411138.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"601975.SH","Name":"招商南油","Market":"主板","Industry":"水运","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":151444.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601975.SH",
+  "Name": "招商南油",
+  "Market": "主板",
+  "Industry": "水运",
+  "Total_mv": 2110835.4498,
+  "Pe": 16.095,
+  "Pe_ttm": 16.095,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 151444.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

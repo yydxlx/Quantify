@@ -1,1 +1,17 @@
-﻿{"TsCode":"000591.SZ","Name":"太阳能","Market":"主板","Industry":"新型电力","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000591.SZ",
+  "Name": "太阳能",
+  "Market": "主板",
+  "Industry": "新型电力",
+  "Total_mv": 2233780.4913,
+  "Pe": 18.2292,
+  "Pe_ttm": 21.0759,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

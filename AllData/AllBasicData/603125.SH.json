@@ -1,1 +1,17 @@
-﻿{"TsCode":"603125.SH","Name":"常青科技","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":17828.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603125.SH",
+  "Name": "常青科技",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 752995.6575,
+  "Pe": 47.6177,
+  "Pe_ttm": 47.6177,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 17828.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

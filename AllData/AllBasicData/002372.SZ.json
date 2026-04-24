@@ -1,1 +1,17 @@
-﻿{"TsCode":"002372.SZ","Name":"伟星新材","Market":"主板","Industry":"其他建材","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":43472.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002372.SZ",
+  "Name": "伟星新材",
+  "Market": "主板",
+  "Industry": "其他建材",
+  "Total_mv": 1658903.5835,
+  "Pe": 22.3941,
+  "Pe_ttm": 22.3941,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 43472.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002991.SZ","Name":"甘源食品","Market":"主板","Industry":"食品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002991.SZ",
+  "Name": "甘源食品",
+  "Market": "主板",
+  "Industry": "食品",
+  "Total_mv": 475866.8173,
+  "Pe": 22.8305,
+  "Pe_ttm": 21.4348,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"688550.SH","Name":"瑞联新材","Market":"科创板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":11631.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688550.SH",
+  "Name": "瑞联新材",
+  "Market": "科创板",
+  "Industry": "化工原料",
+  "Total_mv": 739534.2393,
+  "Pe": 29.3789,
+  "Pe_ttm": 23.7921,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 11631.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603659.SH","Name":"璞泰来","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260306","EndDate":"20260228","HolderNum":102752.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603659.SH",
+  "Name": "璞泰来",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 7344940.0233,
+  "Pe": 31.1351,
+  "Pe_ttm": 28.5193,
+  "AnnDate": "20260306",
+  "EndDate": "20260228",
+  "HolderNum": 102752.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

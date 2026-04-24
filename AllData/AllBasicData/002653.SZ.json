@@ -1,1 +1,17 @@
-﻿{"TsCode":"002653.SZ","Name":"海思科","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260413","EndDate":"20260331","HolderNum":10654.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002653.SZ",
+  "Name": "海思科",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 6309617.843,
+  "Pe": 243.0705,
+  "Pe_ttm": 243.0705,
+  "AnnDate": "20260413",
+  "EndDate": "20260331",
+  "HolderNum": 10654.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

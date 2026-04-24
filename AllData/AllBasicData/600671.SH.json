@@ -1,1 +1,17 @@
-﻿{"TsCode":"600671.SH","Name":"天目药业","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260325","EndDate":"20260320","HolderNum":9448.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600671.SH",
+  "Name": "天目药业",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 229553.1982,
+  "Pe": 130.2606,
+  "Pe_ttm": 130.2606,
+  "AnnDate": "20260325",
+  "EndDate": "20260320",
+  "HolderNum": 9448.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

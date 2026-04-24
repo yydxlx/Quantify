@@ -1,1 +1,17 @@
-﻿{"TsCode":"603321.SH","Name":"梅轮电梯","Market":"主板","Industry":"运输设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603321.SH",
+  "Name": "梅轮电梯",
+  "Market": "主板",
+  "Industry": "运输设备",
+  "Total_mv": 251549.3071,
+  "Pe": 18.71,
+  "Pe_ttm": 53.8081,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

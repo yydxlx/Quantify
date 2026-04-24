@@ -1,1 +1,17 @@
-﻿{"TsCode":"300694.SZ","Name":"蠡湖股份","Market":"创业板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":18632.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300694.SZ",
+  "Name": "蠡湖股份",
+  "Market": "创业板",
+  "Industry": "汽车配件",
+  "Total_mv": 275245.2368,
+  "Pe": 22.4319,
+  "Pe_ttm": 21.0735,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 18632.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

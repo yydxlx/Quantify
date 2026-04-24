@@ -1,1 +1,17 @@
-﻿{"TsCode":"002956.SZ","Name":"西麦食品","Market":"主板","Industry":"食品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":9117.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002956.SZ",
+  "Name": "西麦食品",
+  "Market": "主板",
+  "Industry": "食品",
+  "Total_mv": 623975.0436,
+  "Pe": 36.3381,
+  "Pe_ttm": 36.3381,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 9117.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

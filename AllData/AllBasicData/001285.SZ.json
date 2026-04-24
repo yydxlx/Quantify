@@ -1,1 +1,17 @@
-﻿{"TsCode":"001285.SZ","Name":"瑞立科密","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":22185.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001285.SZ",
+  "Name": "瑞立科密",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 945214.7533,
+  "Pe": 28.3822,
+  "Pe_ttm": 28.3822,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 22185.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

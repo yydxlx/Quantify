@@ -1,1 +1,17 @@
-﻿{"TsCode":"002920.SZ","Name":"德赛西威","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260306","EndDate":"20260228","HolderNum":104206.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002920.SZ",
+  "Name": "德赛西威",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 6520141.537,
+  "Pe": 26.5739,
+  "Pe_ttm": 26.5739,
+  "AnnDate": "20260306",
+  "EndDate": "20260228",
+  "HolderNum": 104206.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

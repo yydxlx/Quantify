@@ -1,1 +1,17 @@
-﻿{"TsCode":"002728.SZ","Name":"特一药业","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260228","HolderNum":81515.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002728.SZ",
+  "Name": "特一药业",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 528709.1064,
+  "Pe": 64.736,
+  "Pe_ttm": 64.736,
+  "AnnDate": "20260324",
+  "EndDate": "20260228",
+  "HolderNum": 81515.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

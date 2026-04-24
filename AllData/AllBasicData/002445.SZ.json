@@ -1,1 +1,17 @@
-﻿{"TsCode":"002445.SZ","Name":"中南文化","Market":"主板","Industry":"钢加工","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260310","HolderNum":47321.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002445.SZ",
+  "Name": "中南文化",
+  "Market": "主板",
+  "Industry": "钢加工",
+  "Total_mv": 829436.0283,
+  "Pe": 111.0846,
+  "Pe_ttm": 111.0846,
+  "AnnDate": "20260317",
+  "EndDate": "20260310",
+  "HolderNum": 47321.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

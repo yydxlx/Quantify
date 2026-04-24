@@ -1,1 +1,17 @@
-﻿{"TsCode":"002112.SZ","Name":"三变科技","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":100000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002112.SZ",
+  "Name": "三变科技",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 605028.0471,
+  "Pe": 50.097,
+  "Pe_ttm": 73.3926,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 100000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600259.SH","Name":"中稀有色","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":38385.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600259.SH",
+  "Name": "中稀有色",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 3184365.8882,
+  "Pe": 249.6447,
+  "Pe_ttm": 249.6447,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 38385.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

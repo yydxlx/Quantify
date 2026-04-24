@@ -1,1 +1,17 @@
-﻿{"TsCode":"000777.SZ","Name":"中核科技","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000777.SZ",
+  "Name": "中核科技",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 846586.0453,
+  "Pe": 36.9154,
+  "Pe_ttm": 37.5943,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

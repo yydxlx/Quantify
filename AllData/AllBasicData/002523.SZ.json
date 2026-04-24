@@ -1,1 +1,17 @@
-﻿{"TsCode":"002523.SZ","Name":"天桥起重","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260409","EndDate":"20260310","HolderNum":52527.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002523.SZ",
+  "Name": "天桥起重",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 570906.2424,
+  "Pe": 108.2205,
+  "Pe_ttm": 47.4425,
+  "AnnDate": "20260409",
+  "EndDate": "20260310",
+  "HolderNum": 52527.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

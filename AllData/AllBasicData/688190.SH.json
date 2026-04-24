@@ -1,1 +1,17 @@
-﻿{"TsCode":"688190.SH","Name":"云路股份","Market":"科创板","Industry":"矿物制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":6713.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688190.SH",
+  "Name": "云路股份",
+  "Market": "科创板",
+  "Industry": "矿物制品",
+  "Total_mv": 1031400.0,
+  "Pe": 35.0352,
+  "Pe_ttm": 35.0352,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 6713.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

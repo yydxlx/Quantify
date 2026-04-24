@@ -1,1 +1,17 @@
-﻿{"TsCode":"600477.SH","Name":"杭萧钢构","Market":"主板","Industry":"钢加工","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":127784.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600477.SH",
+  "Name": "杭萧钢构",
+  "Market": "主板",
+  "Industry": "钢加工",
+  "Total_mv": 714767.4361,
+  "Pe": 61.4673,
+  "Pe_ttm": 61.4673,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 127784.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

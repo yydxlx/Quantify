@@ -1,1 +1,17 @@
-﻿{"TsCode":"001391.SZ","Name":"国货航","Market":"主板","Industry":"仓储物流","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":122895.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001391.SZ",
+  "Name": "国货航",
+  "Market": "主板",
+  "Industry": "仓储物流",
+  "Total_mv": 6495124.8117,
+  "Pe": 25.1292,
+  "Pe_ttm": 25.1292,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 122895.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"300969.SZ","Name":"恒帅股份","Market":"创业板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":10266.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300969.SZ",
+  "Name": "恒帅股份",
+  "Market": "创业板",
+  "Industry": "汽车配件",
+  "Total_mv": 1400064.1375,
+  "Pe": 65.5128,
+  "Pe_ttm": 78.1045,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 10266.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

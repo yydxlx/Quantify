@@ -1,1 +1,17 @@
-﻿{"TsCode":"000027.SZ","Name":"深圳能源","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":112262.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000027.SZ",
+  "Name": "深圳能源",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 3363474.6706,
+  "Pe": 15.9911,
+  "Pe_ttm": 15.9911,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 112262.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

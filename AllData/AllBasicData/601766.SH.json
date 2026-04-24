@@ -1,1 +1,17 @@
-﻿{"TsCode":"601766.SH","Name":"中国中车","Market":"主板","Industry":"运输设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":560297.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601766.SH",
+  "Name": "中国中车",
+  "Market": "主板",
+  "Industry": "运输设备",
+  "Total_mv": 17133221.8605,
+  "Pe": 12.9984,
+  "Pe_ttm": 12.9984,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 560297.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

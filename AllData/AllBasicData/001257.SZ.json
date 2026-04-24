@@ -1,1 +1,17 @@
-﻿{"TsCode":"001257.SZ","Name":"盛龙股份","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260331","HolderNum":216877.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001257.SZ",
+  "Name": "盛龙股份",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 4215343.0758,
+  "Pe": 47.6893,
+  "Pe_ttm": 47.6893,
+  "AnnDate": "20260330",
+  "EndDate": "20260331",
+  "HolderNum": 216877.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

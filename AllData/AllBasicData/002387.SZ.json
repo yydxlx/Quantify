@@ -1,1 +1,17 @@
-﻿{"TsCode":"002387.SZ","Name":"维信诺","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":62596.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002387.SZ",
+  "Name": "维信诺",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 1125817.6107,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 62596.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

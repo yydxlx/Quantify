@@ -1,1 +1,17 @@
-﻿{"TsCode":"000553.SZ","Name":"安道麦A","Market":"主板","Industry":"农药化肥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":37520.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000553.SZ",
+  "Name": "安道麦A",
+  "Market": "主板",
+  "Industry": "农药化肥",
+  "Total_mv": 1418855.3655,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 37520.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

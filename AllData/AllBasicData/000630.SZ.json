@@ -1,1 +1,17 @@
-﻿{"TsCode":"000630.SZ","Name":"铜陵有色","Market":"主板","Industry":"铜","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000630.SZ",
+  "Name": "铜陵有色",
+  "Market": "主板",
+  "Industry": "铜",
+  "Total_mv": 8447967.0513,
+  "Pe": 34.9811,
+  "Pe_ttm": 34.9811,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

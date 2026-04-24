@@ -1,1 +1,17 @@
-﻿{"TsCode":"600658.SH","Name":"电子城","Market":"主板","Industry":"园区开发","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260320","HolderNum":37027.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600658.SH",
+  "Name": "电子城",
+  "Market": "主板",
+  "Industry": "园区开发",
+  "Total_mv": 560411.1075,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260323",
+  "EndDate": "20260320",
+  "HolderNum": 37027.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

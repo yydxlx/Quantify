@@ -1,1 +1,17 @@
-﻿{"TsCode":"300321.SZ","Name":"同大股份","Market":"创业板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":5881.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300321.SZ",
+  "Name": "同大股份",
+  "Market": "创业板",
+  "Industry": "塑料",
+  "Total_mv": 341791.2,
+  "Pe": 304.6018,
+  "Pe_ttm": 388.3495,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 5881.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

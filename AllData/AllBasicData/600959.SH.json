@@ -1,1 +1,17 @@
-﻿{"TsCode":"600959.SH","Name":"江苏有线","Market":"主板","Industry":"影视音像","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260320","HolderNum":110484.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600959.SH",
+  "Name": "江苏有线",
+  "Market": "主板",
+  "Industry": "影视音像",
+  "Total_mv": 1975283.486,
+  "Pe": 76.4429,
+  "Pe_ttm": 76.4429,
+  "AnnDate": "20260330",
+  "EndDate": "20260320",
+  "HolderNum": 110484.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

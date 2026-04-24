@@ -1,1 +1,17 @@
-﻿{"TsCode":"603660.SH","Name":"苏州科达","Market":"主板","Industry":"IT设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260310","HolderNum":30000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603660.SH",
+  "Name": "苏州科达",
+  "Market": "主板",
+  "Industry": "IT设备",
+  "Total_mv": 601696.4181,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260327",
+  "EndDate": "20260310",
+  "HolderNum": 30000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

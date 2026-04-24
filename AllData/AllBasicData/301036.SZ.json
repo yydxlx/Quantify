@@ -1,1 +1,17 @@
-﻿{"TsCode":"301036.SZ","Name":"双乐股份","Market":"创业板","Industry":"染料涂料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":13179.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301036.SZ",
+  "Name": "双乐股份",
+  "Market": "创业板",
+  "Industry": "染料涂料",
+  "Total_mv": 267500.0,
+  "Pe": 53.9534,
+  "Pe_ttm": 119.8463,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 13179.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

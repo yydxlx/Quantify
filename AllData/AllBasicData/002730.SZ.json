@@ -1,1 +1,17 @@
-﻿{"TsCode":"002730.SZ","Name":"电光科技","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260320","HolderNum":45740.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002730.SZ",
+  "Name": "电光科技",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 1033375.9775,
+  "Pe": 154.0657,
+  "Pe_ttm": 154.0657,
+  "AnnDate": "20260324",
+  "EndDate": "20260320",
+  "HolderNum": 45740.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

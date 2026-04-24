@@ -1,1 +1,17 @@
-﻿{"TsCode":"600584.SH","Name":"长电科技","Market":"主板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":320364.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600584.SH",
+  "Name": "长电科技",
+  "Market": "主板",
+  "Industry": "半导体",
+  "Total_mv": 7946790.1054,
+  "Pe": 50.7705,
+  "Pe_ttm": 50.7705,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 320364.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

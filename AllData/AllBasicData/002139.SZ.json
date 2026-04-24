@@ -1,1 +1,17 @@
-﻿{"TsCode":"002139.SZ","Name":"拓邦股份","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260402","EndDate":"20260331","HolderNum":108427.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002139.SZ",
+  "Name": "拓邦股份",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 1508670.3355,
+  "Pe": 41.4615,
+  "Pe_ttm": 41.4615,
+  "AnnDate": "20260402",
+  "EndDate": "20260331",
+  "HolderNum": 108427.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

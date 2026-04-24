@@ -1,1 +1,17 @@
-﻿{"TsCode":"301099.SZ","Name":"雅创电子","Market":"创业板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260310","HolderNum":18000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301099.SZ",
+  "Name": "雅创电子",
+  "Market": "创业板",
+  "Industry": "元器件",
+  "Total_mv": 795221.8429,
+  "Pe": 63.0689,
+  "Pe_ttm": 42.9169,
+  "AnnDate": "20260320",
+  "EndDate": "20260310",
+  "HolderNum": 18000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

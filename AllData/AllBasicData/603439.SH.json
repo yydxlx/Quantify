@@ -1,1 +1,17 @@
-﻿{"TsCode":"603439.SH","Name":"三力制药","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603439.SH",
+  "Name": "三力制药",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 444098.2146,
+  "Pe": 16.2063,
+  "Pe_ttm": 27.6382,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

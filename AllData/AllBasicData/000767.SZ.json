@@ -1,1 +1,17 @@
-﻿{"TsCode":"000767.SZ","Name":"晋控电力","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260310","HolderNum":137253.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000767.SZ",
+  "Name": "晋控电力",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 1276931.0209,
+  "Pe": 65.0964,
+  "Pe_ttm": 64.3862,
+  "AnnDate": "20260318",
+  "EndDate": "20260310",
+  "HolderNum": 137253.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

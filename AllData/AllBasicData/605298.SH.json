@@ -1,1 +1,17 @@
-﻿{"TsCode":"605298.SH","Name":"必得科技","Market":"主板","Industry":"运输设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":8595.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605298.SH",
+  "Name": "必得科技",
+  "Market": "主板",
+  "Industry": "运输设备",
+  "Total_mv": 1133674.75,
+  "Pe": 199.6615,
+  "Pe_ttm": 199.6615,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 8595.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

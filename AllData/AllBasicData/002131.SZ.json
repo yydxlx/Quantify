@@ -1,1 +1,17 @@
-﻿{"TsCode":"002131.SZ","Name":"利欧股份","Market":"主板","Industry":"互联网","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002131.SZ",
+  "Name": "利欧股份",
+  "Market": "主板",
+  "Industry": "互联网",
+  "Total_mv": 5322618.0606,
+  "Pe": 0.0,
+  "Pe_ttm": 108.8123,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

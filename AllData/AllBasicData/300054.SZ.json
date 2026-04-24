@@ -1,1 +1,17 @@
-﻿{"TsCode":"300054.SZ","Name":"鼎龙股份","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":50329.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300054.SZ",
+  "Name": "鼎龙股份",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 5304441.7021,
+  "Pe": 73.6519,
+  "Pe_ttm": 73.6519,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 50329.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

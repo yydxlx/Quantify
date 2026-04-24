@@ -1,1 +1,17 @@
-﻿{"TsCode":"601939.SH","Name":"建设银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":334233.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601939.SH",
+  "Name": "建设银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 254537171.1596,
+  "Pe": 7.5106,
+  "Pe_ttm": 7.5106,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 334233.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"000703.SZ","Name":"恒逸石化","Market":"主板","Industry":"化纤","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":30834.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000703.SZ",
+  "Name": "恒逸石化",
+  "Market": "主板",
+  "Industry": "化纤",
+  "Total_mv": 5723982.6501,
+  "Pe": 221.575,
+  "Pe_ttm": 25.9989,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 30834.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

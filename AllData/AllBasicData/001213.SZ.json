@@ -1,1 +1,17 @@
-﻿{"TsCode":"001213.SZ","Name":"中铁特货","Market":"主板","Industry":"铁路","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001213.SZ",
+  "Name": "中铁特货",
+  "Market": "主板",
+  "Industry": "铁路",
+  "Total_mv": 1786666.6665,
+  "Pe": 26.7921,
+  "Pe_ttm": 31.5244,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

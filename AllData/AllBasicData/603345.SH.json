@@ -1,1 +1,17 @@
-﻿{"TsCode":"603345.SH","Name":"安井食品","Market":"主板","Industry":"食品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":31262.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603345.SH",
+  "Name": "安井食品",
+  "Market": "主板",
+  "Industry": "食品",
+  "Total_mv": 3223903.8392,
+  "Pe": 23.7185,
+  "Pe_ttm": 23.7185,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 31262.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

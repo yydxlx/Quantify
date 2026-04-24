@@ -1,1 +1,17 @@
-﻿{"TsCode":"300871.SZ","Name":"回盛生物","Market":"创业板","Industry":"农业综合","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":22983.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300871.SZ",
+  "Name": "回盛生物",
+  "Market": "创业板",
+  "Industry": "农业综合",
+  "Total_mv": 544615.9795,
+  "Pe": 21.5131,
+  "Pe_ttm": 21.5131,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 22983.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

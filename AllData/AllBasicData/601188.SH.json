@@ -1,1 +1,17 @@
-﻿{"TsCode":"601188.SH","Name":"龙江交通","Market":"主板","Industry":"路桥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":43598.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601188.SH",
+  "Name": "龙江交通",
+  "Market": "主板",
+  "Industry": "路桥",
+  "Total_mv": 428194.1321,
+  "Pe": 25.4734,
+  "Pe_ttm": 25.4734,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 43598.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

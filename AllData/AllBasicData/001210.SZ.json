@@ -1,1 +1,17 @@
-﻿{"TsCode":"001210.SZ","Name":"金房能源","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260228","HolderNum":9210.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001210.SZ",
+  "Name": "金房能源",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 326170.3661,
+  "Pe": 24.2662,
+  "Pe_ttm": 24.2662,
+  "AnnDate": "20260317",
+  "EndDate": "20260228",
+  "HolderNum": 9210.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

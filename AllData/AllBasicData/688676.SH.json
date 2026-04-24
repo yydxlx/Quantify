@@ -1,1 +1,17 @@
-﻿{"TsCode":"688676.SH","Name":"金盘科技","Market":"科创板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260321","EndDate":"20260228","HolderNum":34064.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688676.SH",
+  "Name": "金盘科技",
+  "Market": "科创板",
+  "Industry": "电气设备",
+  "Total_mv": 4254384.7201,
+  "Pe": 64.5055,
+  "Pe_ttm": 64.5055,
+  "AnnDate": "20260321",
+  "EndDate": "20260228",
+  "HolderNum": 34064.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

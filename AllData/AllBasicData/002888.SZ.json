@@ -1,1 +1,17 @@
-﻿{"TsCode":"002888.SZ","Name":"惠威科技","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002888.SZ",
+  "Name": "惠威科技",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 275945.537,
+  "Pe": 278.9067,
+  "Pe_ttm": 163.5786,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

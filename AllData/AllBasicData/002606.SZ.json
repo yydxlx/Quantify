@@ -1,1 +1,17 @@
-﻿{"TsCode":"002606.SZ","Name":"大连电瓷","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260320","HolderNum":43182.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002606.SZ",
+  "Name": "大连电瓷",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 585723.6755,
+  "Pe": 27.6467,
+  "Pe_ttm": 23.3226,
+  "AnnDate": "20260323",
+  "EndDate": "20260320",
+  "HolderNum": 43182.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

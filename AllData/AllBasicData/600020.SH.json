@@ -1,1 +1,17 @@
-﻿{"TsCode":"600020.SH","Name":"中原高速","Market":"主板","Industry":"路桥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600020.SH",
+  "Name": "中原高速",
+  "Market": "主板",
+  "Industry": "路桥",
+  "Total_mv": 856248.668,
+  "Pe": 13.624,
+  "Pe_ttm": 13.624,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

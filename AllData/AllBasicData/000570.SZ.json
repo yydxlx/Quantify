@@ -1,1 +1,17 @@
-﻿{"TsCode":"000570.SZ","Name":"苏常柴Ａ","Market":"主板","Industry":"农用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":46618.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000570.SZ",
+  "Name": "苏常柴Ａ",
+  "Market": "主板",
+  "Industry": "农用机械",
+  "Total_mv": 479870.9048,
+  "Pe": 94.4238,
+  "Pe_ttm": 94.4238,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 46618.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

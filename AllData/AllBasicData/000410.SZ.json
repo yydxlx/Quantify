@@ -1,1 +1,17 @@
-﻿{"TsCode":"000410.SZ","Name":"沈阳机床","Market":"主板","Industry":"机床制造","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260310","HolderNum":80605.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000410.SZ",
+  "Name": "沈阳机床",
+  "Market": "主板",
+  "Industry": "机床制造",
+  "Total_mv": 1769580.77,
+  "Pe": 2506.3848,
+  "Pe_ttm": 134.6077,
+  "AnnDate": "20260318",
+  "EndDate": "20260310",
+  "HolderNum": 80605.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"001301.SZ","Name":"尚太科技","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260310","HolderNum":23029.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001301.SZ",
+  "Name": "尚太科技",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 1955496.0203,
+  "Pe": 20.6751,
+  "Pe_ttm": 20.6751,
+  "AnnDate": "20260330",
+  "EndDate": "20260310",
+  "HolderNum": 23029.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

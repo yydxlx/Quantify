@@ -1,1 +1,17 @@
-﻿{"TsCode":"601069.SH","Name":"西部黄金","Market":"主板","Industry":"黄金","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260408","EndDate":"20260331","HolderNum":73945.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601069.SH",
+  "Name": "西部黄金",
+  "Market": "主板",
+  "Industry": "黄金",
+  "Total_mv": 2941616.1682,
+  "Pe": 62.3279,
+  "Pe_ttm": 62.3279,
+  "AnnDate": "20260408",
+  "EndDate": "20260331",
+  "HolderNum": 73945.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

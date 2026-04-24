@@ -1,1 +1,17 @@
-﻿{"TsCode":"001207.SZ","Name":"联科科技","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260307","EndDate":"20260228","HolderNum":16483.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001207.SZ",
+  "Name": "联科科技",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 532309.8785,
+  "Pe": 18.1869,
+  "Pe_ttm": 19.3688,
+  "AnnDate": "20260307",
+  "EndDate": "20260228",
+  "HolderNum": 16483.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

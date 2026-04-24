@@ -1,1 +1,17 @@
-﻿{"TsCode":"603303.SH","Name":"得邦照明","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260321","EndDate":"20260228","HolderNum":12125.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603303.SH",
+  "Name": "得邦照明",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 771696.3224,
+  "Pe": 29.1999,
+  "Pe_ttm": 29.1999,
+  "AnnDate": "20260321",
+  "EndDate": "20260228",
+  "HolderNum": 12125.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

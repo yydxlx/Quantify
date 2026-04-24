@@ -1,1 +1,17 @@
-﻿{"TsCode":"603075.SH","Name":"热威股份","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":12660.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603075.SH",
+  "Name": "热威股份",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 950262.6251,
+  "Pe": 29.4093,
+  "Pe_ttm": 29.4093,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 12660.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

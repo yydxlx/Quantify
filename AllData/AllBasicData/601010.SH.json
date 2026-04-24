@@ -1,1 +1,17 @@
-﻿{"TsCode":"601010.SH","Name":"文峰股份","Market":"主板","Industry":"百货","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601010.SH",
+  "Name": "文峰股份",
+  "Market": "主板",
+  "Industry": "百货",
+  "Total_mv": 432432.0,
+  "Pe": 27.1819,
+  "Pe_ttm": 40.523,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002395.SZ","Name":"双象股份","Market":"主板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":13449.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002395.SZ",
+  "Name": "双象股份",
+  "Market": "主板",
+  "Industry": "塑料",
+  "Total_mv": 484921.872,
+  "Pe": 23.998,
+  "Pe_ttm": 23.998,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 13449.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

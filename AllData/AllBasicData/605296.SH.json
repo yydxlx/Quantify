@@ -1,1 +1,17 @@
-﻿{"TsCode":"605296.SH","Name":"神农集团","Market":"主板","Industry":"农业综合","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":18770.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605296.SH",
+  "Name": "神农集团",
+  "Market": "主板",
+  "Industry": "农业综合",
+  "Total_mv": 1591085.7154,
+  "Pe": 23.1661,
+  "Pe_ttm": 23.8138,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 18770.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"001332.SZ","Name":"锡装股份","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260320","HolderNum":10902.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001332.SZ",
+  "Name": "锡装股份",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 633439.17,
+  "Pe": 24.8248,
+  "Pe_ttm": 25.6455,
+  "AnnDate": "20260324",
+  "EndDate": "20260320",
+  "HolderNum": 10902.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

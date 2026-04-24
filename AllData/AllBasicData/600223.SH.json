@@ -1,1 +1,17 @@
-﻿{"TsCode":"600223.SH","Name":"福瑞达","Market":"主板","Industry":"日用化工","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":44660.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600223.SH",
+  "Name": "福瑞达",
+  "Market": "主板",
+  "Industry": "日用化工",
+  "Total_mv": 679067.9417,
+  "Pe": 36.1684,
+  "Pe_ttm": 36.1684,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 44660.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

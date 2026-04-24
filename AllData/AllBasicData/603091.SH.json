@@ -1,1 +1,17 @@
-﻿{"TsCode":"603091.SH","Name":"众鑫股份","Market":"主板","Industry":"家居用品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260331","HolderNum":4379.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603091.SH",
+  "Name": "众鑫股份",
+  "Market": "主板",
+  "Industry": "家居用品",
+  "Total_mv": 839278.2517,
+  "Pe": 31.5245,
+  "Pe_ttm": 31.5245,
+  "AnnDate": "20260414",
+  "EndDate": "20260331",
+  "HolderNum": 4379.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

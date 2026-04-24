@@ -1,1 +1,17 @@
-﻿{"TsCode":"001306.SZ","Name":"夏厦精密","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":10618.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001306.SZ",
+  "Name": "夏厦精密",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 423675.8946,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 10618.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

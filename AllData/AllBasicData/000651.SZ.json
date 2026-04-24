@@ -1,1 +1,17 @@
-﻿{"TsCode":"000651.SZ","Name":"格力电器","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000651.SZ",
+  "Name": "格力电器",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 20702795.6187,
+  "Pe": 6.4325,
+  "Pe_ttm": 6.5339,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

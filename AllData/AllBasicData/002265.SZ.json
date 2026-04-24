@@ -1,1 +1,17 @@
-﻿{"TsCode":"002265.SZ","Name":"建设工业","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":72100.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002265.SZ",
+  "Name": "建设工业",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 2336737.4006,
+  "Pe": 100.4174,
+  "Pe_ttm": 100.3848,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 72100.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

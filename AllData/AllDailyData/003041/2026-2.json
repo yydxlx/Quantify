@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Total_mv": 895968.0,
     "Pe": 118.2085,
@@ -20,9 +20,9 @@
     "FiveDayAvgVol": 67457.313999999969,
     "TenDayAvgVol": 53594.763,
     "TwentyDayAvgVol": 44746.848000000005,
-    "Concentration70": 0.0,
-    "Concentration90": 0.0,
-    "ConcentrationPrice": 0.0
+    "Concentration70": 10.13,
+    "Concentration90": 13.27,
+    "ConcentrationPrice": 52.5
   },
   {
     "Total_mv": 883728.0,

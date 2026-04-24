@@ -1,1 +1,17 @@
-﻿{"TsCode":"600559.SH","Name":"老白干酒","Market":"主板","Industry":"白酒","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600559.SH",
+  "Name": "老白干酒",
+  "Market": "主板",
+  "Industry": "白酒",
+  "Total_mv": 1298026.623,
+  "Pe": 30.202,
+  "Pe_ttm": 29.3131,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600391.SH","Name":"航发科技","Market":"主板","Industry":"航空","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260228","HolderNum":54262.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600391.SH",
+  "Name": "航发科技",
+  "Market": "主板",
+  "Industry": "航空",
+  "Total_mv": 1343626.5237,
+  "Pe": 220.7117,
+  "Pe_ttm": 220.7117,
+  "AnnDate": "20260330",
+  "EndDate": "20260228",
+  "HolderNum": 54262.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"000400.SZ","Name":"许继电气","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":137627.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000400.SZ",
+  "Name": "许继电气",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 2663697.1811,
+  "Pe": 22.8211,
+  "Pe_ttm": 24.8786,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 137627.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

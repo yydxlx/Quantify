@@ -1,1 +1,17 @@
-﻿{"TsCode":"000955.SZ","Name":"欣龙控股","Market":"主板","Industry":"纺织","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":44666.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000955.SZ",
+  "Name": "欣龙控股",
+  "Market": "主板",
+  "Industry": "纺织",
+  "Total_mv": 268659.105,
+  "Pe": 3741.287,
+  "Pe_ttm": 3741.287,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 44666.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600560.SH","Name":"金自天正","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":17426.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600560.SH",
+  "Name": "金自天正",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 319813.065,
+  "Pe": 61.9753,
+  "Pe_ttm": 61.9753,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 17426.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

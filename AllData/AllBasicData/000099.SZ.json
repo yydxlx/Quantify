@@ -1,1 +1,17 @@
-﻿{"TsCode":"000099.SZ","Name":"中信海直","Market":"主板","Industry":"空运","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260228","HolderNum":123568.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000099.SZ",
+  "Name": "中信海直",
+  "Market": "主板",
+  "Industry": "空运",
+  "Total_mv": 1393283.1661,
+  "Pe": 45.1384,
+  "Pe_ttm": 45.1384,
+  "AnnDate": "20260317",
+  "EndDate": "20260228",
+  "HolderNum": 123568.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600668.SH","Name":"尖峰集团","Market":"主板","Industry":"水泥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260331","HolderNum":36252.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600668.SH",
+  "Name": "尖峰集团",
+  "Market": "主板",
+  "Industry": "水泥",
+  "Total_mv": 463687.3671,
+  "Pe": 11.2574,
+  "Pe_ttm": 11.2574,
+  "AnnDate": "20260414",
+  "EndDate": "20260331",
+  "HolderNum": 36252.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

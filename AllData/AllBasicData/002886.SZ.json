@@ -1,1 +1,17 @@
-﻿{"TsCode":"002886.SZ","Name":"沃特股份","Market":"主板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002886.SZ",
+  "Name": "沃特股份",
+  "Market": "主板",
+  "Industry": "塑料",
+  "Total_mv": 594840.0569,
+  "Pe": 92.3705,
+  "Pe_ttm": 92.3705,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

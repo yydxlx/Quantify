@@ -1,1 +1,17 @@
-﻿{"TsCode":"600305.SH","Name":"恒顺醋业","Market":"主板","Industry":"食品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":79781.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600305.SH",
+  "Name": "恒顺醋业",
+  "Market": "主板",
+  "Industry": "食品",
+  "Total_mv": 825427.7599,
+  "Pe": 57.4657,
+  "Pe_ttm": 57.4657,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 79781.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

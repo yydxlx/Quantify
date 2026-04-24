@@ -1,1 +1,17 @@
-﻿{"TsCode":"000960.SZ","Name":"锡业股份","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260228","HolderNum":130256.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000960.SZ",
+  "Name": "锡业股份",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 6148979.2046,
+  "Pe": 31.2737,
+  "Pe_ttm": 31.2737,
+  "AnnDate": "20260330",
+  "EndDate": "20260228",
+  "HolderNum": 130256.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

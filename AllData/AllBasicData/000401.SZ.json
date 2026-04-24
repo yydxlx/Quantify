@@ -1,1 +1,17 @@
-﻿{"TsCode":"000401.SZ","Name":"金隅冀东","Market":"主板","Industry":"水泥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":71881.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000401.SZ",
+  "Name": "金隅冀东",
+  "Market": "主板",
+  "Industry": "水泥",
+  "Total_mv": 1246703.8832,
+  "Pe": 57.0041,
+  "Pe_ttm": 57.0041,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 71881.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

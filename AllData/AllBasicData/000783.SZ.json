@@ -1,1 +1,17 @@
-﻿{"TsCode":"000783.SZ","Name":"长江证券","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000783.SZ",
+  "Name": "长江证券",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 3981652.5226,
+  "Pe": 21.6989,
+  "Pe_ttm": 10.5512,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

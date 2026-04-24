@@ -1,1 +1,17 @@
-﻿{"TsCode":"605099.SH","Name":"共创草坪","Market":"主板","Industry":"文教休闲","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":12345.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605099.SH",
+  "Name": "共创草坪",
+  "Market": "主板",
+  "Industry": "文教休闲",
+  "Total_mv": 1559839.8728,
+  "Pe": 30.5104,
+  "Pe_ttm": 24.648,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 12345.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

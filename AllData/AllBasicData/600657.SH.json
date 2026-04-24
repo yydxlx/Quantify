@@ -1,1 +1,17 @@
-﻿{"TsCode":"600657.SH","Name":"信达地产","Market":"主板","Industry":"全国地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260402","EndDate":"20260331","HolderNum":36862.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600657.SH",
+  "Name": "信达地产",
+  "Market": "主板",
+  "Industry": "全国地产",
+  "Total_mv": 844156.0641,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260402",
+  "EndDate": "20260331",
+  "HolderNum": 36862.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

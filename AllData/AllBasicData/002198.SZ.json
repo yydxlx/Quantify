@@ -1,1 +1,17 @@
-﻿{"TsCode":"002198.SZ","Name":"嘉应制药","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260408","EndDate":"20260331","HolderNum":23010.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002198.SZ",
+  "Name": "嘉应制药",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 374542.2678,
+  "Pe": 181.7143,
+  "Pe_ttm": 94.7428,
+  "AnnDate": "20260408",
+  "EndDate": "20260331",
+  "HolderNum": 23010.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

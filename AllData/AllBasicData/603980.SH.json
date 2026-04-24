@@ -1,1 +1,17 @@
-﻿{"TsCode":"603980.SH","Name":"吉华集团","Market":"主板","Industry":"染料涂料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260318","HolderNum":37357.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603980.SH",
+  "Name": "吉华集团",
+  "Market": "主板",
+  "Industry": "染料涂料",
+  "Total_mv": 425728.1834,
+  "Pe": 24.9964,
+  "Pe_ttm": 75.2715,
+  "AnnDate": "20260320",
+  "EndDate": "20260318",
+  "HolderNum": 37357.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

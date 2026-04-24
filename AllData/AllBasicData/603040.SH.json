@@ -1,1 +1,17 @@
-﻿{"TsCode":"603040.SH","Name":"新坐标","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603040.SH",
+  "Name": "新坐标",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 1123032.0241,
+  "Pe": 53.0721,
+  "Pe_ttm": 43.3319,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

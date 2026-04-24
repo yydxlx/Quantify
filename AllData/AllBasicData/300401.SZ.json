@@ -1,1 +1,17 @@
-﻿{"TsCode":"300401.SZ","Name":"花园生物","Market":"创业板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":25261.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300401.SZ",
+  "Name": "花园生物",
+  "Market": "创业板",
+  "Industry": "化学制药",
+  "Total_mv": 720382.6396,
+  "Pe": 23.6296,
+  "Pe_ttm": 27.8544,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 25261.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

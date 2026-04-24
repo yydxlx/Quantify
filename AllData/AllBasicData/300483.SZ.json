@@ -1,1 +1,17 @@
-﻿{"TsCode":"300483.SZ","Name":"首华燃气","Market":"创业板","Industry":"石油开采","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":19849.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300483.SZ",
+  "Name": "首华燃气",
+  "Market": "创业板",
+  "Industry": "石油开采",
+  "Total_mv": 811317.095,
+  "Pe": 47.9165,
+  "Pe_ttm": 47.9165,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 19849.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

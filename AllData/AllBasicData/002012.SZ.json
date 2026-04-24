@@ -1,1 +1,17 @@
-﻿{"TsCode":"002012.SZ","Name":"凯恩股份","Market":"主板","Industry":"造纸","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260228","HolderNum":24253.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002012.SZ",
+  "Name": "凯恩股份",
+  "Market": "主板",
+  "Industry": "造纸",
+  "Total_mv": 331078.8328,
+  "Pe": 104.447,
+  "Pe_ttm": 104.447,
+  "AnnDate": "20260326",
+  "EndDate": "20260228",
+  "HolderNum": 24253.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

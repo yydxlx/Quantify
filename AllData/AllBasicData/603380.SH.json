@@ -1,1 +1,17 @@
-﻿{"TsCode":"603380.SH","Name":"易德龙","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603380.SH",
+  "Name": "易德龙",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 563469.4944,
+  "Pe": 25.3596,
+  "Pe_ttm": 26.7112,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

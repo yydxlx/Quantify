@@ -1,1 +1,17 @@
-﻿{"TsCode":"000987.SZ","Name":"越秀资本","Market":"主板","Industry":"多元金融","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260409","EndDate":"20260331","HolderNum":106135.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000987.SZ",
+  "Name": "越秀资本",
+  "Market": "主板",
+  "Industry": "多元金融",
+  "Total_mv": 4575624.8053,
+  "Pe": 13.0013,
+  "Pe_ttm": 13.0013,
+  "AnnDate": "20260409",
+  "EndDate": "20260331",
+  "HolderNum": 106135.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

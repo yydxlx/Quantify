@@ -1,1 +1,17 @@
-﻿{"TsCode":"000728.SZ","Name":"国元证券","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":86804.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000728.SZ",
+  "Name": "国元证券",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 3211740.5278,
+  "Pe": 13.2379,
+  "Pe_ttm": 13.7982,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 86804.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

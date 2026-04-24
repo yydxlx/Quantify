@@ -1,1 +1,17 @@
-﻿{"TsCode":"002312.SZ","Name":"川发龙蟒","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260310","HolderNum":175017.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002312.SZ",
+  "Name": "川发龙蟒",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 2157651.6659,
+  "Pe": 40.4883,
+  "Pe_ttm": 39.6002,
+  "AnnDate": "20260320",
+  "EndDate": "20260310",
+  "HolderNum": 175017.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

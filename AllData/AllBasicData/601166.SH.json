@@ -1,1 +1,17 @@
-﻿{"TsCode":"601166.SH","Name":"兴业银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":274392.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601166.SH",
+  "Name": "兴业银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 38516400.2733,
+  "Pe": 4.9718,
+  "Pe_ttm": 4.9718,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 274392.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

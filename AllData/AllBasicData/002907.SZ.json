@@ -1,1 +1,17 @@
-﻿{"TsCode":"002907.SZ","Name":"华森制药","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002907.SZ",
+  "Name": "华森制药",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 579623.6838,
+  "Pe": 75.5405,
+  "Pe_ttm": 77.6882,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

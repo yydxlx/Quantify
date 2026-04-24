@@ -1,1 +1,17 @@
-﻿{"TsCode":"000919.SZ","Name":"金陵药业","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":33430.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000919.SZ",
+  "Name": "金陵药业",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 464577.6224,
+  "Pe": 86.1691,
+  "Pe_ttm": 86.1691,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 33430.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

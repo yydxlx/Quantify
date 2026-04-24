@@ -1,1 +1,17 @@
-﻿{"TsCode":"600805.SH","Name":"悦达投资","Market":"主板","Industry":"综合类","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":36818.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600805.SH",
+  "Name": "悦达投资",
+  "Market": "主板",
+  "Industry": "综合类",
+  "Total_mv": 449272.2928,
+  "Pe": 121.848,
+  "Pe_ttm": 121.848,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 36818.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

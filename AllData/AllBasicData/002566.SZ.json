@@ -1,1 +1,17 @@
-﻿{"TsCode":"002566.SZ","Name":"益盛药业","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":20578.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002566.SZ",
+  "Name": "益盛药业",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 250530.3612,
+  "Pe": 86.3919,
+  "Pe_ttm": 86.3919,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 20578.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

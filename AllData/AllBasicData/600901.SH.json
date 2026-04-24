@@ -1,1 +1,17 @@
-﻿{"TsCode":"600901.SH","Name":"江苏金租","Market":"主板","Industry":"多元金融","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260310","HolderNum":48991.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600901.SH",
+  "Name": "江苏金租",
+  "Market": "主板",
+  "Industry": "多元金融",
+  "Total_mv": 4158560.0975,
+  "Pe": 14.1316,
+  "Pe_ttm": 13.1538,
+  "AnnDate": "20260318",
+  "EndDate": "20260310",
+  "HolderNum": 48991.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603823.SH","Name":"百合花","Market":"主板","Industry":"染料涂料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603823.SH",
+  "Name": "百合花",
+  "Market": "主板",
+  "Industry": "染料涂料",
+  "Total_mv": 674515.6805,
+  "Pe": 40.4065,
+  "Pe_ttm": 40.4065,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

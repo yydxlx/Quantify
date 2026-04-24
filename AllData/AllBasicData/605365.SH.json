@@ -1,1 +1,17 @@
-﻿{"TsCode":"605365.SH","Name":"立达信","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605365.SH",
+  "Name": "立达信",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 1606441.2032,
+  "Pe": 38.4427,
+  "Pe_ttm": 60.3248,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

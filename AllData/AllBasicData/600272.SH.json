@@ -1,1 +1,17 @@
-﻿{"TsCode":"600272.SH","Name":"开开实业","Market":"主板","Industry":"医药商业","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":35152.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600272.SH",
+  "Name": "开开实业",
+  "Market": "主板",
+  "Industry": "医药商业",
+  "Total_mv": 319122.1132,
+  "Pe": 246.6639,
+  "Pe_ttm": 246.6639,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 35152.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

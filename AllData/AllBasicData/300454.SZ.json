@@ -1,1 +1,17 @@
-﻿{"TsCode":"300454.SZ","Name":"深信服","Market":"创业板","Industry":"软件服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":50571.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300454.SZ",
+  "Name": "深信服",
+  "Market": "创业板",
+  "Industry": "软件服务",
+  "Total_mv": 4677237.0381,
+  "Pe": 119.0767,
+  "Pe_ttm": 119.0767,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 50571.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

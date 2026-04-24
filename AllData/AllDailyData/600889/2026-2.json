@@ -1,5 +1,30 @@
 [
   {
+    "Total_mv": 887248.4912,
+    "Pe": 0.0,
+    "Pe_ttm": 0.0,
+    "TsCode": "600889.SH",
+    "TradeDate": "20260422",
+    "Open": 15.31,
+    "High": 16.15,
+    "Low": 15.31,
+    "Close": 15.9,
+    "Vol": 83024.53,
+    "Amount": 131506.454,
+    "PctChg": 3.1128,
+    "macdData": null,
+    "kdjData": null,
+    "FiveDayAvgPrice": 0.0,
+    "TenDayAvgPrice": 0.0,
+    "TwentyDayAvgPrice": 0.0,
+    "FiveDayAvgVol": 0.0,
+    "TenDayAvgVol": 0.0,
+    "TwentyDayAvgVol": 0.0,
+    "Concentration70": 0.0,
+    "Concentration90": 0.0,
+    "ConcentrationPrice": 0.0
+  },
+  {
     "Total_mv": 860463.6311,
     "Pe": 0.0,
     "Pe_ttm": 0.0,
@@ -20,9 +45,9 @@
     "FiveDayAvgVol": 41261.412,
     "TenDayAvgVol": 42853.287,
     "TwentyDayAvgVol": 39145.7285,
-    "Concentration70": 0.0,
-    "Concentration90": 0.0,
-    "ConcentrationPrice": 0.0
+    "Concentration70": 9.8,
+    "Concentration90": 12.66,
+    "ConcentrationPrice": 16.4
   },
   {
     "Total_mv": 843723.0935,

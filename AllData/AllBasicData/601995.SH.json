@@ -1,1 +1,17 @@
-﻿{"TsCode":"601995.SH","Name":"中金公司","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601995.SH",
+  "Name": "中金公司",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 16494736.718,
+  "Pe": 16.8476,
+  "Pe_ttm": 16.8476,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

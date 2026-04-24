@@ -1,1 +1,17 @@
-﻿{"TsCode":"001270.SZ","Name":"*ST铖昌","Market":"主板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":39791.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001270.SZ",
+  "Name": "*ST铖昌",
+  "Market": "主板",
+  "Industry": "半导体",
+  "Total_mv": 3283410.3729,
+  "Pe": 280.3701,
+  "Pe_ttm": 280.3701,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 39791.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

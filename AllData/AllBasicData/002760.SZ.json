@@ -1,1 +1,17 @@
-﻿{"TsCode":"002760.SZ","Name":"凤形股份","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260409","EndDate":"20260331","HolderNum":14157.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002760.SZ",
+  "Name": "凤形股份",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 239842.916,
+  "Pe": 118.9043,
+  "Pe_ttm": 118.9043,
+  "AnnDate": "20260409",
+  "EndDate": "20260331",
+  "HolderNum": 14157.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

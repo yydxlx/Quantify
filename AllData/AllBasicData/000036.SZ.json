@@ -1,1 +1,17 @@
-﻿{"TsCode":"000036.SZ","Name":"华联控股","Market":"主板","Industry":"全国地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":50257.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000036.SZ",
+  "Name": "华联控股",
+  "Market": "主板",
+  "Industry": "全国地产",
+  "Total_mv": 708928.4561,
+  "Pe": 174.9923,
+  "Pe_ttm": 182.9987,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 50257.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

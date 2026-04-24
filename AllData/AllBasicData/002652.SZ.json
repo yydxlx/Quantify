@@ -1,1 +1,17 @@
-﻿{"TsCode":"002652.SZ","Name":"扬子新材","Market":"主板","Industry":"其他建材","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260410","HolderNum":21712.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002652.SZ",
+  "Name": "扬子新材",
+  "Market": "主板",
+  "Industry": "其他建材",
+  "Total_mv": 239645.952,
+  "Pe": 341.9104,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260415",
+  "EndDate": "20260410",
+  "HolderNum": 21712.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

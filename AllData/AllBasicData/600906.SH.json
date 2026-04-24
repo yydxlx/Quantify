@@ -1,1 +1,17 @@
-﻿{"TsCode":"600906.SH","Name":"财达证券","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600906.SH",
+  "Name": "财达证券",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 2050840.0,
+  "Pe": 29.8721,
+  "Pe_ttm": 20.914,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

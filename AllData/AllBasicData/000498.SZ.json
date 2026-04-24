@@ -1,1 +1,17 @@
-﻿{"TsCode":"000498.SZ","Name":"山东路桥","Market":"主板","Industry":"建筑工程","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":43698.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000498.SZ",
+  "Name": "山东路桥",
+  "Market": "主板",
+  "Industry": "建筑工程",
+  "Total_mv": 894206.2815,
+  "Pe": 4.0149,
+  "Pe_ttm": 4.0149,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 43698.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002572.SZ","Name":"索菲亚","Market":"主板","Industry":"家居用品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":38824.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002572.SZ",
+  "Name": "索菲亚",
+  "Market": "主板",
+  "Industry": "家居用品",
+  "Total_mv": 1209587.238,
+  "Pe": 13.4207,
+  "Pe_ttm": 13.4207,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 38824.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

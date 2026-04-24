@@ -1,1 +1,17 @@
-﻿{"TsCode":"600235.SH","Name":"民丰特纸","Market":"主板","Industry":"造纸","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":17090.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600235.SH",
+  "Name": "民丰特纸",
+  "Market": "主板",
+  "Industry": "造纸",
+  "Total_mv": 235722.3,
+  "Pe": 144.7598,
+  "Pe_ttm": 144.7598,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 17090.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"601101.SH","Name":"昊华能源","Market":"主板","Industry":"煤炭开采","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601101.SH",
+  "Name": "昊华能源",
+  "Market": "主板",
+  "Industry": "煤炭开采",
+  "Total_mv": 1347838.0587,
+  "Pe": 26.3036,
+  "Pe_ttm": 24.2568,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

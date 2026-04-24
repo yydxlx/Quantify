@@ -1,1 +1,17 @@
-﻿{"TsCode":"002839.SZ","Name":"张家港行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":46567.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002839.SZ",
+  "Name": "张家港行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 1163508.2076,
+  "Pe": 5.8794,
+  "Pe_ttm": 5.8794,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 46567.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"920304.BJ","Name":"迪尔化工","Market":"北交所","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920304.BJ",
+  "Name": "迪尔化工",
+  "Market": "北交所",
+  "Industry": "化工原料",
+  "Total_mv": 203276.062,
+  "Pe": 34.8028,
+  "Pe_ttm": 38.155,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

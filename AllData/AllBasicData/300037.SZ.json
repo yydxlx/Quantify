@@ -1,1 +1,17 @@
-﻿{"TsCode":"300037.SZ","Name":"新宙邦","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260228","HolderNum":43937.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300037.SZ",
+  "Name": "新宙邦",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 4684414.8927,
+  "Pe": 42.6905,
+  "Pe_ttm": 42.6905,
+  "AnnDate": "20260324",
+  "EndDate": "20260228",
+  "HolderNum": 43937.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

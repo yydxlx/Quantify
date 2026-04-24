@@ -1,1 +1,17 @@
-﻿{"TsCode":"600919.SH","Name":"江苏银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600919.SH",
+  "Name": "江苏银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 20553483.3986,
+  "Pe": 6.4546,
+  "Pe_ttm": 6.0114,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

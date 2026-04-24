@@ -1,1 +1,17 @@
-﻿{"TsCode":"002244.SZ","Name":"滨江集团","Market":"主板","Industry":"区域地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":28290.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002244.SZ",
+  "Name": "滨江集团",
+  "Market": "主板",
+  "Industry": "区域地产",
+  "Total_mv": 3183007.0995,
+  "Pe": 12.5031,
+  "Pe_ttm": 9.6254,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 28290.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

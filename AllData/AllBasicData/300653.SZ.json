@@ -1,1 +1,17 @@
-﻿{"TsCode":"300653.SZ","Name":"正海生物","Market":"创业板","Industry":"医疗保健","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":15956.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300653.SZ",
+  "Name": "正海生物",
+  "Market": "创业板",
+  "Industry": "医疗保健",
+  "Total_mv": 333900.0,
+  "Pe": 40.5169,
+  "Pe_ttm": 47.3398,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 15956.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002664.SZ","Name":"信质集团","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":38379.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002664.SZ",
+  "Name": "信质集团",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 815991.8,
+  "Pe": 61.0425,
+  "Pe_ttm": 52.3697,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 38379.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

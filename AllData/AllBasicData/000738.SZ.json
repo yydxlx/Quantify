@@ -1,1 +1,17 @@
-﻿{"TsCode":"000738.SZ","Name":"航发控制","Market":"主板","Industry":"航空","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":104102.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000738.SZ",
+  "Name": "航发控制",
+  "Market": "主板",
+  "Industry": "航空",
+  "Total_mv": 2821069.6821,
+  "Pe": 84.356,
+  "Pe_ttm": 84.356,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 104102.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

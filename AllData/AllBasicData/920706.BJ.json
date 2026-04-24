@@ -1,1 +1,17 @@
-﻿{"TsCode":"920706.BJ","Name":"铁拓机械","Market":"北交所","Industry":"工程机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920706.BJ",
+  "Name": "铁拓机械",
+  "Market": "北交所",
+  "Industry": "工程机械",
+  "Total_mv": 219000.4307,
+  "Pe": 45.452,
+  "Pe_ttm": 45.452,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

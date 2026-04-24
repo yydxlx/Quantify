@@ -1,1 +1,17 @@
-﻿{"TsCode":"001238.SZ","Name":"浙江正特","Market":"主板","Industry":"家居用品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":4321.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001238.SZ",
+  "Name": "浙江正特",
+  "Market": "主板",
+  "Industry": "家居用品",
+  "Total_mv": 520632.36,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 4321.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

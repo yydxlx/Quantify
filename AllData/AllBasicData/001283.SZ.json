@@ -1,1 +1,17 @@
-﻿{"TsCode":"001283.SZ","Name":"豪鹏科技","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":27398.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001283.SZ",
+  "Name": "豪鹏科技",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 730883.649,
+  "Pe": 35.9908,
+  "Pe_ttm": 35.9908,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 27398.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

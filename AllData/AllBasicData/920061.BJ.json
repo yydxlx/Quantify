@@ -1,1 +1,17 @@
-﻿{"TsCode":"920061.BJ","Name":"西磁科技","Market":"北交所","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":5218.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920061.BJ",
+  "Name": "西磁科技",
+  "Market": "北交所",
+  "Industry": "专用机械",
+  "Total_mv": 167064.4,
+  "Pe": 376.6504,
+  "Pe_ttm": 360.5423,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 5218.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

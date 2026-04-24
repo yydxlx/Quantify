@@ -1,1 +1,17 @@
-﻿{"TsCode":"300179.SZ","Name":"四方达","Market":"创业板","Industry":"矿物制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260402","EndDate":"20260331","HolderNum":44211.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300179.SZ",
+  "Name": "四方达",
+  "Market": "创业板",
+  "Industry": "矿物制品",
+  "Total_mv": 1357598.3844,
+  "Pe": 145.6902,
+  "Pe_ttm": 133.1618,
+  "AnnDate": "20260402",
+  "EndDate": "20260331",
+  "HolderNum": 44211.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

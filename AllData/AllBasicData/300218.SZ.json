@@ -1,1 +1,17 @@
-﻿{"TsCode":"300218.SZ","Name":"安利股份","Market":"创业板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260320","HolderNum":17467.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300218.SZ",
+  "Name": "安利股份",
+  "Market": "创业板",
+  "Industry": "塑料",
+  "Total_mv": 309640.449,
+  "Pe": 23.5738,
+  "Pe_ttm": 23.5738,
+  "AnnDate": "20260414",
+  "EndDate": "20260320",
+  "HolderNum": 17467.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

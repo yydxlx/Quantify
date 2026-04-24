@@ -1,1 +1,17 @@
-﻿{"TsCode":"000020.SZ","Name":"深华发Ａ","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000020.SZ",
+  "Name": "深华发Ａ",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 438616.7406,
+  "Pe": 123.7602,
+  "Pe_ttm": 126.3286,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

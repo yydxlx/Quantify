@@ -1,1 +1,17 @@
-﻿{"TsCode":"002096.SZ","Name":"易普力","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":26088.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002096.SZ",
+  "Name": "易普力",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 1447594.3786,
+  "Pe": 18.2633,
+  "Pe_ttm": 18.2633,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 26088.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

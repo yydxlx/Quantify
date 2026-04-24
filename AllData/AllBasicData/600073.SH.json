@@ -1,1 +1,17 @@
-﻿{"TsCode":"600073.SH","Name":"光明肉业","Market":"主板","Industry":"食品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":48772.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600073.SH",
+  "Name": "光明肉业",
+  "Market": "主板",
+  "Industry": "食品",
+  "Total_mv": 547634.0116,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 48772.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

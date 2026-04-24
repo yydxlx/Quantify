@@ -1,1 +1,17 @@
-﻿{"TsCode":"603129.SH","Name":"春风动力","Market":"主板","Industry":"摩托车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":15786.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603129.SH",
+  "Name": "春风动力",
+  "Market": "主板",
+  "Industry": "摩托车",
+  "Total_mv": 4176265.9812,
+  "Pe": 24.9274,
+  "Pe_ttm": 24.8162,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 15786.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

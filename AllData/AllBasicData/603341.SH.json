@@ -1,1 +1,17 @@
-﻿{"TsCode":"603341.SH","Name":"龙旗科技","Market":"主板","Industry":"通信设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":46837.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603341.SH",
+  "Name": "龙旗科技",
+  "Market": "主板",
+  "Industry": "通信设备",
+  "Total_mv": 1959192.3244,
+  "Pe": 33.4838,
+  "Pe_ttm": 33.4838,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 46837.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

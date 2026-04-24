@@ -1,1 +1,17 @@
-﻿{"TsCode":"300222.SZ","Name":"科大智能","Market":"创业板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260228","HolderNum":71940.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300222.SZ",
+  "Name": "科大智能",
+  "Market": "创业板",
+  "Industry": "电气设备",
+  "Total_mv": 852996.2325,
+  "Pe": 105.6045,
+  "Pe_ttm": 98.0875,
+  "AnnDate": "20260317",
+  "EndDate": "20260228",
+  "HolderNum": 71940.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"300007.SZ","Name":"汉威科技","Market":"创业板","Industry":"电器仪表","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":78828.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300007.SZ",
+  "Name": "汉威科技",
+  "Market": "创业板",
+  "Industry": "电器仪表",
+  "Total_mv": 1409325.9442,
+  "Pe": 88.7399,
+  "Pe_ttm": 88.7399,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 78828.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

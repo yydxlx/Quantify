@@ -1,1 +1,17 @@
-﻿{"TsCode":"002490.SZ","Name":"山东墨龙","Market":"主板","Industry":"化工机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":70834.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002490.SZ",
+  "Name": "山东墨龙",
+  "Market": "主板",
+  "Industry": "化工机械",
+  "Total_mv": 779497.8868,
+  "Pe": 1511.9433,
+  "Pe_ttm": 1466.2264,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 70834.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

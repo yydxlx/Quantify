@@ -1,1 +1,17 @@
-﻿{"TsCode":"600763.SH","Name":"通策医疗","Market":"主板","Industry":"医疗保健","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":90510.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600763.SH",
+  "Name": "通策医疗",
+  "Market": "主板",
+  "Industry": "医疗保健",
+  "Total_mv": 1907688.084,
+  "Pe": 38.0059,
+  "Pe_ttm": 37.7838,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 90510.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

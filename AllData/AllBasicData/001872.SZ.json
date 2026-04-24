@@ -1,1 +1,17 @@
-﻿{"TsCode":"001872.SZ","Name":"招商港口","Market":"主板","Industry":"港口","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":27189.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001872.SZ",
+  "Name": "招商港口",
+  "Market": "主板",
+  "Industry": "港口",
+  "Total_mv": 5484992.7789,
+  "Pe": 11.8945,
+  "Pe_ttm": 11.8945,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 27189.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

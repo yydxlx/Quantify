@@ -1,1 +1,17 @@
-﻿{"TsCode":"000563.SZ","Name":"陕国投Ａ","Market":"主板","Industry":"多元金融","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":98331.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000563.SZ",
+  "Name": "陕国投Ａ",
+  "Market": "主板",
+  "Industry": "多元金融",
+  "Total_mv": 1733635.9514,
+  "Pe": 12.1016,
+  "Pe_ttm": 12.1016,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 98331.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

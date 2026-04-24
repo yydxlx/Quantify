@@ -1,1 +1,17 @@
-﻿{"TsCode":"605507.SH","Name":"国邦医药","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":19444.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605507.SH",
+  "Name": "国邦医药",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 1340617.5765,
+  "Pe": 16.3327,
+  "Pe_ttm": 17.4907,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 19444.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600018.SH","Name":"上港集团","Market":"主板","Industry":"港口","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":168201.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600018.SH",
+  "Name": "上港集团",
+  "Market": "主板",
+  "Industry": "港口",
+  "Total_mv": 11453740.568,
+  "Pe": 8.4439,
+  "Pe_ttm": 8.4439,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 168201.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

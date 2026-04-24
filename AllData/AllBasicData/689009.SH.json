@@ -1,1 +1,17 @@
-﻿{"TsCode":"689009.SH","Name":"九号公司-WD","Market":"科创板","Industry":"摩托车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":34411.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "689009.SH",
+  "Name": "九号公司-WD",
+  "Market": "科创板",
+  "Industry": "摩托车",
+  "Total_mv": 3168851.1643,
+  "Pe": 18.0236,
+  "Pe_ttm": 18.0236,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 34411.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

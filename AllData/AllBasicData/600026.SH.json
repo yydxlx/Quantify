@@ -1,1 +1,17 @@
-﻿{"TsCode":"600026.SH","Name":"中远海能","Market":"主板","Industry":"水运","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":70803.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600026.SH",
+  "Name": "中远海能",
+  "Market": "主板",
+  "Industry": "水运",
+  "Total_mv": 11722898.6997,
+  "Pe": 29.0364,
+  "Pe_ttm": 29.0364,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 70803.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

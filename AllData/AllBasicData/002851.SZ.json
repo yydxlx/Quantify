@@ -1,1 +1,17 @@
-﻿{"TsCode":"002851.SZ","Name":"麦格米特","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260406","EndDate":"20260331","HolderNum":74000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002851.SZ",
+  "Name": "麦格米特",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 6190600.1562,
+  "Pe": 141.9466,
+  "Pe_ttm": 260.5522,
+  "AnnDate": "20260406",
+  "EndDate": "20260331",
+  "HolderNum": 74000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

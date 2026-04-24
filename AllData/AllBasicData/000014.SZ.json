@@ -1,1 +1,17 @@
-﻿{"TsCode":"000014.SZ","Name":"沙河股份","Market":"主板","Industry":"全国地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260228","HolderNum":32060.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000014.SZ",
+  "Name": "沙河股份",
+  "Market": "主板",
+  "Industry": "全国地产",
+  "Total_mv": 317806.6921,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260318",
+  "EndDate": "20260228",
+  "HolderNum": 32060.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

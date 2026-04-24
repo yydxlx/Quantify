@@ -1,1 +1,17 @@
-﻿{"TsCode":"002427.SZ","Name":"尤夫股份","Market":"主板","Industry":"化纤","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002427.SZ",
+  "Name": "尤夫股份",
+  "Market": "主板",
+  "Industry": "化纤",
+  "Total_mv": 618851.784,
+  "Pe": 0.0,
+  "Pe_ttm": 227.264,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

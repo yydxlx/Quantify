@@ -1,1 +1,17 @@
-﻿{"TsCode":"001289.SZ","Name":"龙源电力","Market":"主板","Industry":"新型电力","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":40245.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001289.SZ",
+  "Name": "龙源电力",
+  "Market": "主板",
+  "Industry": "新型电力",
+  "Total_mv": 13676659.2443,
+  "Pe": 30.2165,
+  "Pe_ttm": 30.2165,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 40245.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

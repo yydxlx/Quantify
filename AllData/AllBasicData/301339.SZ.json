@@ -1,1 +1,17 @@
-﻿{"TsCode":"301339.SZ","Name":"通行宝","Market":"创业板","Industry":"IT设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":19110.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301339.SZ",
+  "Name": "通行宝",
+  "Market": "创业板",
+  "Industry": "IT设备",
+  "Total_mv": 761397.3158,
+  "Pe": 34.4514,
+  "Pe_ttm": 33.6659,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 19110.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

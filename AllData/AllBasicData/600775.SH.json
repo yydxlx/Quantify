@@ -1,1 +1,17 @@
-﻿{"TsCode":"600775.SH","Name":"南京熊猫","Market":"主板","Industry":"通信设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":137724.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600775.SH",
+  "Name": "南京熊猫",
+  "Market": "主板",
+  "Industry": "通信设备",
+  "Total_mv": 1200783.8271,
+  "Pe": 1118.9119,
+  "Pe_ttm": 1118.9119,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 137724.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

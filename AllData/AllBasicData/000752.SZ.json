@@ -1,1 +1,17 @@
-﻿{"TsCode":"000752.SZ","Name":"ST西发","Market":"主板","Industry":"啤酒","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260331","HolderNum":16055.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000752.SZ",
+  "Name": "ST西发",
+  "Market": "主板",
+  "Industry": "啤酒",
+  "Total_mv": 260065.8721,
+  "Pe": 99.2759,
+  "Pe_ttm": 17.6782,
+  "AnnDate": "20260414",
+  "EndDate": "20260331",
+  "HolderNum": 16055.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

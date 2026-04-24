@@ -1,1 +1,17 @@
-﻿{"TsCode":"600801.SH","Name":"华新建材","Market":"主板","Industry":"水泥","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":30558.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600801.SH",
+  "Name": "华新建材",
+  "Market": "主板",
+  "Industry": "水泥",
+  "Total_mv": 4781689.9927,
+  "Pe": 16.7583,
+  "Pe_ttm": 16.7583,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 30558.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

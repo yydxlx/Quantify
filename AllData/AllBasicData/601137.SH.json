@@ -1,1 +1,17 @@
-﻿{"TsCode":"601137.SH","Name":"博威合金","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":57644.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601137.SH",
+  "Name": "博威合金",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 1848916.8473,
+  "Pe": 148.0379,
+  "Pe_ttm": 148.0379,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 57644.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

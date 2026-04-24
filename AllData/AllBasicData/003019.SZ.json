@@ -1,1 +1,17 @@
-﻿{"TsCode":"003019.SZ","Name":"宸展光电","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260228","HolderNum":19171.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "003019.SZ",
+  "Name": "宸展光电",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 637596.9191,
+  "Pe": 32.8349,
+  "Pe_ttm": 32.8349,
+  "AnnDate": "20260318",
+  "EndDate": "20260228",
+  "HolderNum": 19171.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"000426.SZ","Name":"兴业银锡","Market":"主板","Industry":"铅锌","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":197003.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000426.SZ",
+  "Name": "兴业银锡",
+  "Market": "主板",
+  "Industry": "铅锌",
+  "Total_mv": 7297862.8873,
+  "Pe": 42.8218,
+  "Pe_ttm": 42.8218,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 197003.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

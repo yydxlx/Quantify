@@ -1,1 +1,17 @@
-﻿{"TsCode":"603151.SH","Name":"邦基科技","Market":"主板","Industry":"饲料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":11112.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603151.SH",
+  "Name": "邦基科技",
+  "Market": "主板",
+  "Industry": "饲料",
+  "Total_mv": 259920.0394,
+  "Pe": 23.4482,
+  "Pe_ttm": 29.9134,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 11112.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002035.SZ","Name":"华帝股份","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":36694.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002035.SZ",
+  "Name": "华帝股份",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 522154.6287,
+  "Pe": 10.7729,
+  "Pe_ttm": 11.9579,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 36694.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"605020.SH","Name":"永和股份","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":30438.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605020.SH",
+  "Name": "永和股份",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 1348561.4287,
+  "Pe": 24.0115,
+  "Pe_ttm": 20.9235,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 30438.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

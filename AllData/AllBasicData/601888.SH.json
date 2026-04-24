@@ -1,1 +1,17 @@
-﻿{"TsCode":"601888.SH","Name":"中国中免","Market":"主板","Industry":"旅游服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":340741.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601888.SH",
+  "Name": "中国中免",
+  "Market": "主板",
+  "Industry": "旅游服务",
+  "Total_mv": 13771636.1564,
+  "Pe": 38.402,
+  "Pe_ttm": 38.402,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 340741.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

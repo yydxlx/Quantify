@@ -1,1 +1,17 @@
-﻿{"TsCode":"601162.SH","Name":"天风证券","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601162.SH",
+  "Name": "天风证券",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 3767670.4775,
+  "Pe": 0.0,
+  "Pe_ttm": 57.1008,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

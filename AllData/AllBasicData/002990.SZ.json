@@ -1,1 +1,17 @@
-﻿{"TsCode":"002990.SZ","Name":"盛视科技","Market":"主板","Industry":"软件服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":22369.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002990.SZ",
+  "Name": "盛视科技",
+  "Market": "主板",
+  "Industry": "软件服务",
+  "Total_mv": 1288050.6668,
+  "Pe": 150.9767,
+  "Pe_ttm": 150.9767,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 22369.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

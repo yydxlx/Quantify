@@ -1,1 +1,17 @@
-﻿{"TsCode":"000600.SZ","Name":"建投能源","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000600.SZ",
+  "Name": "建投能源",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 1704056.4853,
+  "Pe": 32.0818,
+  "Pe_ttm": 10.1549,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

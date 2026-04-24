@@ -1,1 +1,17 @@
-﻿{"TsCode":"002527.SZ","Name":"新时达","Market":"主板","Industry":"电器仪表","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":60145.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002527.SZ",
+  "Name": "新时达",
+  "Market": "主板",
+  "Industry": "电器仪表",
+  "Total_mv": 859990.4944,
+  "Pe": 1561.4249,
+  "Pe_ttm": 1561.4249,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 60145.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

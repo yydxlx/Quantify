@@ -1,1 +1,17 @@
-﻿{"TsCode":"601339.SH","Name":"百隆东方","Market":"主板","Industry":"纺织","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":19738.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601339.SH",
+  "Name": "百隆东方",
+  "Market": "主板",
+  "Industry": "纺织",
+  "Total_mv": 1237144.425,
+  "Pe": 18.8551,
+  "Pe_ttm": 18.8551,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 19738.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

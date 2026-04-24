@@ -1,1 +1,17 @@
-﻿{"TsCode":"601319.SH","Name":"中国人保","Market":"主板","Industry":"保险","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":140086.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601319.SH",
+  "Name": "中国人保",
+  "Market": "主板",
+  "Industry": "保险",
+  "Total_mv": 32150841.1538,
+  "Pe": 6.8925,
+  "Pe_ttm": 6.8925,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 140086.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

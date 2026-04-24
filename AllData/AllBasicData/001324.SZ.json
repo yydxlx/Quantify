@@ -1,1 +1,17 @@
-﻿{"TsCode":"001324.SZ","Name":"长青科技","Market":"主板","Industry":"运输设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":13891.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001324.SZ",
+  "Name": "长青科技",
+  "Market": "主板",
+  "Industry": "运输设备",
+  "Total_mv": 280140.0,
+  "Pe": 46.5503,
+  "Pe_ttm": 58.1914,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 13891.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600499.SH","Name":"科达制造","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":55732.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600499.SH",
+  "Name": "科达制造",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 3454059.3602,
+  "Pe": 26.3898,
+  "Pe_ttm": 26.3898,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 55732.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

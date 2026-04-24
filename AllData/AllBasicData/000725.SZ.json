@@ -1,1 +1,17 @@
-﻿{"TsCode":"000725.SZ","Name":"京东方Ａ","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":981480.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000725.SZ",
+  "Name": "京东方Ａ",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 15521573.4588,
+  "Pe": 26.501,
+  "Pe_ttm": 26.501,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 981480.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

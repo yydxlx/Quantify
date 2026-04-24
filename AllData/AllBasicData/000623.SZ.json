@@ -1,1 +1,17 @@
-﻿{"TsCode":"000623.SZ","Name":"吉林敖东","Market":"主板","Industry":"中成药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":63885.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000623.SZ",
+  "Name": "吉林敖东",
+  "Market": "主板",
+  "Industry": "中成药",
+  "Total_mv": 2143044.5335,
+  "Pe": 8.9471,
+  "Pe_ttm": 8.9471,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 63885.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

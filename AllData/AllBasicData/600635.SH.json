@@ -1,1 +1,17 @@
-﻿{"TsCode":"600635.SH","Name":"大众公用","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":183889.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600635.SH",
+  "Name": "大众公用",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 1614981.7672,
+  "Pe": 38.8992,
+  "Pe_ttm": 38.8992,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 183889.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

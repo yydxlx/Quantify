@@ -1,1 +1,17 @@
-﻿{"TsCode":"000025.SZ","Name":"特力Ａ","Market":"主板","Industry":"综合类","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260310","HolderNum":47785.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000025.SZ",
+  "Name": "特力Ａ",
+  "Market": "主板",
+  "Industry": "综合类",
+  "Total_mv": 677192.6207,
+  "Pe": 47.4007,
+  "Pe_ttm": 47.4007,
+  "AnnDate": "20260317",
+  "EndDate": "20260310",
+  "HolderNum": 47785.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

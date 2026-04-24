@@ -1,1 +1,17 @@
-﻿{"TsCode":"603505.SH","Name":"金石资源","Market":"主板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603505.SH",
+  "Name": "金石资源",
+  "Market": "主板",
+  "Industry": "化工原料",
+  "Total_mv": 1492278.8054,
+  "Pe": 45.8088,
+  "Pe_ttm": 45.8088,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002967.SZ","Name":"广电计量","Market":"主板","Industry":"电器仪表","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":30655.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002967.SZ",
+  "Name": "广电计量",
+  "Market": "主板",
+  "Industry": "电器仪表",
+  "Total_mv": 1382897.4958,
+  "Pe": 32.5742,
+  "Pe_ttm": 31.671,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 30655.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

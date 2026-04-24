@@ -1,1 +1,17 @@
-﻿{"TsCode":"600099.SH","Name":"林海股份","Market":"主板","Industry":"汽车整车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":12821.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600099.SH",
+  "Name": "林海股份",
+  "Market": "主板",
+  "Industry": "汽车整车",
+  "Total_mv": 246729.12,
+  "Pe": 100.4895,
+  "Pe_ttm": 100.4895,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 12821.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

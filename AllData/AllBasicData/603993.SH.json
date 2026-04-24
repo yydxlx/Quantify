@@ -1,1 +1,17 @@
-﻿{"TsCode":"603993.SH","Name":"洛阳钼业","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":810811.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603993.SH",
+  "Name": "洛阳钼业",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 41419384.5007,
+  "Pe": 20.3648,
+  "Pe_ttm": 20.3648,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 810811.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

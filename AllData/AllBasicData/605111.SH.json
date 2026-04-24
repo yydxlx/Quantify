@@ -1,1 +1,17 @@
-﻿{"TsCode":"605111.SH","Name":"新洁能","Market":"主板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":75384.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605111.SH",
+  "Name": "新洁能",
+  "Market": "主板",
+  "Industry": "半导体",
+  "Total_mv": 1581586.4151,
+  "Pe": 40.1793,
+  "Pe_ttm": 40.1793,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 75384.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"688206.SH","Name":"概伦电子","Market":"科创板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":15522.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688206.SH",
+  "Name": "概伦电子",
+  "Market": "科创板",
+  "Industry": "半导体",
+  "Total_mv": 1455669.9183,
+  "Pe": 425.0975,
+  "Pe_ttm": 425.0975,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 15522.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603899.SH","Name":"晨光股份","Market":"主板","Industry":"文教休闲","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":39889.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603899.SH",
+  "Name": "晨光股份",
+  "Market": "主板",
+  "Industry": "文教休闲",
+  "Total_mv": 2293216.2387,
+  "Pe": 17.4995,
+  "Pe_ttm": 17.4995,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 39889.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

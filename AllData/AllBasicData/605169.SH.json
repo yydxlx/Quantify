@@ -1,1 +1,17 @@
-﻿{"TsCode":"605169.SH","Name":"洪通燃气","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605169.SH",
+  "Name": "洪通燃气",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 356428.8,
+  "Pe": 29.3137,
+  "Pe_ttm": 29.3137,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

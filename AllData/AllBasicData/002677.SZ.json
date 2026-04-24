@@ -1,1 +1,17 @@
-﻿{"TsCode":"002677.SZ","Name":"浙江美大","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":47936.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002677.SZ",
+  "Name": "浙江美大",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 473555.8573,
+  "Pe": 42.8759,
+  "Pe_ttm": 217.8096,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 47936.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

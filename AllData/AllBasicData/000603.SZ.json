@@ -1,1 +1,17 @@
-﻿{"TsCode":"000603.SZ","Name":"盛达资源","Market":"主板","Industry":"铅锌","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260318","EndDate":"20260310","HolderNum":86431.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000603.SZ",
+  "Name": "盛达资源",
+  "Market": "主板",
+  "Industry": "铅锌",
+  "Total_mv": 2651552.1967,
+  "Pe": 67.9823,
+  "Pe_ttm": 50.4588,
+  "AnnDate": "20260318",
+  "EndDate": "20260310",
+  "HolderNum": 86431.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

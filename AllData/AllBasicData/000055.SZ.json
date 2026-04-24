@@ -1,1 +1,17 @@
-﻿{"TsCode":"000055.SZ","Name":"方大集团","Market":"主板","Industry":"其他建材","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260408","EndDate":"20260331","HolderNum":43351.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000055.SZ",
+  "Name": "方大集团",
+  "Market": "主板",
+  "Industry": "其他建材",
+  "Total_mv": 364043.363,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260408",
+  "EndDate": "20260331",
+  "HolderNum": 43351.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

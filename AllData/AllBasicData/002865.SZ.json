@@ -1,1 +1,17 @@
-﻿{"TsCode":"002865.SZ","Name":"钧达股份","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":54240.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002865.SZ",
+  "Name": "钧达股份",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 2377450.1052,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 54240.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603156.SH","Name":"养元饮品","Market":"主板","Industry":"软饮料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603156.SH",
+  "Name": "养元饮品",
+  "Market": "主板",
+  "Industry": "软饮料",
+  "Total_mv": 4191683.1845,
+  "Pe": 24.3421,
+  "Pe_ttm": 26.0029,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

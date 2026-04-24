@@ -1,1 +1,17 @@
-﻿{"TsCode":"600593.SH","Name":"大连圣亚","Market":"主板","Industry":"旅游景点","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260411","EndDate":"20260331","HolderNum":24883.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600593.SH",
+  "Name": "大连圣亚",
+  "Market": "主板",
+  "Industry": "旅游景点",
+  "Total_mv": 433207.845,
+  "Pe": 158.9336,
+  "Pe_ttm": 158.9336,
+  "AnnDate": "20260411",
+  "EndDate": "20260331",
+  "HolderNum": 24883.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

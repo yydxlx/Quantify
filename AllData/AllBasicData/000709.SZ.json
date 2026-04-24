@@ -1,1 +1,17 @@
-﻿{"TsCode":"000709.SZ","Name":"河钢股份","Market":"主板","Industry":"普钢","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":230148.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000709.SZ",
+  "Name": "河钢股份",
+  "Market": "主板",
+  "Industry": "普钢",
+  "Total_mv": 2367200.7301,
+  "Pe": 33.4619,
+  "Pe_ttm": 24.6145,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 230148.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

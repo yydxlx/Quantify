@@ -1,1 +1,17 @@
-﻿{"TsCode":"002206.SZ","Name":"海利得","Market":"主板","Industry":"化纤","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":30300.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002206.SZ",
+  "Name": "海利得",
+  "Market": "主板",
+  "Industry": "化纤",
+  "Total_mv": 720568.4764,
+  "Pe": 14.0091,
+  "Pe_ttm": 14.0091,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 30300.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"003001.SZ","Name":"中岩大地","Market":"主板","Industry":"建筑工程","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "003001.SZ",
+  "Name": "中岩大地",
+  "Market": "主板",
+  "Industry": "建筑工程",
+  "Total_mv": 284384.8183,
+  "Pe": 205.6418,
+  "Pe_ttm": 205.6418,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002547.SZ","Name":"春兴精工","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":129999.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002547.SZ",
+  "Name": "春兴精工",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 353081.8936,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 129999.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

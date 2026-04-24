@@ -1,1 +1,17 @@
-﻿{"TsCode":"002598.SZ","Name":"ST章鼓","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":35507.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002598.SZ",
+  "Name": "ST章鼓",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 251514.2868,
+  "Pe": 35.1594,
+  "Pe_ttm": 79.2665,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 35507.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

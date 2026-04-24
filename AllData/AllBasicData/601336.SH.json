@@ -1,1 +1,17 @@
-﻿{"TsCode":"601336.SH","Name":"新华保险","Market":"主板","Industry":"保险","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":69313.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601336.SH",
+  "Name": "新华保险",
+  "Market": "主板",
+  "Industry": "保险",
+  "Total_mv": 19606350.381,
+  "Pe": 5.4036,
+  "Pe_ttm": 5.4036,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 69313.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

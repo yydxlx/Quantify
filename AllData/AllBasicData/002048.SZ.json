@@ -1,1 +1,17 @@
-﻿{"TsCode":"002048.SZ","Name":"宁波华翔","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002048.SZ",
+  "Name": "宁波华翔",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 2311286.0665,
+  "Pe": 24.2526,
+  "Pe_ttm": 71.1226,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

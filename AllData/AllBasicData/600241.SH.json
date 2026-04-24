@@ -1,1 +1,17 @@
-﻿{"TsCode":"600241.SH","Name":"时代万恒","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260409","EndDate":"20260331","HolderNum":17166.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600241.SH",
+  "Name": "时代万恒",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 278409.8008,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260409",
+  "EndDate": "20260331",
+  "HolderNum": 17166.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"688371.SH","Name":"菲沃泰","Market":"科创板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":8294.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688371.SH",
+  "Name": "菲沃泰",
+  "Market": "科创板",
+  "Industry": "元器件",
+  "Total_mv": 707846.6712,
+  "Pe": 234.3052,
+  "Pe_ttm": 234.3052,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 8294.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

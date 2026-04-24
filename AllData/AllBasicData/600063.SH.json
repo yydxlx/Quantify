@@ -1,1 +1,17 @@
-﻿{"TsCode":"600063.SH","Name":"皖维高新","Market":"主板","Industry":"化纤","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":70397.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600063.SH",
+  "Name": "皖维高新",
+  "Market": "主板",
+  "Industry": "化纤",
+  "Total_mv": 1425614.3434,
+  "Pe": 32.8487,
+  "Pe_ttm": 31.5089,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 70397.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

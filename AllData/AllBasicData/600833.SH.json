@@ -1,1 +1,17 @@
-﻿{"TsCode":"600833.SH","Name":"第一医药","Market":"主板","Industry":"医药商业","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260409","EndDate":"20260331","HolderNum":22478.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600833.SH",
+  "Name": "第一医药",
+  "Market": "主板",
+  "Industry": "医药商业",
+  "Total_mv": 254987.6946,
+  "Pe": 44.1558,
+  "Pe_ttm": 44.1558,
+  "AnnDate": "20260409",
+  "EndDate": "20260331",
+  "HolderNum": 22478.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

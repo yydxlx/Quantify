@@ -1,1 +1,17 @@
-﻿{"TsCode":"920005.BJ","Name":"鼎佳精密","Market":"北交所","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920005.BJ",
+  "Name": "鼎佳精密",
+  "Market": "北交所",
+  "Industry": "元器件",
+  "Total_mv": 299049.0,
+  "Pe": 50.2169,
+  "Pe_ttm": 49.5645,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

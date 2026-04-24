@@ -1,1 +1,17 @@
-﻿{"TsCode":"600372.SH","Name":"中航机载","Market":"主板","Industry":"航空","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":179163.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600372.SH",
+  "Name": "中航机载",
+  "Market": "主板",
+  "Industry": "航空",
+  "Total_mv": 6353471.2752,
+  "Pe": 59.5271,
+  "Pe_ttm": 59.5271,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 179163.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

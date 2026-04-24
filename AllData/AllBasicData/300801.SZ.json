@@ -1,1 +1,17 @@
-﻿{"TsCode":"300801.SZ","Name":"泰和科技","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260408","EndDate":"20260331","HolderNum":24868.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300801.SZ",
+  "Name": "泰和科技",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 678662.01,
+  "Pe": 90.6553,
+  "Pe_ttm": 51.2401,
+  "AnnDate": "20260408",
+  "EndDate": "20260331",
+  "HolderNum": 24868.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"002946.SZ","Name":"新乳业","Market":"主板","Industry":"乳制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260228","HolderNum":13900.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002946.SZ",
+  "Name": "新乳业",
+  "Market": "主板",
+  "Industry": "乳制品",
+  "Total_mv": 1576760.6249,
+  "Pe": 21.5656,
+  "Pe_ttm": 21.5656,
+  "AnnDate": "20260323",
+  "EndDate": "20260228",
+  "HolderNum": 13900.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

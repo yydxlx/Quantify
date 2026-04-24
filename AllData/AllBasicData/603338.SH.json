@@ -1,1 +1,17 @@
-﻿{"TsCode":"603338.SH","Name":"浙江鼎力","Market":"主板","Industry":"工程机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260417","EndDate":"20260331","HolderNum":29027.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603338.SH",
+  "Name": "浙江鼎力",
+  "Market": "主板",
+  "Industry": "工程机械",
+  "Total_mv": 2500852.1744,
+  "Pe": 13.1679,
+  "Pe_ttm": 13.1679,
+  "AnnDate": "20260417",
+  "EndDate": "20260331",
+  "HolderNum": 29027.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

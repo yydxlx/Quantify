@@ -1,1 +1,17 @@
-﻿{"TsCode":"603988.SH","Name":"中电电机","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":19481.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603988.SH",
+  "Name": "中电电机",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 576710.4,
+  "Pe": 188.1889,
+  "Pe_ttm": 188.1889,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 19481.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

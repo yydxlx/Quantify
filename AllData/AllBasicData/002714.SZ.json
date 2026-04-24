@@ -1,1 +1,17 @@
-﻿{"TsCode":"002714.SZ","Name":"牧原股份","Market":"主板","Industry":"农业综合","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":239287.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002714.SZ",
+  "Name": "牧原股份",
+  "Market": "主板",
+  "Industry": "农业综合",
+  "Total_mv": 25106753.8633,
+  "Pe": 16.2116,
+  "Pe_ttm": 25.669,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 239287.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

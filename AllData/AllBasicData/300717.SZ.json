@@ -1,1 +1,17 @@
-﻿{"TsCode":"300717.SZ","Name":"华信新材","Market":"创业板","Industry":"塑料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":10154.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300717.SZ",
+  "Name": "华信新材",
+  "Market": "创业板",
+  "Industry": "塑料",
+  "Total_mv": 211202.625,
+  "Pe": 38.3722,
+  "Pe_ttm": 38.3722,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 10154.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

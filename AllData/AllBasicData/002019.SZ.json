@@ -1,1 +1,17 @@
-﻿{"TsCode":"002019.SZ","Name":"亿帆医药","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260408","EndDate":"20260310","HolderNum":49741.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002019.SZ",
+  "Name": "亿帆医药",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 1429258.3499,
+  "Pe": 37.0305,
+  "Pe_ttm": 35.0847,
+  "AnnDate": "20260408",
+  "EndDate": "20260310",
+  "HolderNum": 49741.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

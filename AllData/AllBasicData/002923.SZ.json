@@ -1,1 +1,17 @@
-﻿{"TsCode":"002923.SZ","Name":"润都股份","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":14362.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002923.SZ",
+  "Name": "润都股份",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 412588.5284,
+  "Pe": 103.4493,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 14362.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

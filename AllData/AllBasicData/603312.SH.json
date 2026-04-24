@@ -1,1 +1,17 @@
-﻿{"TsCode":"603312.SH","Name":"西典新能","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":15272.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603312.SH",
+  "Name": "西典新能",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 656317.949,
+  "Pe": 25.1617,
+  "Pe_ttm": 25.1617,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 15272.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

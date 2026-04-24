@@ -1,1 +1,17 @@
-﻿{"TsCode":"601818.SH","Name":"光大银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":224845.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601818.SH",
+  "Name": "光大银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 18789205.2374,
+  "Pe": 4.8393,
+  "Pe_ttm": 4.8393,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 224845.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

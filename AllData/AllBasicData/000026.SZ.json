@@ -1,1 +1,17 @@
-﻿{"TsCode":"000026.SZ","Name":"飞亚达","Market":"主板","Industry":"服饰","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260310","HolderNum":34077.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000026.SZ",
+  "Name": "飞亚达",
+  "Market": "主板",
+  "Industry": "服饰",
+  "Total_mv": 734027.0887,
+  "Pe": 84.0638,
+  "Pe_ttm": 84.0638,
+  "AnnDate": "20260323",
+  "EndDate": "20260310",
+  "HolderNum": 34077.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

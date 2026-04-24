@@ -1,1 +1,17 @@
-﻿{"TsCode":"301459.SZ","Name":"丰茂股份","Market":"创业板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260320","HolderNum":8929.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301459.SZ",
+  "Name": "丰茂股份",
+  "Market": "创业板",
+  "Industry": "汽车配件",
+  "Total_mv": 384417.7594,
+  "Pe": 23.7705,
+  "Pe_ttm": 29.7744,
+  "AnnDate": "20260330",
+  "EndDate": "20260320",
+  "HolderNum": 8929.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

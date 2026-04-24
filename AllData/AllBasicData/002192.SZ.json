@@ -1,1 +1,17 @@
-﻿{"TsCode":"002192.SZ","Name":"融捷股份","Market":"主板","Industry":"小金属","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260324","EndDate":"20260228","HolderNum":53401.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002192.SZ",
+  "Name": "融捷股份",
+  "Market": "主板",
+  "Industry": "小金属",
+  "Total_mv": 2036735.4123,
+  "Pe": 73.0628,
+  "Pe_ttm": 73.0628,
+  "AnnDate": "20260324",
+  "EndDate": "20260228",
+  "HolderNum": 53401.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

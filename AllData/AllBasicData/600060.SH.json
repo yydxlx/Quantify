@@ -1,1 +1,17 @@
-﻿{"TsCode":"600060.SH","Name":"海信视像","Market":"主板","Industry":"家用电器","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":39191.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600060.SH",
+  "Name": "海信视像",
+  "Market": "主板",
+  "Industry": "家用电器",
+  "Total_mv": 3176302.4662,
+  "Pe": 12.9433,
+  "Pe_ttm": 12.9433,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 39191.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

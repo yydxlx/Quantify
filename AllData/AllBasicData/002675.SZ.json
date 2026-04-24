@@ -1,1 +1,17 @@
-﻿{"TsCode":"002675.SZ","Name":"东诚药业","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260228","HolderNum":27096.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002675.SZ",
+  "Name": "东诚药业",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 1128871.5201,
+  "Pe": 57.7047,
+  "Pe_ttm": 57.7047,
+  "AnnDate": "20260326",
+  "EndDate": "20260228",
+  "HolderNum": 27096.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

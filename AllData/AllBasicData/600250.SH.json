@@ -1,1 +1,17 @@
-﻿{"TsCode":"600250.SH","Name":"南京商旅","Market":"主板","Industry":"商贸代理","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":38458.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600250.SH",
+  "Name": "南京商旅",
+  "Market": "主板",
+  "Industry": "商贸代理",
+  "Total_mv": 350951.9553,
+  "Pe": 396.8883,
+  "Pe_ttm": 352.9594,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 38458.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

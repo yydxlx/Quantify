@@ -1,1 +1,17 @@
-﻿{"TsCode":"002690.SZ","Name":"美亚光电","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":27452.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002690.SZ",
+  "Name": "美亚光电",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 1560662.9241,
+  "Pe": 21.7025,
+  "Pe_ttm": 21.7025,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 27452.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

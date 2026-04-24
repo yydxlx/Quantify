@@ -1,1 +1,17 @@
-﻿{"TsCode":"002328.SZ","Name":"新朋股份","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260402","EndDate":"20260310","HolderNum":36400.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002328.SZ",
+  "Name": "新朋股份",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 867469.48,
+  "Pe": 56.3568,
+  "Pe_ttm": 58.1238,
+  "AnnDate": "20260402",
+  "EndDate": "20260310",
+  "HolderNum": 36400.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"000729.SZ","Name":"燕京啤酒","Market":"主板","Industry":"啤酒","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":42653.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000729.SZ",
+  "Name": "燕京啤酒",
+  "Market": "主板",
+  "Industry": "啤酒",
+  "Total_mv": 3650008.4466,
+  "Pe": 21.7377,
+  "Pe_ttm": 21.7377,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 42653.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

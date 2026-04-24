@@ -1,1 +1,17 @@
-﻿{"TsCode":"300059.SZ","Name":"东方财富","Market":"创业板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":1028963.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300059.SZ",
+  "Name": "东方财富",
+  "Market": "创业板",
+  "Industry": "证券",
+  "Total_mv": 31434230.9356,
+  "Pe": 26.0118,
+  "Pe_ttm": 26.0118,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 1028963.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600515.SH","Name":"海南机场","Market":"主板","Industry":"机场","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":181310.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600515.SH",
+  "Name": "海南机场",
+  "Market": "主板",
+  "Industry": "机场",
+  "Total_mv": 3896030.5743,
+  "Pe": 178.2555,
+  "Pe_ttm": 178.2555,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 181310.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

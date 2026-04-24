@@ -1,1 +1,17 @@
-﻿{"TsCode":"600418.SH","Name":"江淮汽车","Market":"主板","Industry":"汽车整车","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260404","EndDate":"20260331","HolderNum":150675.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600418.SH",
+  "Name": "江淮汽车",
+  "Market": "主板",
+  "Industry": "汽车整车",
+  "Total_mv": 10236223.1835,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260404",
+  "EndDate": "20260331",
+  "HolderNum": 150675.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600785.SH","Name":"新华百货","Market":"主板","Industry":"百货","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":21674.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600785.SH",
+  "Name": "新华百货",
+  "Market": "主板",
+  "Industry": "百货",
+  "Total_mv": 388537.0642,
+  "Pe": 28.7974,
+  "Pe_ttm": 29.1014,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 21674.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

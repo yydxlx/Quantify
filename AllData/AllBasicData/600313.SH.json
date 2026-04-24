@@ -1,1 +1,17 @@
-﻿{"TsCode":"600313.SH","Name":"农发种业","Market":"主板","Industry":"种植业","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":131555.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600313.SH",
+  "Name": "农发种业",
+  "Market": "主板",
+  "Industry": "种植业",
+  "Total_mv": 847802.9974,
+  "Pe": 101.4308,
+  "Pe_ttm": 101.4308,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 131555.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

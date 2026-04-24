@@ -1,1 +1,17 @@
-﻿{"TsCode":"002437.SZ","Name":"誉衡药业","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":98500.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002437.SZ",
+  "Name": "誉衡药业",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 813901.866,
+  "Pe": 34.9675,
+  "Pe_ttm": 21.5943,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 98500.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

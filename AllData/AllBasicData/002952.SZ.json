@@ -1,1 +1,17 @@
-﻿{"TsCode":"002952.SZ","Name":"亚世光电","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":29884.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002952.SZ",
+  "Name": "亚世光电",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 437637.42,
+  "Pe": 260.5141,
+  "Pe_ttm": 353.7348,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 29884.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

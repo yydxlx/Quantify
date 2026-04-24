@@ -1,1 +1,17 @@
-﻿{"TsCode":"605179.SH","Name":"一鸣食品","Market":"主板","Industry":"乳制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605179.SH",
+  "Name": "一鸣食品",
+  "Market": "主板",
+  "Industry": "乳制品",
+  "Total_mv": 696136.0,
+  "Pe": 135.9817,
+  "Pe_ttm": 129.6285,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

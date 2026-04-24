@@ -1,1 +1,17 @@
-﻿{"TsCode":"002592.SZ","Name":"ST八菱","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":11491.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002592.SZ",
+  "Name": "ST八菱",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 221564.9648,
+  "Pe": 18.9516,
+  "Pe_ttm": 18.9516,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 11491.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"601991.SH","Name":"大唐发电","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":180044.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "601991.SH",
+  "Name": "大唐发电",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 7791325.1222,
+  "Pe": 10.5484,
+  "Pe_ttm": 10.5484,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 180044.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

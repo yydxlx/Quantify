@@ -1,1 +1,17 @@
-﻿{"TsCode":"600170.SH","Name":"上海建工","Market":"主板","Industry":"建筑工程","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":284672.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600170.SH",
+  "Name": "上海建工",
+  "Market": "主板",
+  "Industry": "建筑工程",
+  "Total_mv": 2399203.7309,
+  "Pe": 19.3932,
+  "Pe_ttm": 19.3932,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 284672.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

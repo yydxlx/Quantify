@@ -1,1 +1,17 @@
-﻿{"TsCode":"603708.SH","Name":"家家悦","Market":"主板","Industry":"超市连锁","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":24440.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603708.SH",
+  "Name": "家家悦",
+  "Market": "主板",
+  "Industry": "超市连锁",
+  "Total_mv": 695789.1558,
+  "Pe": 34.6702,
+  "Pe_ttm": 33.0437,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 24440.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

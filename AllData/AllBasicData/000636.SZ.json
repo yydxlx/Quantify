@@ -1,1 +1,17 @@
-﻿{"TsCode":"000636.SZ","Name":"风华高科","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260407","EndDate":"20260331","HolderNum":153175.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000636.SZ",
+  "Name": "风华高科",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 2563941.2756,
+  "Pe": 90.4974,
+  "Pe_ttm": 90.4974,
+  "AnnDate": "20260407",
+  "EndDate": "20260331",
+  "HolderNum": 153175.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

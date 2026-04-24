@@ -1,1 +1,17 @@
-﻿{"TsCode":"300363.SZ","Name":"博腾股份","Market":"创业板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":41948.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300363.SZ",
+  "Name": "博腾股份",
+  "Market": "创业板",
+  "Industry": "化学制药",
+  "Total_mv": 1161335.9301,
+  "Pe": 120.5457,
+  "Pe_ttm": 90.3839,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 41948.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

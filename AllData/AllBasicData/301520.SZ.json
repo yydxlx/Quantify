@@ -1,1 +1,17 @@
-﻿{"TsCode":"301520.SZ","Name":"万邦医药","Market":"创业板","Industry":"生物制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260312","EndDate":"20260310","HolderNum":7744.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "301520.SZ",
+  "Name": "万邦医药",
+  "Market": "创业板",
+  "Industry": "生物制药",
+  "Total_mv": 272933.3347,
+  "Pe": 74.9108,
+  "Pe_ttm": 112.2103,
+  "AnnDate": "20260312",
+  "EndDate": "20260310",
+  "HolderNum": 7744.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"605058.SH","Name":"澳弘电子","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260416","EndDate":"20260331","HolderNum":13730.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605058.SH",
+  "Name": "澳弘电子",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 529390.3108,
+  "Pe": 34.7264,
+  "Pe_ttm": 34.7264,
+  "AnnDate": "20260416",
+  "EndDate": "20260331",
+  "HolderNum": 13730.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

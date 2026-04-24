@@ -1,1 +1,17 @@
-﻿{"TsCode":"300200.SZ","Name":"高盟新材","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260228","HolderNum":45449.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300200.SZ",
+  "Name": "高盟新材",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 440454.6165,
+  "Pe": 42.3595,
+  "Pe_ttm": 48.9397,
+  "AnnDate": "20260326",
+  "EndDate": "20260228",
+  "HolderNum": 45449.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

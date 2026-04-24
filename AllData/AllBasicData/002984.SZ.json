@@ -1,1 +1,17 @@
-﻿{"TsCode":"002984.SZ","Name":"森麒麟","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002984.SZ",
+  "Name": "森麒麟",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 1796884.2747,
+  "Pe": 8.2199,
+  "Pe_ttm": 12.1774,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

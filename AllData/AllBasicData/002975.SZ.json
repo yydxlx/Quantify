@@ -1,1 +1,17 @@
-﻿{"TsCode":"002975.SZ","Name":"博杰股份","Market":"主板","Industry":"专用机械","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":23315.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002975.SZ",
+  "Name": "博杰股份",
+  "Market": "主板",
+  "Industry": "专用机械",
+  "Total_mv": 1805167.4998,
+  "Pe": 123.3681,
+  "Pe_ttm": 123.3681,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 23315.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

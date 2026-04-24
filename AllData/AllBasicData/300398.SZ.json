@@ -1,1 +1,17 @@
-﻿{"TsCode":"300398.SZ","Name":"飞凯材料","Market":"创业板","Industry":"化工原料","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":67151.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300398.SZ",
+  "Name": "飞凯材料",
+  "Market": "创业板",
+  "Industry": "化工原料",
+  "Total_mv": 1797220.2465,
+  "Pe": 46.0358,
+  "Pe_ttm": 44.7227,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 67151.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

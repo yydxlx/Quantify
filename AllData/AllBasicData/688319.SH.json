@@ -1,1 +1,17 @@
-﻿{"TsCode":"688319.SH","Name":"欧林生物","Market":"科创板","Industry":"生物制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260331","EndDate":"20260228","HolderNum":8993.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "688319.SH",
+  "Name": "欧林生物",
+  "Market": "科创板",
+  "Industry": "生物制药",
+  "Total_mv": 1170470.1765,
+  "Pe": 525.8144,
+  "Pe_ttm": 525.8144,
+  "AnnDate": "20260331",
+  "EndDate": "20260228",
+  "HolderNum": 8993.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

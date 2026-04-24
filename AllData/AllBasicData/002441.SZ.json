@@ -1,1 +1,17 @@
-﻿{"TsCode":"002441.SZ","Name":"众业达","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260418","EndDate":"20260331","HolderNum":32982.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002441.SZ",
+  "Name": "众业达",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 510781.9052,
+  "Pe": 27.1192,
+  "Pe_ttm": 27.1192,
+  "AnnDate": "20260418",
+  "EndDate": "20260331",
+  "HolderNum": 32982.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"600529.SH","Name":"山东药玻","Market":"主板","Industry":"医疗保健","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260307","EndDate":"20260228","HolderNum":80605.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600529.SH",
+  "Name": "山东药玻",
+  "Market": "主板",
+  "Industry": "医疗保健",
+  "Total_mv": 1268166.5699,
+  "Pe": 18.3892,
+  "Pe_ttm": 18.3892,
+  "AnnDate": "20260307",
+  "EndDate": "20260228",
+  "HolderNum": 80605.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

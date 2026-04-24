@@ -1,1 +1,17 @@
-﻿{"TsCode":"605218.SH","Name":"伟时电子","Market":"主板","Industry":"元器件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260313","EndDate":"20260310","HolderNum":18378.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605218.SH",
+  "Name": "伟时电子",
+  "Market": "主板",
+  "Industry": "元器件",
+  "Total_mv": 434881.1653,
+  "Pe": 77.6794,
+  "Pe_ttm": 88.9381,
+  "AnnDate": "20260313",
+  "EndDate": "20260310",
+  "HolderNum": 18378.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

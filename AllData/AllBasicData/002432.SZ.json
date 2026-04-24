@@ -1,1 +1,17 @@
-﻿{"TsCode":"002432.SZ","Name":"九安医疗","Market":"主板","Industry":"医疗保健","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260325","EndDate":"20260310","HolderNum":67100.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002432.SZ",
+  "Name": "九安医疗",
+  "Market": "主板",
+  "Industry": "医疗保健",
+  "Total_mv": 4005766.4309,
+  "Pe": 24.0049,
+  "Pe_ttm": 21.2041,
+  "AnnDate": "20260325",
+  "EndDate": "20260310",
+  "HolderNum": 67100.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

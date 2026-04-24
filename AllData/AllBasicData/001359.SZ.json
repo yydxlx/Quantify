@@ -1,1 +1,17 @@
-﻿{"TsCode":"001359.SZ","Name":"平安电工","Market":"主板","Industry":"矿物制品","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001359.SZ",
+  "Name": "平安电工",
+  "Market": "主板",
+  "Industry": "矿物制品",
+  "Total_mv": 1526691.048,
+  "Pe": 70.1966,
+  "Pe_ttm": 59.9468,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"920682.BJ","Name":"球冠电缆","Market":"北交所","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "920682.BJ",
+  "Name": "球冠电缆",
+  "Market": "北交所",
+  "Industry": "电气设备",
+  "Total_mv": 290409.6,
+  "Pe": 30.0561,
+  "Pe_ttm": 30.0561,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

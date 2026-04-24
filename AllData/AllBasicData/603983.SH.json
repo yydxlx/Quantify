@@ -1,1 +1,17 @@
-﻿{"TsCode":"603983.SH","Name":"丸美生物","Market":"主板","Industry":"日用化工","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260401","EndDate":"20260331","HolderNum":20275.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603983.SH",
+  "Name": "丸美生物",
+  "Market": "主板",
+  "Industry": "日用化工",
+  "Total_mv": 995282.0,
+  "Pe": 40.2558,
+  "Pe_ttm": 40.2558,
+  "AnnDate": "20260401",
+  "EndDate": "20260331",
+  "HolderNum": 20275.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

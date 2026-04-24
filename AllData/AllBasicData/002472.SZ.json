@@ -1,1 +1,17 @@
-﻿{"TsCode":"002472.SZ","Name":"双环传动","Market":"主板","Industry":"汽车配件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002472.SZ",
+  "Name": "双环传动",
+  "Market": "主板",
+  "Industry": "汽车配件",
+  "Total_mv": 3230943.0119,
+  "Pe": 31.5549,
+  "Pe_ttm": 27.2819,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

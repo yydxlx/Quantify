@@ -1,1 +1,17 @@
-﻿{"TsCode":"001979.SZ","Name":"招商蛇口","Market":"主板","Industry":"全国地产","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260228","HolderNum":82721.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "001979.SZ",
+  "Name": "招商蛇口",
+  "Market": "主板",
+  "Industry": "全国地产",
+  "Total_mv": 7771819.7314,
+  "Pe": 75.9127,
+  "Pe_ttm": 75.9127,
+  "AnnDate": "20260317",
+  "EndDate": "20260228",
+  "HolderNum": 82721.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

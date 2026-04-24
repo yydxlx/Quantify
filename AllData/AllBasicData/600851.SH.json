@@ -1,1 +1,17 @@
-﻿{"TsCode":"600851.SH","Name":"海欣股份","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600851.SH",
+  "Name": "海欣股份",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 1003064.1111,
+  "Pe": 56.9936,
+  "Pe_ttm": 56.9936,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

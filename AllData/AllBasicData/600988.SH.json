@@ -1,1 +1,17 @@
-﻿{"TsCode":"600988.SH","Name":"赤峰黄金","Market":"主板","Industry":"黄金","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260321","EndDate":"20260228","HolderNum":146984.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600988.SH",
+  "Name": "赤峰黄金",
+  "Market": "主板",
+  "Industry": "黄金",
+  "Total_mv": 7823992.8198,
+  "Pe": 25.3831,
+  "Pe_ttm": 25.3831,
+  "AnnDate": "20260321",
+  "EndDate": "20260228",
+  "HolderNum": 146984.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

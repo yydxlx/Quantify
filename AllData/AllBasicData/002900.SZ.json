@@ -1,1 +1,17 @@
-﻿{"TsCode":"002900.SZ","Name":"哈三联","Market":"主板","Industry":"化学制药","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":35000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002900.SZ",
+  "Name": "哈三联",
+  "Market": "主板",
+  "Industry": "化学制药",
+  "Total_mv": 337233.9503,
+  "Pe": 57.4747,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 35000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

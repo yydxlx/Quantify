@@ -1,1 +1,17 @@
-﻿{"TsCode":"603889.SH","Name":"新澳股份","Market":"主板","Industry":"纺织","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260410","EndDate":"20260331","HolderNum":12742.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603889.SH",
+  "Name": "新澳股份",
+  "Market": "主板",
+  "Industry": "纺织",
+  "Total_mv": 649109.9668,
+  "Pe": 13.5198,
+  "Pe_ttm": 13.0091,
+  "AnnDate": "20260410",
+  "EndDate": "20260331",
+  "HolderNum": 12742.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

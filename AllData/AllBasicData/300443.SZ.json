@@ -1,1 +1,17 @@
-﻿{"TsCode":"300443.SZ","Name":"金雷股份","Market":"创业板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260228","HolderNum":30157.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300443.SZ",
+  "Name": "金雷股份",
+  "Market": "创业板",
+  "Industry": "电气设备",
+  "Total_mv": 962324.6016,
+  "Pe": 30.5999,
+  "Pe_ttm": 30.5999,
+  "AnnDate": "20260320",
+  "EndDate": "20260228",
+  "HolderNum": 30157.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

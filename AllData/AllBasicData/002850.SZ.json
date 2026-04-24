@@ -1,1 +1,17 @@
-﻿{"TsCode":"002850.SZ","Name":"科达利","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260328","EndDate":"20260228","HolderNum":24232.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002850.SZ",
+  "Name": "科达利",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 5676866.6499,
+  "Pe": 32.1812,
+  "Pe_ttm": 32.1812,
+  "AnnDate": "20260328",
+  "EndDate": "20260228",
+  "HolderNum": 24232.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

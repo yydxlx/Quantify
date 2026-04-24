@@ -1,1 +1,17 @@
-﻿{"TsCode":"002153.SZ","Name":"石基信息","Market":"主板","Industry":"软件服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260228","HolderNum":73133.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002153.SZ",
+  "Name": "石基信息",
+  "Market": "主板",
+  "Industry": "软件服务",
+  "Total_mv": 2628213.6689,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260326",
+  "EndDate": "20260228",
+  "HolderNum": 73133.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

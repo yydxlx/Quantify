@@ -1,1 +1,17 @@
-﻿{"TsCode":"600016.SH","Name":"民生银行","Market":"主板","Industry":"银行","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600016.SH",
+  "Name": "民生银行",
+  "Market": "主板",
+  "Industry": "银行",
+  "Total_mv": 16374624.5197,
+  "Pe": 5.3577,
+  "Pe_ttm": 5.3577,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

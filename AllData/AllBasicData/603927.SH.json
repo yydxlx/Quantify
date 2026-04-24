@@ -1,1 +1,17 @@
-﻿{"TsCode":"603927.SH","Name":"中科软","Market":"主板","Industry":"软件服务","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":67456.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603927.SH",
+  "Name": "中科软",
+  "Market": "主板",
+  "Industry": "软件服务",
+  "Total_mv": 1390329.92,
+  "Pe": 39.1523,
+  "Pe_ttm": 58.2523,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 67456.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

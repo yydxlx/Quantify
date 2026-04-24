@@ -1,1 +1,17 @@
-﻿{"TsCode":"600295.SH","Name":"鄂尔多斯","Market":"主板","Industry":"特种钢","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260415","EndDate":"20260331","HolderNum":44261.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600295.SH",
+  "Name": "鄂尔多斯",
+  "Market": "主板",
+  "Industry": "特种钢",
+  "Total_mv": 4312914.2074,
+  "Pe": 18.2536,
+  "Pe_ttm": 18.2536,
+  "AnnDate": "20260415",
+  "EndDate": "20260331",
+  "HolderNum": 44261.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

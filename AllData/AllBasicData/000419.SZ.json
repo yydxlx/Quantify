@@ -1,1 +1,17 @@
-﻿{"TsCode":"000419.SZ","Name":"通程控股","Market":"主板","Industry":"百货","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260316","EndDate":"20260310","HolderNum":23873.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "000419.SZ",
+  "Name": "通程控股",
+  "Market": "主板",
+  "Industry": "百货",
+  "Total_mv": 303862.7041,
+  "Pe": 24.7128,
+  "Pe_ttm": 24.7128,
+  "AnnDate": "20260316",
+  "EndDate": "20260310",
+  "HolderNum": 23873.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

@@ -1,1 +1,17 @@
-﻿{"TsCode":"603214.SH","Name":"爱婴室","Market":"主板","Industry":"百货","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260320","EndDate":"20260310","HolderNum":21590.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603214.SH",
+  "Name": "爱婴室",
+  "Market": "主板",
+  "Industry": "百货",
+  "Total_mv": 218477.6368,
+  "Pe": 26.8213,
+  "Pe_ttm": 26.8213,
+  "AnnDate": "20260320",
+  "EndDate": "20260310",
+  "HolderNum": 21590.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

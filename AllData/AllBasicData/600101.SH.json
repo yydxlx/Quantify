@@ -1,1 +1,17 @@
-﻿{"TsCode":"600101.SH","Name":"明星电力","Market":"主板","Industry":"水力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260327","EndDate":"20260228","HolderNum":67078.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600101.SH",
+  "Name": "明星电力",
+  "Market": "主板",
+  "Industry": "水力发电",
+  "Total_mv": 546218.8836,
+  "Pe": 29.6615,
+  "Pe_ttm": 29.6615,
+  "AnnDate": "20260327",
+  "EndDate": "20260228",
+  "HolderNum": 67078.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

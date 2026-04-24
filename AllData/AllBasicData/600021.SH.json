@@ -1,1 +1,17 @@
-﻿{"TsCode":"600021.SH","Name":"上海电力","Market":"主板","Industry":"火力发电","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260414","EndDate":"20260331","HolderNum":269622.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600021.SH",
+  "Name": "上海电力",
+  "Market": "主板",
+  "Industry": "火力发电",
+  "Total_mv": 5044368.0817,
+  "Pe": 18.228,
+  "Pe_ttm": 18.228,
+  "AnnDate": "20260414",
+  "EndDate": "20260331",
+  "HolderNum": 269622.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

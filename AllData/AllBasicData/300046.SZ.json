@@ -1,1 +1,17 @@
-﻿{"TsCode":"300046.SZ","Name":"台基股份","Market":"创业板","Industry":"半导体","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260403","EndDate":"20260331","HolderNum":58833.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "300046.SZ",
+  "Name": "台基股份",
+  "Market": "创业板",
+  "Industry": "半导体",
+  "Total_mv": 751933.2284,
+  "Pe": 153.1619,
+  "Pe_ttm": 164.6966,
+  "AnnDate": "20260403",
+  "EndDate": "20260331",
+  "HolderNum": 58833.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

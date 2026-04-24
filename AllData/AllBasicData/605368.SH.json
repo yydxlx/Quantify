@@ -1,1 +1,17 @@
-﻿{"TsCode":"605368.SH","Name":"蓝天燃气","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260323","EndDate":"20260320","HolderNum":42556.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "605368.SH",
+  "Name": "蓝天燃气",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 550269.6546,
+  "Pe": 19.512,
+  "Pe_ttm": 23.3361,
+  "AnnDate": "20260323",
+  "EndDate": "20260320",
+  "HolderNum": 42556.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

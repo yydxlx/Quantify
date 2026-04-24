@@ -1,1 +1,17 @@
-﻿{"TsCode":"603191.SH","Name":"望变电气","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260404","EndDate":"20260331","HolderNum":31011.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603191.SH",
+  "Name": "望变电气",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 678077.3331,
+  "Pe": 97.9269,
+  "Pe_ttm": 97.9269,
+  "AnnDate": "20260404",
+  "EndDate": "20260331",
+  "HolderNum": 31011.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

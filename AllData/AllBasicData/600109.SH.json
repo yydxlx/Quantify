@@ -1,1 +1,17 @@
-﻿{"TsCode":"600109.SH","Name":"国金证券","Market":"主板","Industry":"证券","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "600109.SH",
+  "Name": "国金证券",
+  "Market": "主板",
+  "Industry": "证券",
+  "Total_mv": 3168086.9981,
+  "Pe": 18.9675,
+  "Pe_ttm": 12.7903,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

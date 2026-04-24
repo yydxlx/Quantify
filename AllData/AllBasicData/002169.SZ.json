@@ -1,1 +1,17 @@
-﻿{"TsCode":"002169.SZ","Name":"智光电气","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260326","EndDate":"20260320","HolderNum":59148.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002169.SZ",
+  "Name": "智光电气",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 1015167.2099,
+  "Pe": 74.9101,
+  "Pe_ttm": 51.9668,
+  "AnnDate": "20260326",
+  "EndDate": "20260320",
+  "HolderNum": 59148.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

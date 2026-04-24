@@ -1,1 +1,17 @@
-﻿{"TsCode":"002532.SZ","Name":"天山铝业","Market":"主板","Industry":"铝","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260330","EndDate":"20260228","HolderNum":58563.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002532.SZ",
+  "Name": "天山铝业",
+  "Market": "主板",
+  "Industry": "铝",
+  "Total_mv": 8178979.0123,
+  "Pe": 16.9764,
+  "Pe_ttm": 16.9764,
+  "AnnDate": "20260330",
+  "EndDate": "20260228",
+  "HolderNum": 58563.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

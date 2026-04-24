@@ -1,1 +1,17 @@
-﻿{"TsCode":"002026.SZ","Name":"山东威达","Market":"主板","Industry":"机械基件","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002026.SZ",
+  "Name": "山东威达",
+  "Market": "主板",
+  "Industry": "机械基件",
+  "Total_mv": 565643.0097,
+  "Pe": 22.4318,
+  "Pe_ttm": 22.007,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

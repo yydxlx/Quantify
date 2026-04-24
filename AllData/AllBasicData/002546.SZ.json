@@ -1,1 +1,17 @@
-﻿{"TsCode":"002546.SZ","Name":"新联电子","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260317","EndDate":"20260310","HolderNum":97000.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002546.SZ",
+  "Name": "新联电子",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 728124.8608,
+  "Pe": 12.5907,
+  "Pe_ttm": 12.9522,
+  "AnnDate": "20260317",
+  "EndDate": "20260310",
+  "HolderNum": 97000.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

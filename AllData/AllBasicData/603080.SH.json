@@ -1,1 +1,17 @@
-﻿{"TsCode":"603080.SH","Name":"新疆火炬","Market":"主板","Industry":"供气供热","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"","EndDate":"","HolderNum":0.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "603080.SH",
+  "Name": "新疆火炬",
+  "Market": "主板",
+  "Industry": "供气供热",
+  "Total_mv": 308753.0,
+  "Pe": 19.6851,
+  "Pe_ttm": 16.8111,
+  "AnnDate": "",
+  "EndDate": "",
+  "HolderNum": 0.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}

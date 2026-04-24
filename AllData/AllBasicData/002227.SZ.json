@@ -1,1 +1,17 @@
-﻿{"TsCode":"002227.SZ","Name":"奥特迅","Market":"主板","Industry":"电气设备","Total_mv":0.0,"Pe":0.0,"Pe_ttm":0.0,"AnnDate":"20260311","EndDate":"20260310","HolderNum":31054.0,"StockDailyDataList":[],"StockWeeklyDataList":[],"SupportLevel":0.0,"ResistanceLevel":0.0,"ReliabilityScore":0.0}
+﻿{
+  "TsCode": "002227.SZ",
+  "Name": "奥特迅",
+  "Market": "主板",
+  "Industry": "电气设备",
+  "Total_mv": 193536.6188,
+  "Pe": 0.0,
+  "Pe_ttm": 0.0,
+  "AnnDate": "20260311",
+  "EndDate": "20260310",
+  "HolderNum": 31054.0,
+  "StockDailyDataList": [],
+  "StockWeeklyDataList": [],
+  "SupportLevel": 0.0,
+  "ResistanceLevel": 0.0,
+  "ReliabilityScore": 0.0
+}
