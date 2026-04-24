@@ -199,45 +199,16 @@ public class ChipMgr : MgrBase
                         var today = data?.FirstOrDefault(d => d.TradeDate == item.Date);
                         if (today == null || item.Chips == null)
                         {
-                            Loom.Ins.QueueOnMainThread(() =>
-                            {
-                                Debug.Log($"跳过：today={today}, Chips={item.Chips?.Count}, Date={item.Date}");
-                            });
                             continue;
                         }
-                        
-                        // 只打印 601857.SH 的筹码数据
-                        if (item.Stock.TsCode == "601857.SH")
-                        {
-                            string chipsStr = string.Join(", ", item.Chips.Select(c => $"{c.Price}:{c.Percent}"));
-                            Loom.Ins.QueueOnMainThread(() =>
-                            {
-                                Debug.Log($"{item.Stock.TsCode} 筹码：{chipsStr}");
-                            });
-                        }
-                        
-                        var (c70, c90, peak) = CalculateChip(item.Chips);
-                        Loom.Ins.QueueOnMainThread(() =>
-                        {
-                            Debug.Log($"计算结果：{item.Stock.TsCode}，c70={c70}，c90={c90}，peak={peak}");
-                        });
-                        
+                        var (c70, c90, peak) = CalculateChip(item.Chips);                       
                         // 更新数据
                         today.Concentration70 = Math.Round(c70, 2);
                         today.Concentration90 = Math.Round(c90, 2);
                         today.ConcentrationPrice = Math.Round(peak, 2);
-                        Loom.Ins.QueueOnMainThread(() =>
-                        {
-                            Debug.Log($"更新后：Concentration70={today.Concentration70}，Concentration90={today.Concentration90}，ConcentrationPrice={today.ConcentrationPrice}");
-                        });
-
                         // 写入文件
                         string json = JsonConvert.SerializeObject(data, Formatting.Indented);
                         await File.WriteAllTextAsync(path, json, System.Text.Encoding.UTF8);
-                        Loom.Ins.QueueOnMainThread(() =>
-                        {
-                            Debug.Log($"写入文件：{path}");
-                        });
                     }
                     catch (Exception ex)
                     {
@@ -267,8 +238,7 @@ public class ChipMgr : MgrBase
         int curr = _done;
         Loom.Ins.QueueOnMainThread(() =>
         {
-            EventManager.Ins.Emit("UpdateStatus",
-                $"筹码获取中：{curr}/{_total} ({curr * 100f / _total:F0}%)");
+            EventManager.Ins.Emit("UpdateStatus", $"筹码获取中：{curr}/{_total} ({curr * 100f / _total:F0}%)");
         });
     }
 
